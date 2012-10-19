@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="CachedDatabase" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="CachedDatabaseContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EntryViews" EntityType="CachedDatabase.EntryView" />
+  </EntityContainer>
+  <EntityType Name="EntryView">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="Binary" Name="Data" Nullable="false" MaxLength="Max" />
+  </EntityType>
+</Schema>

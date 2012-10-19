@@ -1,0 +1,395 @@
+// Variables
+$darkColor1: #8C0095
+$grayColor1: #cccccc
+$textColor1: #8C0095
+$whitesmoke: #F5F5F5
+
+
+@mixin positioning ($size)
+	top: $size
+	left: $size
+	right: $size
+	bottom: $size
+@mixin absolutePadding ($size)
+	position: absolute
+	@include positioning($size)
+@mixin transition($params)
+	-webkit-transition: $params
+	-ms-transition: $params
+
+@mixin CssColumnStyle ()
+	-moz-column-gap: 2em
+	-webkit-column-gap: 2em
+	-moz-column-rule-style: solid
+	-moz-column-rule-color: $whitesmoke
+	-moz-column-rule-width: 2px
+	-webkit-column-rule-style: solid
+	-webkit-column-rule-color: $whitesmoke
+	-webkit-column-rule-width: 2px
+
+@mixin CssColumnCount ($count)
+	-moz-column-count: $count
+	-webkit-column-count: $count
+	@include CssColumnStyle()
+
+@mixin CssColumnWidth ($width)
+	-moz-column-width: $width
+	-webkit-column-width: $width
+	@include CssColumnStyle()
+	
+h1,
+h2,
+h3,
+h4,
+h4,
+h6
+	font-weight: normal
+	color: #272727
+h2
+	margin-top: 0px
+
+.entry
+	width: 200px
+	position: absolute
+	@include transition(all 0.3s)
+	
+	> div
+		@include absolutePadding(3px)
+		background: whitesmoke
+		border: 1px solid $grayColor1
+		@include transition(all 0.3s)
+		&:hover
+			border: 2px solid gray
+		> a
+			@include absolutePadding(3px)
+			overflow: hidden
+			display: block
+			&:hover
+				background: none
+	h4
+		font-weight: bold
+	h1,h2,h3,h4,h5,h6,p
+		margin: 0px
+	.entryTime
+		position: absolute
+		bottom: 0px
+		right: 0px
+		font-weight: bold
+		font-size: 0.7em
+	.entryImage
+		width: 100%
+		height: 70%
+	a
+		text-decoration: none
+	.titleDesc
+		width: 100%
+		height: 24%
+		overflow: hidden
+
+.basicButton
+	background-color: $darkColor1
+	text-align: center
+	cursor: pointer
+	text-decoration: none
+	color: white
+	float: left
+	margin: 3px
+	padding: 5px
+	&:hover
+		background-color: darken($darkColor1, 4)
+
+
+
+.RenderStyle1
+	width: 500px
+	height: 350px
+
+.entries
+	position: relative
+.groupView
+	margin: 10px
+	margin-bottom: 20px	
+	> h2
+		margin: 5px 0px 5px 0px
+		color: $textColor1
+
+	.moreButton		
+		@extend .basicButton
+		height: 125px
+		width: 125px
+		float: none
+		margin: 3px
+		border: 1px solid $grayColor1
+
+		>*
+			color: white	
+
+		h6
+			padding: 1.5em	
+
+$headerHeight: 40px
+.noStyleList	
+	margin: 0px
+	padding: 0px
+	li
+		list-style: none
+		margin: 0px
+		a
+			@extend .basicButton
+.noWrapList	
+	display: inline-block
+	width: 100%
+	li
+		width: 100%
+		display: inline-block
+		white-space: nowrap
+		text-overflow: ellipsis
+		width: 100%
+		overflow: hidden
+		a
+			white-space: nowrap
+			text-overflow: ellipsis				
+			overflow: hidden
+			margin: 0px
+
+
+.nouvelleHeader
+	background: $darkColor1
+	height: $headerHeight
+	color: white
+	ul
+		@extend .noStyleList
+		padding-left: 20px
+		float: left
+		height: 100%
+		
+		li			
+			float: left			
+			height: 100%		
+			a
+				@extend .basicButton			
+				padding: 0.6em			
+
+	.headerRightArea
+		float: right
+		padding-right: 20px
+		height: 100%
+		> *
+			float: right
+			position: relative
+		
+		.userName
+			padding: 0.6em
+		
+		.userAvatar
+			top: 10px
+			height: 20px
+			width: 20px
+
+$rightSideWidth:160px
+$footerHeight:30px
+.adsSetion
+	background: whitesmoke
+	width: $rightSideWidth
+	right: 0px
+	bottom: $footerHeight
+	top: $headerHeight
+	position: absolute
+
+#main
+	overflow: hidden
+	position: absolute
+	left: 0px
+	bottom: $footerHeight
+	top: $headerHeight
+	right: $rightSideWidth
+	>div
+		height: 100%
+		width: 100%
+		position: relative
+
+.screen
+	position: fixed
+	@include positioning(0px)
+
+.nouvelleFooter
+	position: absolute
+	bottom: 0px
+	right: 0px
+	left: 0px
+	height: $footerHeight - 1
+	border-top: 1px solid $grayColor1
+	background: white
+	padding: 0px
+
+	h5
+		padding: 0px
+		margin: 0.7em	
+
+
+.homeArea
+	height: 100%
+	float: left
+	margin-left: 10px
+	display: block
+	
+	.homeIcon
+		background: url("enews.png") no-repeat
+		height: 100%
+		width: 140px
+		float: left
+
+
+.separator
+	width: 1px
+	float: left
+	background: white
+	position: relative
+	top: 10px
+	height: 20px
+	opacity: 0.7
+
+.headMediumIcon
+	float: left
+
+.headMediumIcon1
+	background: url("c4.png") no-repeat
+	width: 11px
+	height: 11px
+
+.headMediumIcon2
+	background: url("command2.png") no-repeat
+	width: 17px
+	height: 17px
+
+.headMediumIconDown
+	background-position: -82px -30px
+
+.headMediumIconSettings
+	background-position: -125px -2px
+
+.headerButton
+	width: 30px
+	height: 100%
+	float: left		
+	top: 0px
+	@extend .basicButton
+	padding: 0px
+	margin: 0px
+	
+	>*
+		top: 12px
+		left: 10px
+		position: relative
+
+.headerButtonWide
+	>*
+		left: 5px
+
+.nailthumb-container
+	margin: 0px
+
+
+.entryView
+	display: inline-block
+
+	.entryViewLeftSide
+		width: $rightSideWidth
+		height: 100%
+		float: left
+		background: whitesmoke
+		padding: 5px
+		ul
+			@extend .noStyleList
+			@extend .noWrapList
+			li
+				a
+					width: 100%
+					text-align: left
+
+	.entryViewCenter
+		left: $rightSideWidth + 3*5px
+		position: absolute
+		bottom: 0px
+		top: 0px
+		right: 0px		
+		overflow: hidden
+
+	.entryContent
+		//padding: 5px
+		//display: table-cell
+		.entryContentBottom
+			.entryTags
+				a
+					@extend .basicButton
+					
+			.entrySource
+				@extend .basicButton
+				float: right
+		
+		
+		.entryContentHeader
+			h6
+				margin: 5px
+				text-align: right
+				font-size: 0.7em
+				font-weight: bold
+			.entryBreadCrumb
+				margin: 10px 0px 10px 0px
+				display: inline-block
+
+				a		
+					margin-left: -9px		
+					display: inline-block		
+					float: left					
+					padding: 0px			
+					background: transparent
+					&:hover
+						background: transparent
+					color: white
+
+					> *
+						float: left
+
+
+				.breadcrumbText						
+					margin: 0px
+					padding: 5px	
+					background: $darkColor1
+				.breadcrumbTextHover
+					background: darken($darkColor1, 4)					
+
+				.breadcrumbIcon
+					background-image: url('breadscrumbs.png')						
+					background-color: transparent
+					width: 1em	
+					height: 2.1em
+				.breadcrumbIconLeft
+					background-position: -125px 0px
+				.breadcrumbIconLeftHover
+					background-position: -148px 0px
+				.breadcrumbIconRight
+					background-position: -82px 0px
+				.breadcrumbIconRightHover
+					background-position: -105px 0px
+
+
+			.entrySharing
+				float: right
+				margin: 10px 0px 10px 0px
+			.entryFunctionButton
+				@extend .basicButton
+				float: right
+				width: 20px
+				height: 20px
+			.thumbUp
+				background-image: url('Thumbs up.png')
+				background-position: 0px -2px
+			.thumbDown
+				background-image: url('Thumbs down.png')
+				background-position: 0px 2px
+		.entryContentMiddle			
+			@include CssColumnWidth(400px)
+			aside
+				width: initial
+

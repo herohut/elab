@@ -1,0 +1,3739 @@
+﻿<!DOCTYPE html>
+<html id="XenForo" lang="" dir="LTR" class="Public LoggedOut Sidebar" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+	<meta charset="utf-8" />
+	
+		<base href="http://www.tinhte.vn/" />
+		<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "http://www.tinhte.vn/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>Hình ảnh mở hộp điện thoại iPhone 5 | Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ</title>
+	
+	<noscript><style>.JsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=6&amp;dir=LTR&amp;d=1348014278" />
+	<link rel="stylesheet" href="css.php?css=bb_code,facebook,likes_summary,login_bar,message,message_user_info,share_page,thread_view,useress,wf_default&amp;style=6&amp;dir=LTR&amp;d=1348014278" />
+	
+	
+
+	<script>
+
+	var _gaq = [['_setAccount', 'UA-2120640-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="https://s.tinhtecdn.com/js/jquery/jquery-1.5.2.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="https://s.tinhtecdn.com/js/xenforo/xenforo.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/cz-groups/thread_tools.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/Tinhte/galleria/galleria-1.2.8.min.js?_v=bba17b4a"></script>
+	<script src="https://www.google.com/jsapi?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/as.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/bdTagMe/frontend.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/vim/mudim.js?_v=bba17b4a"></script>
+
+<script type="text/javascript" src="http://ads.tinhte.vn/x/www/delivery/spcjs.php?id=1&amp;target=_blank"></script>
+<script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: '6b9d67a3aa8f2f9576af843a7e82a055' };
+
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true, ui_click:true,ui_language: "vi",};</script>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=dihuta"></script>
+
+<link rel="apple-touch-icon" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte114x114.png" />
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/3823916/Tinhte_AsusBox_Banner', [728, 90], 'div-gpt-ad-1343806923194-0').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Bottom_Banner', [728, 90], 'div-gpt-ad-1343806923194-1').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Right_Banner_3', [300, 250], 'div-gpt-ad-1343806923194-2').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Right_Banner_4', [300, 250], 'div-gpt-ad-1345604815435-2').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS của Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" href="http://www.tinhte.vn/rss/" />
+	
+	<link rel="next" href="threads/1523485/page-2" />
+	<link rel="canonical" href="http://www.tinhte.vn/threads/1523485/" />
+	<meta name="description" content="[ATTACH]
+ 
+Phải đến thứ 6 này thì Apple mới chính thức bán ra chiếc iPhone 5 mới nhất của hãng, thế nhưng ngày hôm nay chúng ta đã có những hình ảnh mở..." />
+<meta property="og:image" content="http://www.tinhte.vn/attachments/687236/" />
+	<meta property="og:site_name" content="Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" />
+	
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.tinhte.vn/threads/1523485/" />
+	<meta property="og:title" content="Hình ảnh mở hộp điện thoại iPhone 5" />
+	<meta property="fb:app_id" content="145923738846814" />
+	
+
+<script type="text/javascript" src="http://www.tinhte.vn/mobiquo/tinhte_app_detect.js"></script>
+</head>
+
+<body class="node118 node235 node82 node458">
+
+
+
+	
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Đăng Nhập hoặc Đăng Ký</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+	<div id="headerProxy"></div>
+
+<div id="content" class="thread_view">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			
+<div class="tinhte_top_box">
+	<div>+</div>
+
+
+<div id="searchBar" class="pageWidth">
+	
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Tìm kiếm..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Chì tìm tiêu đề</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Viết bởi thành viên:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Các tên cách nhau bởi dấu phẩy(,)</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Mới hơn:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+								
+									<li><label title="Search only Hình ảnh mở hộp điện thoại iPhone 5"><input type="checkbox" name="type[post][thread_id]" value="1523485"
+	id="search_bar_thread" class="AutoChecker"
+	data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Chỉ tìm kiếm trong chủ đề này</label></li>
+								
+									<li><label title="Search only Tin tức - Giới thiệu"><input type="checkbox" name="nodes[]" value="118"
+	id="search_bar_nodes" class="Disabler AutoChecker" 
+	data-uncheck="#search_bar_thread" /> Chỉ tìm trong khu vực này</label>
+	<ul id="search_bar_nodes_Disabler">
+		<li><label><input type="checkbox" name="type[post][group_discussion]" value="1"
+			id="search_bar_group_discussion" class="AutoChecker"
+			data-uncheck="#search_bar_thread" /> Hiển thị kết quả theo chủ đề</label></li>
+	</ul></li>
+								
+						</ul></dd>
+					</dl>
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Tìm kiếm" class="button primary Tooltip" title="Tìm ngay" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Mục tìm hữu ích" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Mục tìm hữu ích</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/threads?recent=1">Những chủ đề mới</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Tìm kiếm nâng cao" data-offsetx="-100">Thêm nữa...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+			
+			
+				<div class="mainContainer">
+					<div class="mainContent">
+						
+						
+						
+						
+						              
+<div class="breadBoxTop">
+							
+							
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-118" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Mở di chuyển nhanh"><!--Chuyển đến...--></a>
+			
+		<div class="boardTitle"><strong>Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="http://www.tinhte.vn/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Trang chủ</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="http://www.tinhte.vn/forum/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Diễn đàn</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://www.tinhte.vn/forum/#235" class="crumb" rel="up" itemprop="url"><span itemprop="title">Điện thoại</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://www.tinhte.vn/forums/82/" class="crumb" rel="up" itemprop="url"><span itemprop="title">iOS (iPad, iPhone, iPod Touch)</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://www.tinhte.vn/categories/458/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Khu vực chung (iOS)</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://www.tinhte.vn/forums/118/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Tin tức - Giới thiệu</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+						</div>
+
+						
+						
+						
+					
+						
+												
+						
+						
+						
+												
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								
+								<h1>Hình ảnh mở hộp điện thoại iPhone 5</h1>
+								
+								<p id="pageDescription" class="muted ">
+	Thảo luận trong '<a href="forums/118/">Tin tức - Giới thiệu</a>' bắt đầu bởi <a href="members/104818/" class="username">babybungbu</a>, <a href="threads/1523485/"><abbr class="DateTime" data-time="1348002085" data-diff="21895" data-datestring="19/9/12" data-timestring="04:01">19/9/12 at 04:01</abbr></a>.
+</p>
+							</div>
+						
+						
+						
+						
+						
+						<!-- main template -->
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<div id="cz-move-to-group" style="display: none">
+	<a href="threads/1523485/copy-to-group-overlay" class="OverlayTrigger">Copy thread to group</a>
+</div>
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="3"
+	data-last="4"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/1523485/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Trang 1 / 4</span>
+	
+	<nav>
+		
+		
+		<a href="threads/1523485/" class="currentPage " rel="start">1</a>
+		
+		
+		
+		
+			<a href="threads/1523485/page-2" class="">2</a>
+		
+			<a href="threads/1523485/page-3" class="">3</a>
+		
+		
+		
+		
+		<a href="threads/1523485/page-4" class="">4</a>
+		
+		
+			<a href="threads/1523485/page-2" class="text">Sau &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+</div>
+
+
+
+
+
+<form action="inline-mod/post/switch" method="post"
+	class="InlineModForm section"
+	data-cookieName="posts"
+	data-controls="#InlineModControls"
+	data-imodOptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-24209104" class="message firstPost  staff " data-author="babybungbu">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><span class="img s" style="background-image: url('http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/104818/" class="username" itemprop="name">babybungbu</a>
+			<em class="userTitle" itemprop="title">Moderator</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+	<span class="tt_share_page">
+				
+					<div class="addthis shareControl">
+						<div class="addthis_toolbox addthis_default_style ">
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					</div>
+				
+				
+					<div class="facebookLike shareControl">
+						
+						<fb:like href="http://www.tinhte.vn/threads/1523485/" layout="button_count" action="like" font="trebuchet ms" colorscheme="light"></fb:like>
+					</div>
+				
+				
+					<div class="plusone shareControl">
+						<div class="g-plusone" data-size="medium" data-count="true" data-url="http://www.tinhte.vn/threads/1523485/" data-lang=""></div>
+					</div>
+				
+				
+		</span>
+		
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					<div align="center">
+	
+	<img src="http://cdn.tinhte.vn/attachments/687236/" alt="iPhone5.jpg" class="bbCodeImage LbImage" />
+		
+</div> <br />
+Phải đến thứ 6 này thì <a href="tags/apple/">Apple</a> mới chính thức bán ra chiếc <a href="tags/iphone+5/">iPhone 5</a> mới nhất của hãng, thế nhưng ngày hôm nay chúng ta đã có những hình ảnh <a href="tags/m%E1%BB%9F+h%E1%BB%99p/">mở hộp</a> <a href="tags/iphone/">iPhone</a> 5 được cho là đầu tiên trên thế giới. Hình ảnh được đăng tải độc quyền trên trang tin <i>BGR</i>, và có vẻ như nó đến từ một nhà bán lẻ. Như hình chụp cho thấy, Apple có một số thay đổi về thiết kế vỏ hộp cũng như cách bố trí phụ kiện bên trong. Bản màu đen sẽ có vỏ hộp màu đen, đồng bộ với màu máy (hộp iPhone 4S chỉ có một màu trắng cho cả 2 phiên bản trắng và đen). Thiết bị vẫn được đặt sát nắp trên vỏ hộp, giúp người dùng thấy máy ngay khi mở hộp ra. Bên dưới ta có cục sạc, cáp và tai nghe. Dễ nhận thấy tai nghe EarPods mới của iPhone 5 được bố trí chỉnh chu và đẹp mắt hơn, thay vì chỉ cuộn và xếp gọn lại vào một góc hộp như các phiên bản trước đây.<br />
+ <br />
+<center><div id="galleria_1254997501" align="center" style="float:center; width:600px; height:420px"><a href="http://cdn.tinhte.vn/attachments/687024/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687024/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687023/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687023/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687025/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687025/" alt="" /></a>  <script>
+			Galleria.loadTheme('/js/Tinhte/galleria/themes/folio/galleria.folio.min.js');
+			$("#galleria_1254997501").galleria({
+				imageCrop: false,
+				maxScaleRatio: 1,
+				preload: 3,
+				fullscreenTransition:'fade'
+			});
+            Galleria.run('#galleria_1254997501');
+			</script> </div></center><br />
+<br />
+<div align="left">Cập nhật hình ảnh mở hộp từ <i>SlashGear</i></div><div align="left"><br /></div><div align="left"><center><div id="galleria_1931881125" align="center" style="float:center; width:600px; height:420px"><a href="http://cdn.tinhte.vn/attachments/687121/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687121/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687120/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687120/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687119/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687119/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687118/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687118/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687117/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687117/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687116/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687116/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687113/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687113/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687142/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687142/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687114/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687114/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687150/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687150/" alt="" /></a><a href="http://cdn.tinhte.vn/attachments/687140/"><img src="http://simage.tinhte.vn/data.php?w=190&url=http://cdn.tinhte.vn/attachments/687140/" alt="" /></a>  <script>
+			Galleria.loadTheme('/js/Tinhte/galleria/themes/folio/galleria.folio.min.js');
+			$("#galleria_1931881125").galleria({
+				imageCrop: false,
+				maxScaleRatio: 1,
+				preload: 3,
+				fullscreenTransition:'fade'
+			});
+            Galleria.run('#galleria_1931881125');
+			</script> </div></center></div><div align="left"><br /></div><div align="right"><i><b>Nguồn: <a href="http://www.bgr.com/2012/09/18/iphone-5-unboxing-exclusive/" target="_blank" class="externalLink">BGR</a>, <a href="http://www.slashgear.com/iphone-5-review-18247708/" target="_blank" class="externalLink">SlashGear</a></b></i></div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+	<span class="useressLastEdit useressLastEditContent">
+		<span >
+			
+				Sửa lần cuối bởi levuongthinh,
+			
+			 <abbr class="DateTime" data-time="1348022917" data-diff="1063" data-datestring="19/9/12" data-timestring="09:48">19/9/12 at 09:48</abbr>
+		</span>		
+		
+	</span>
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/104818/" class="username author">babybungbu</a>,
+					<a href="threads/1523485/" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348002085" data-diff="21895" data-datestring="19/9/12" data-timestring="04:01">19/9/12 at 04:01</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24209104/permalink">#1</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24209104">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/43760/" class="username">cuong205a</a>, <a href="members/340327/" class="username">daomanhsang</a>, <a href="members/9408/" class="username">tuanjuninho</a> và <a href="posts/24209104/likes" class="OverlayTrigger">12 người khác</a> thích nội dung này.
+		</span>
+	</div>
+</div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+<br/>
+<div id='oa' align='center' style='border-top: 1px solid #DDD; padding-top:2px; padding-bottom:0px; background:#fafafa;width:100%'>
+<script type='text/javascript'>OA_show(53);</script>
+</div>
+        
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216468" class="message    " data-author="Hahaha31">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/921138/" class="avatar Av921138m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/921/921138.jpg?1343905095')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/921138/" class="username" itemprop="name">Hahaha31</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Wao! Chiếc Iphone 5 nằm trong quan tài trông đẹp rạng ngời mà không chói lóa.<br />
+<br />
+Cái hộp giấy đen tuyền trông thật huyền bí và sang trọng quá đi!<br />
+<br />
+Cái dán màn hình cũng chất nữa chứ, bóng bóng nhìn trông đẹp ghê cơ.<br />
+<br />
+Mà công nhận Apple làm cái gì cũng đẹp, cái gì cũng chất, đến cái hộp cũng cũng toát lên một vẻ sang trọng khó tả. <br />
+<br />
+Samsung, LG, Sony, Nokia nhìn Apple mà học hỏi này, toàn dùng giấy tái chế rẻ tiền thì làm sao thắng nổi Apple chứ.
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/921138/" class="username author">Hahaha31</a>,
+					<a href="threads/1523485/#post-24216468" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022600" data-diff="1380" data-datestring="19/9/12" data-timestring="09:43">19/9/12 at 09:43</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216468" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216468/permalink">#2</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216468">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/1341072/" class="username">net0809</a> thích nội dung này.
+		</span>
+	</div>
+</div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216498" class="message    " data-author="phanmemseo.vn">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1338736/" class="avatar Av1338736m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/1338/1338736.jpg?1346691065')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1338736/" class="username" itemprop="name">phanmemseo.vn</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					tỉ lệ điện thoại nhìn không đẹp, dài quá
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1338736/" class="username author">phanmemseo.vn</a>,
+					<a href="threads/1523485/#post-24216498" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022626" data-diff="1354" data-datestring="19/9/12" data-timestring="09:43">19/9/12 at 09:43</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216498" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216498/permalink">#3</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216498">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/1264091/" class="username">Shiroinezumi</a> thích nội dung này.
+		</span>
+	</div>
+</div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216526" class="message    " data-author="bottotk2">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/618678/" class="avatar Av618678m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/618/618678.jpg?1347976581')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/618678/" class="username" itemprop="name">bottotk2</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					ĐẸP
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/618678/" class="username author">bottotk2</a>,
+					<a href="threads/1523485/#post-24216526" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022645" data-diff="1335" data-datestring="19/9/12" data-timestring="09:44">19/9/12 at 09:44</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216526" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216526/permalink">#4</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216526"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216531" class="message    " data-author="lamnhatphu87">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/997354/" class="avatar Av997354m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/997/997354.jpg?1332588630')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/997354/" class="username" itemprop="name">lamnhatphu87</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Nhìn đẹp thật, bây jo thấy nó dài hơn lại đẹp
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/997354/" class="username author">lamnhatphu87</a>,
+					<a href="threads/1523485/#post-24216531" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022651" data-diff="1329" data-datestring="19/9/12" data-timestring="09:44">19/9/12 at 09:44</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216531" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216531/permalink">#5</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216531"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216535" class="message    " data-author="thang18191">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/384081/" class="avatar Av384081m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/384/384081.jpg?1332588232')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/384081/" class="username" itemprop="name">thang18191</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Gúm nhất là con tai nghe, sao không làm miếng đệm cao su,thế này thì đeo thế quái nào được...
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/384081/" class="username author">thang18191</a>,
+					<a href="threads/1523485/#post-24216535" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022658" data-diff="1322" data-datestring="19/9/12" data-timestring="09:44">19/9/12 at 09:44</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216535" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216535/permalink">#6</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216535">
+	
+	<div class="likesSummary secondaryContent">
+		<span class="LikeText">
+			<a href="members/969729/" class="username">izzi_kaka</a> thích nội dung này.
+		</span>
+	</div>
+</div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216569" class="message    " data-author="clynelish">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1165570/" class="avatar Av1165570m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://cdn.tinhte.vn/styles/xensplash/xenforo/avatars/avatar_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1165570/" class="username" itemprop="name">clynelish</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Nhìn dzơ wá dzậy?
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1165570/" class="username author">clynelish</a>,
+					<a href="threads/1523485/#post-24216569" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022688" data-diff="1292" data-datestring="19/9/12" data-timestring="09:44">19/9/12 at 09:44</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216569" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216569/permalink">#7</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216569"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216607" class="message    " data-author="liut123">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/138072/" class="avatar Av138072m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/138/138072.jpg?1347220994')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/138072/" class="username" itemprop="name">liut123</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					đã quá, tai nghe để trong 1 khung nhựa k phải gói bằng nilon như lúc trc rồi!
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/138072/" class="username author">liut123</a>,
+					<a href="threads/1523485/#post-24216607" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022725" data-diff="1255" data-datestring="19/9/12" data-timestring="09:45">19/9/12 at 09:45</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216607" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216607/permalink">#8</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216607"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216612" class="message    " data-author="mrphan">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/48291/" class="avatar Av48291m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/48/48291.jpg?1332587835')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/48291/" class="username" itemprop="name">mrphan</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Cách thức để tai nghe đóng vào hộp rất đẹp khác hẳn với để vào túi bóng như các hãng khác.  <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie1" alt=":)" title="Smile    :)" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+	<span class="useressLastEdit useressLastEditContent">
+		<span >
+			
+				Sửa lần cuối bởi mrphan,
+			
+			 <abbr class="DateTime" data-time="1348022919" data-diff="1061" data-datestring="19/9/12" data-timestring="09:48">19/9/12 at 09:48</abbr>
+		</span>		
+		
+	</span>
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/48291/" class="username author">mrphan</a>,
+					<a href="threads/1523485/#post-24216612" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022730" data-diff="1250" data-datestring="19/9/12" data-timestring="09:45">19/9/12 at 09:45</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216612" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216612/permalink">#9</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216612"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216615" class="message    " data-author="0975330633">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/67183/" class="avatar Av67183m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://cdn.tinhte.vn/styles/xensplash/xenforo/avatars/avatar_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/67183/" class="username" itemprop="name">0975330633</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					chất quá , giá nhiêu nhỉ ?^^
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/67183/" class="username author">0975330633</a>,
+					<a href="threads/1523485/#post-24216615" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022732" data-diff="1248" data-datestring="19/9/12" data-timestring="09:45">19/9/12 at 09:45</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216615" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216615/permalink">#10</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216615"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216632" class="message    " data-author="autotechno">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1072878/" class="avatar Av1072878m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/1072/1072878.jpg?1345216580')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1072878/" class="username" itemprop="name">autotechno</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Vừa xem vừa cầm cái bát con hứng dãi dớt, hixxx <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie4" alt=":mad:" title="Mad    :mad:" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1072878/" class="username author">autotechno</a>,
+					<a href="threads/1523485/#post-24216632" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022746" data-diff="1234" data-datestring="19/9/12" data-timestring="09:45">19/9/12 at 09:45</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216632" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216632/permalink">#11</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216632"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216669" class="message    " data-author="acquy1122">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/868847/" class="avatar Av868847m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/868/868847.jpg?1336547181')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/868847/" class="username" itemprop="name">acquy1122</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Cái tai nghe hok bít hay ko ta<img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie10" alt=":oops:" title="Oops!    :oops:" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/868847/" class="username author">acquy1122</a>,
+					<a href="threads/1523485/#post-24216669" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022782" data-diff="1198" data-datestring="19/9/12" data-timestring="09:46">19/9/12 at 09:46</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216669" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216669/permalink">#12</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216669"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216678" class="message    " data-author="troyvirus">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/262148/" class="avatar Av262148m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://cdn.tinhte.vn/styles/xensplash/xenforo/avatars/avatar_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/262148/" class="username" itemprop="name">troyvirus</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Đep quá, về việt nam mau đi iphone 5, hehe
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/262148/" class="username author">troyvirus</a>,
+					<a href="threads/1523485/#post-24216678" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022789" data-diff="1191" data-datestring="19/9/12" data-timestring="09:46">19/9/12 at 09:46</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216678" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216678/permalink">#13</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216678"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216700" class="message    " data-author="madam77">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1326489/" class="avatar Av1326489m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/1326/1326489.jpg?1346503760')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1326489/" class="username" itemprop="name">madam77</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Ôi tình yêu của tôi
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1326489/" class="username author">madam77</a>,
+					<a href="threads/1523485/#post-24216700" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022811" data-diff="1169" data-datestring="19/9/12" data-timestring="09:46">19/9/12 at 09:46</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216700" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216700/permalink">#14</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216700"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216707" class="message    " data-author="_The End_">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1272516/" class="avatar Av1272516m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/1272/1272516.jpg?1344906853')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1272516/" class="username" itemprop="name">_The End_</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Để 2 con cạnh nhau thì rõ ràng 4S nó đẹp hơn hẳn <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie1" alt=":)" title="Smile    :)" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1272516/" class="username author">_The End_</a>,
+					<a href="threads/1523485/#post-24216707" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022819" data-diff="1161" data-datestring="19/9/12" data-timestring="09:46">19/9/12 at 09:46</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216707" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216707/permalink">#15</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216707"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216713" class="message    " data-author="ngox_IT">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/1049437/" class="avatar Av1049437m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/1049/1049437.jpg?1346298617')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/1049437/" class="username" itemprop="name">ngox_IT</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Quá đẹp, quá đỉnh <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie8" alt=":D" title="Big Grin    :D" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/1049437/" class="username author">ngox_IT</a>,
+					<a href="threads/1523485/#post-24216713" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022824" data-diff="1156" data-datestring="19/9/12" data-timestring="09:47">19/9/12 at 09:47</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216713" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216713/permalink">#16</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216713"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216717" class="message    " data-author="kobebryant">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/62830/" class="avatar Av62830m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/62/62830.jpg?1333620009')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/62830/" class="username" itemprop="name">kobebryant</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Ai ham hố ip5 mà ko muốn đợi thì đã có hàng Hồ Cẩm Đào <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie8" alt=":D" title="Big Grin    :D" />
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/62830/" class="username author">kobebryant</a>,
+					<a href="threads/1523485/#post-24216717" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022827" data-diff="1153" data-datestring="19/9/12" data-timestring="09:47">19/9/12 at 09:47</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216717" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216717/permalink">#17</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216717"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216764" class="message    " data-author="dragon291188">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/611896/" class="avatar Av611896m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/611/611896.jpg?1332588390')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/611896/" class="username" itemprop="name">dragon291188</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					:&quot;&gt; dài khiếp
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/611896/" class="username author">dragon291188</a>,
+					<a href="threads/1523485/#post-24216764" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022864" data-diff="1116" data-datestring="19/9/12" data-timestring="09:47">19/9/12 at 09:47</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216764" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216764/permalink">#18</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216764"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216769" class="message    " data-author="mrkutami">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/665654/" class="avatar Av665654m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://cdn.tinhte.vn/styles/xensplash/xenforo/avatars/avatar_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/665654/" class="username" itemprop="name">mrkutami</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					Đẹp quá ip5 ơi về việt nam chắc đắt lắm
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/665654/" class="username author">mrkutami</a>,
+					<a href="threads/1523485/#post-24216769" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022875" data-diff="1105" data-datestring="19/9/12" data-timestring="09:47">19/9/12 at 09:47</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216769" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216769/permalink">#19</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216769"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-24216770" class="message    " data-author="cuti8x">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/49792/" class="avatar Av49792m" data-avatarHtml="true"><span class="img m" style="background-image: url('http://photo.tinhte.vn/data/avatars/m/49/49792.jpg?1332587837')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+			<a href="members/49792/" class="username" itemprop="name">cuti8x</a>
+			<em class="userTitle" itemprop="title">Thành viên</em>
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+
+
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText ugc baseHtml">
+					
+					đẹp quá.bao h có sim ở VN là múc ngay thôi.ip5 vố đối
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<a href="members/49792/" class="username author">cuti8x</a>,
+					<a href="threads/1523485/#post-24216770" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1348022878" data-diff="1102" data-datestring="19/9/12" data-timestring="09:47">19/9/12 at 09:47</abbr></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/1523485/#post-24216770" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/24216770/permalink">#20</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-24216770"></div>
+	</div>
+	
+	
+
+<!-- Article Banner -->
+
+
+
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="login/" class="concealed">(Bạn phải đăng nhập hoặc đăng ký tài khoản để trả lời ở đây.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted jsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+
+			
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="3"
+	data-last="4"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="threads/1523485/page-{{sentinel}}">
+	
+	<span class="pageNavHeader">Trang 1 / 4</span>
+	
+	<nav>
+		
+		
+		<a href="threads/1523485/" class="currentPage " rel="start">1</a>
+		
+		
+		
+		
+			<a href="threads/1523485/page-2" class="">2</a>
+		
+			<a href="threads/1523485/page-3" class="">3</a>
+		
+		
+		
+		
+		<a href="threads/1523485/page-4" class="">4</a>
+		
+		
+			<a href="threads/1523485/page-2" class="text">Sau &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+	
+    
+        <div class="sectionMain">
+    		Tag:
+    		<a href="tags/apple/">apple</a>, <a href="tags/iphone/">iphone</a>, <a href="tags/iphone+5/">iphone 5</a>, <a href="tags/ios/">ios</a>, <a href="tags/smartphone/">smartphone</a>, <a href="tags/%C4%91%E1%BA%ADp+h%E1%BB%99p/">đập hộp</a>, <a href="tags/m%E1%BB%9F+h%E1%BB%99p/">mở hộp</a>, <a href="tags/unbox/">unbox</a>, <a href="tags/unboxing/">unboxing</a>
+    	</div>
+    
+
+
+
+
+	
+
+
+
+	
+
+	<div class="sharePage">
+		<h3 class="textHeading larger">Chia sẻ trang này</h3>
+		
+			
+<div class="shareControl" style="width:107px">
+<div class="addthis_toolbox addthis_default_style ">
+	<a class="addthis_counter addthis_pill_style" addthis:url="http://www.tinhte.vn/threads/1523485/" addthis:title="Hình ảnh mở hộp điện thoại iPhone 5"></a>
+</div>
+</div>
+			
+			
+				<div class="plusone shareControl">
+					<div class="g-plusone" data-size="medium" data-count="true" data-href="http://www.tinhte.vn/threads/1523485/"></div>
+				</div>
+			
+			
+				<div class="facebookLike shareControl">
+					
+					<fb:like href="http://www.tinhte.vn/threads/1523485/" show_faces="true" width="500" action="like" font="trebuchet ms" colorscheme="light"></fb:like>
+				</div>
+			
+			
+		
+	</div>
+
+
+						
+						
+						
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
+
+	
+		<ul id="eAuthUnit">
+			
+				
+				
+					
+					<li><a href="register/facebook?reg=1" class="fbLogin" tabindex="110"><span>Đăng nhập với facebook</span></a></li>
+				
+				
+			
+		</ul>
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Tên của bạn hoặc địa chỉ email:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Bạn đã có tài khoản rồi?</label>
+				<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Quên mật khẩu?</a></div>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						Không, tạo một tài khoản ngay bây giờ.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Có, mật khẩu của tôi là:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Đăng nhập" tabindex="104" data-loginPhrase="Đăng nhập" data-signupPhrase="Đăng ký" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Nhớ trạng thái đăng nhập</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/threads/1523485/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+						
+						
+					</div>
+				</div>
+				
+				<!-- sidebar -->
+				<aside>
+					<div class="sidebar">
+						
+						
+						
+
+<div class="section loginButton">		
+	<div class="secondaryContent">
+		<label for="LoginControl" id="SignupButton"><a href="login/" class="inner">Đăng ký thành viên</a></label>
+	</div>
+</div>
+
+
+
+
+						
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget WidgetFramework_WidgetRenderer_Html" id="widget-8">
+				
+					<h3>
+						
+							Quảng cáo
+						
+					</h3>
+					<div style="width:300px;height:250px">
+<script type='text/javascript'><!--// <![CDATA[
+    OA_show(4);
+// ]]> --></script>
+</div>
+<div style="height:1px; width=300px"></div>
+<script type='text/javascript'><!--// <![CDATA[
+    OA_show(42);
+// ]]> --></script>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_RelatedThreads" id="widget-12">
+				
+					<h3>
+						
+							Bài tương tự
+						
+					</h3>
+					<div class="avatarList">
+        <ul>
+            
+                
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1523501/"
+		
+		>
+		Bên trong tai nghe Apple EarPods
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <abbr class="DateTime" data-time="1348009751" data-diff="14204" data-datestring="19/9/12" data-timestring="06:09">19/9/12 at 06:09</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1521987/"
+		
+		title="Tòa án chưa hủy lệnh cấm bán tạm thời Samsung Galaxy Tab 10.1"
+		class="Tooltip"
+		
+		>
+		Tòa án chưa hủy lệnh cấm bán tạm thời...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <abbr class="DateTime" data-time="1347948387" data-diff="75568" data-datestring="18/9/12" data-timestring="13:06">18/9/12 at 13:06</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+                		
+
+
+	<a href="threads/1521437/"
+		
+		title="iPad mini bắt đầu được sản xuất hàng loạt, Apple thuê thêm đối tác Pegatron?"
+		class="Tooltip"
+		
+		>
+		iPad mini bắt đầu được sản xuất hàng...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>, <abbr class="DateTime" data-time="1347935955" data-diff="88000" data-datestring="18/9/12" data-timestring="09:39">18/9/12 at 09:39</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+                		
+
+
+	<a href="threads/1521128/"
+		
+		title="Xuất hiện hình ảnh báo chí của One X 5, chiếc phablet đầu tiên của HTC?"
+		class="Tooltip"
+		
+		>
+		Xuất hiện hình ảnh báo chí của One X 5,...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>, <abbr class="DateTime" data-time="1347920786" data-diff="103169" data-datestring="18/9/12" data-timestring="05:26">18/9/12 at 05:26</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+                		
+
+
+	<a href="threads/1521123/"
+		
+		title="Cổ phiếu Apple lần đầu tiên chạm mốc 700 USD"
+		class="Tooltip"
+		
+		>
+		Cổ phiếu Apple lần đầu tiên chạm mốc...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>, <abbr class="DateTime" data-time="1347920342" data-diff="103613" data-datestring="18/9/12" data-timestring="05:19">18/9/12 at 05:19</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1050879/" class="avatar Av1050879s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1050/1050879.jpg?1332588670" width="48" height="48" alt="Blaze1st" /></a>
+                		
+
+
+	<a href="threads/1521080/"
+		
+		title="Apple: 2 triệu đơn đặt hàng iPhone 5 trong vòng 24 giờ đầu tiên"
+		class="Tooltip"
+		
+		>
+		Apple: 2 triệu đơn đặt hàng iPhone 5...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/1050879/">Blaze1st</a>, <abbr class="DateTime" data-time="1347907014" data-diff="116941" data-datestring="18/9/12" data-timestring="01:36">18/9/12 at 01:36</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+                		
+
+
+	<a href="threads/1520863/"
+		
+		title="Amazon tự làm bản đồ dựa trên nền tảng của Nokia, không sử dụng Google Maps"
+		class="Tooltip"
+		
+		>
+		Amazon tự làm bản đồ dựa trên nền tảng...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/60686/">Didu</a>, <abbr class="DateTime" data-time="1347898260" data-diff="125695" data-datestring="17/9/12" data-timestring="23:11">17/9/12 at 23:11</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+                		
+
+
+	<a href="threads/1520233/"
+		
+		title="iSuppli: Điện thoại thông minh và máy tính bảng tiêu thụ nhiều linh kiện DRAM hơn PC"
+		class="Tooltip"
+		
+		>
+		iSuppli: Điện thoại thông minh và máy...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>, <abbr class="DateTime" data-time="1347880314" data-diff="143641" data-datestring="17/9/12" data-timestring="18:11">17/9/12 at 18:11</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+                		
+
+
+	<a href="threads/1520164/"
+		
+		title="CEO Yahoo tặng mỗi nhân viên của hãng một chiếc smartphone"
+		class="Tooltip"
+		
+		>
+		CEO Yahoo tặng mỗi nhân viên của hãng...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>, <abbr class="DateTime" data-time="1347878396" data-diff="145559" data-datestring="17/9/12" data-timestring="17:39">17/9/12 at 17:39</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+                		
+
+
+	<a href="threads/1519189/"
+		
+		>
+		Hàng chờ mua iPhone 5 đã được xếp...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/60686/">Didu</a>, <abbr class="DateTime" data-time="1347853544" data-diff="170411" data-datestring="17/9/12" data-timestring="10:45">17/9/12 at 10:45</abbr></div>
+                	</li>
+            	
+            
+        </ul>
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget WidgetFramework_WidgetRenderer_Html" id="widget-25">
+				
+					<h3>
+						
+							Quảng cáo
+						
+					</h3>
+					<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4328742155432872";
+/* Tinhte.vn - Right 3 */
+google_ad_slot = "9134575806";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div id='div-gpt-ad-1345604815435-2' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1345604815435-2'); });
+</script>
+</div>
+				
+			</div>
+		
+	</div>
+
+						
+						
+					</div>
+				</aside>
+			
+			
+						
+			<div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-118" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Mở di chuyển nhanh"><!--Chuyển đến...--></a>
+			
+		<div class="boardTitle"><strong>Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust">
+					<a href="http://www.tinhte.vn/" class="crumb"><span>Trang chủ</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust">
+					<a href="http://www.tinhte.vn/forum/" class="crumb"><span>Diễn đàn</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust">
+						<a href="http://www.tinhte.vn/forum/#235" class="crumb"><span>Điện thoại</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="http://www.tinhte.vn/forums/82/" class="crumb"><span>iOS (iPad, iPhone, iPod Touch)</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="http://www.tinhte.vn/categories/458/" class="crumb"><span>Khu vực chung (iOS)</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="http://www.tinhte.vn/forums/118/" class="crumb"><span>Tin tức - Giới thiệu</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+						
+			<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4328742155432872";
+/* Bottom Banner */
+google_ad_slot = "2432881187";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+						
+		</div>
+	</div>
+</div>
+
+<header>
+	
+<div id="header">
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			<div id="logo"><a href="http://www.tinhte.vn/">
+				<span></span>
+				<img src="https://cdn.tinhte.vn/styles/xensplash/tinhte/logo.png" alt="Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" />
+			</a></div>
+			
+			<div style="float:right;width=729px;margin-top:45px;margin-right:0px"><script type='text/javascript'><!--// <![CDATA[
+			
+			 OA_show(34);
+			
+			// ]]> --></script>
+			</div>
+<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/" class="navLink">Trang chủ</a>
+				<a href="http://www.tinhte.vn/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Trang chủ</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	
+	<li><a href="find-new/threads?t=dien-dan">Bài mới</a></li>
+<li><a href="find-new/threads?t=rao-vat">Rao vặt mới</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums selected">
+			
+				<a href="http://www.tinhte.vn/forum/" class="navLink">Diễn đàn</a>
+				<a href="http://www.tinhte.vn/forum/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="tabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Diễn đàn</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						<li><a href="search/?type=post">Tìm kiếm</a></li>
+						
+						<li><a href="find-new/threads?t=dien-dan">Bài mới</a></li>
+<li><a href="find-new/threads?t=rao-vat">Rao vặt mới</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+			
+				<li class="navTab events Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/events/" class="navLink">Sự kiện</a>
+				<a href="http://www.tinhte.vn/events/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Sự kiện</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="events/monthly">Tháng</a></li>
+	<li><a href="events/weekly">Tuần</a></li>
+	<li><a href="events/upcoming">Sắp diễn ra</a></li>
+	<li><a href="events/history">Mục lưu trữ</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+			
+				<li class="navTab wiki Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/wiki/" class="navLink">Wiki</a>
+				<a href="http://www.tinhte.vn/wiki/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Wiki</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="wiki/">Wiki Tinhte.vn</a></li>
+	<li><a href="wiki/special/pages">Danh sách trang</a></li>
+	
+	
+	
+</ul>
+				</div>
+			</li>
+			
+		
+			
+				<li class="navTab nodetab474 PopupClosed">
+					<a href="http://www.tinhte.vn/link-forums/474/" class="navLink">Video</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab nodetab35 Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/forums/35/" class="navLink">Rao vặt</a>
+				<a href="http://www.tinhte.vn/forums/35/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Rao vặt</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="find-new/threads?t=rao-vat">Rao vặt mới</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=4">Toàn quốc</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=10">HCM</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=16">Hà Nội</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=37">Đà Nẵng</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=29">Khu vực khác</a></li>
+
+	<li><a href="http://www.tinhte.vn/threads/121526/">Điều kiện gửi bài</a></li>
+	<li><a href="http://www.tinhte.vn/threads/20/#post-942993">Nội qui Mua bán</a></li>
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+			<li class="navTab help Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/help/" class="navLink" rel="help">Giúp đỡ</a>
+				<a href="http://www.tinhte.vn/help/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Giúp đỡ</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						<li><a href="help/smilies">Mặt cười</a></li>
+						<li><a href="help/bb-codes">BB Codes</a></li>
+						<li><a href="help/trophies">Danh hiệu</a></li>
+						<li><a href="help/cookies">Cookie Usage</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: end -->
+		
+		
+		
+		<!-- no selection -->
+		
+		
+	</ul>
+	
+	
+</div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+	
+</div>
+
+	
+	
+</header>
+
+</div>
+
+<footer>
+	
+
+
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			<ul class="footerLinks">
+			
+				
+				<li><a href="http://www.tinhte.vn/">Trang chủ</a></li>
+				<li><a href="/threads/1523485/#navigation">Lên đầu</a></li>
+
+				<li><a href="http://feeds.feedburner.com/tinhte" rel="alternate" class="globalFeed" target="_blank"
+					title="RSS của Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ">RSS</a></li>
+				<li><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=dihuta"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a></li>
+				
+			</ul>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+
+<div class="footerLegal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<div id="copyright">Copyright 2006 - 2012 ViMobi Co., Ltd • Giấy phép số 24/GP-TTĐT và 59/GXN-TTĐT do Bộ Thông Tin Truyền Thông cấp.</div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Điều khoản & Quy định</a></li>
+				
+			
+			</ul>
+		
+			
+			
+			<span class="helper"></span>
+		</div>
+	</div>	
+</div>
+
+<div class="footer_main_bot">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<ul class="menu">
+				<li class="menu_title"><h3>Tinhte.vn</h3></li>
+				<li><a href="http://www.tinhte.vn/">Trang nhất</a></li>
+				<li><a href="http://www.tinhte.vn/forum/">Diễn đàn</a></li>
+				<li><a href="http://www.tinhte.vn/link-forums/474/">Video công nghệ</a></li>
+				<li><a href="http://www.tinhte.vn/wiki/index/">Wiki Thiết bị</a></li>
+				<li><a href="http://www.tinhte.vn/forums/35/">Mua bán - Rao vặt</a></li>
+				<li><a href="http://www.tinhte.vn/pages/cafe/">Cafe Tinh tế</a></li>
+				<li><a href="http://www.tinhte.vn/pages/lien-he/">Liên hệ</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/10/">Tin tức</a></li>
+				<li><a href="http://www.tinhte.vn/forums/230/">Khuyến mãi</a></li>
+				<li><a href="http://www.tinhte.vn/forums/6/">Windows</a></li>
+				<li><a href="http://www.tinhte.vn/forums/195/">Mac OS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/79/">Linux</a></li>
+				<li><a href="http://www.tinhte.vn/forums/70/">Máy ảnh số</a></li>
+				<li><a href="http://www.tinhte.vn/forums/285/">Máy quay phim</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/82/">iOS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/150/">Android</a></li>
+				<li><a href="http://www.tinhte.vn/forums/3/">Windows Phone</a></li>
+				<li><a href="http://www.tinhte.vn/forums/98/">BlackBerry</a></li>
+				<li><a href="http://www.tinhte.vn/forums/83/">Symbian</a></li>
+				<li><a href="http://www.tinhte.vn/forums/429/">Bada</a></li>
+				<li><a href="http://www.tinhte.vn/forums/405/">Meego</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/4/">Palm</a></li>
+				<li><a href="http://www.tinhte.vn/forums/459/">Điện thoại Nhật</a></li>
+				<li><a href="http://www.tinhte.vn/forums/362/">Điện thoại phổ thông</a></li>
+				<li><a href="http://www.tinhte.vn/forums/270/">Phát triển phần mềm</a></li>
+				<li><a href="http://www.tinhte.vn/forums/510/">Mạng di động</a></li>
+				<li><a href="http://www.tinhte.vn/forums/511/">Internet</a></li>
+				<li><a href="http://www.tinhte.vn/forums/348/">Công nghệ 3G, 4G</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/347/">GPS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/490/">Server</a></li>
+				<li><a href="http://www.tinhte.vn/forums/29/">Thiết bị ngoại vi</a></li>
+				<li><a href="http://www.tinhte.vn/forums/293/">Điện tử, tiêu dùng</a></li>
+				<li><a href="http://www.tinhte.vn/forums/426/">Máy đọc sách</a></li>
+				<li><a href="http://www.tinhte.vn/forum/#548">Phương tiện</a></li>
+				<li><a href="http://www.tinhte.vn/forums/76/">Khoa học công nghệ</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Liên kết & hợp tác</h3></li>
+				<li><a href="http://www.facebook.com/tinhtefan" title="Tinhte.vn trên Facebook" target="_blank">Tinhte.vn Facebook</a></li>
+				<li><a href="http://www.twitter.com/tinhtefan" title="Theo Tinhte.vn trên Twitter" target="_blank" title="" target="_blank">Tinhte.vn Twitter</a></li>
+				<li><a href="http://www.khacten.com/" title="Bao da, miếng dán da" target="_blank">Khacten.com</a></li>
+				<li><a href="http://www.1tudien.com" title="Từ điển trực tuyến" target="_blank">1TuDien.com</a></li>
+				<li><a href="http://www.nhaccuatui.com" title="Nghe nhạc mọi lúc mọi nơi" target="_blank">Nhaccuatui.com</a></li>
+				<li><a href="http://www.chodientu.vn" title="Mua hàng trực tuyến" target="_blank">Chodientu.vn</a></li>
+				<li><a href="http://www.webtretho.com/" title="Web trẻ thơ" target="_blank">Webtretho.com</a></li>
+			</ul>
+			<br/>
+		</div>
+	</div>	
+</div>
+</footer>
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1348023980,
+		today: 1347987600,
+		todayDow: 3
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "2",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 400,
+		closeSpeed: 200,
+		mask:
+		{
+			color: "rgb(0, 0, 0)",
+			opacity: "0.6",
+			loadSpeed: 400,
+			closeSpeed: 200
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"https:\/\/s.tinhtecdn.com\/js\/cz-groups\/thread_tools.js?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/Tinhte\/galleria\/galleria-1.2.8.min.js?_v=bba17b4a":true,"https:\/\/www.google.com\/jsapi?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/as.js?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/bdTagMe\/frontend.js?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/vim\/mudim.js?_v=bba17b4a":true,"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"useress":true,"likes_summary":true,"share_page":true,"wf_default":true,"login_bar":true,"facebook":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "bba17b4a"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Hủy",
+
+	a_moment_ago:    "Mới đây",
+	one_minute_ago:  "1 phút trước",
+	x_minutes_ago:   "%minutes% phút trước",
+	today_at_x:      "Hôm nay lúc %time%",
+	yesterday_at_x:  "Hôm qua lúc %time%",
+	day_x_at_time_y: "%day% lúc %time%",
+
+	day0: "Chủ nhật",
+	day1: "Thứ hai",
+	day2: "Thứ ba",
+	day3: "Thứ tư",
+	day4: "Thứ năm",
+	day5: "thứ sáu",
+	day6: "Thứ bảy",
+
+	_months: "Tháng 1,Tháng 2,Tháng 3,Tháng 4,Tháng 5,Tháng 6,Tháng 7,Tháng 8,Tháng 9,Tháng 10,Tháng 11,Tháng 12",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "Có lỗi hoặc lưu ý",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Đang đăng nhập",
+	click_image_show_full_size_version: "Bấm vào để phóng to.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "145923738846814";
+XenForo.Facebook.forceInit = true;
+google.load('search', '1');
+$(document).ready(function() {
+    $("#ctrl_title_thread_create").bind("blur", function(){
+	
+    var searchControl = new google.search.SearchControl();
+	var siteSearch = new google.search.WebSearch();
+    var options = new google.search.SearcherOptions();
+
+    options.setExpandMode(google.search.SearchControl.EXPAND_MODE_OPEN);
+    options.setRoot(document.getElementById("Tinhte_SimilarThreadCheck_div"));
+
+    // site restricted web search using a custom search engine
+    siteSearch.setUserDefinedLabel("Vui lòng xem qua các đề tài dưới đây trước khi gửi bài mới.");
+	siteSearch.setSiteRestriction("partner-pub-4328742155432872:fsd7ii-uvqt");
+	searchControl.addSearcher(siteSearch, options);
+	searchControl.setNoResultsString("Không tìm thấy chủ đề tương tự, bạn có thể gửi chủ đề mới.");
+
+
+    // Tell the searcher to draw itself and tell it where to attach
+    searchControl.draw(document.getElementById("ctrl_title_thread_create"));
+    searchControl.execute(document.getElementById("ctrl_title_thread_create").value);
+    });
+});
+
+
+
+</script>
+
+	
+
+
+
+
+
+
+<script type="text/javascript">
+!function($, window, document, _undefined) {
+	XenForo.bdTagMe_suggestionMaxLength = 0;
+} (jQuery, this, document);
+</script>
+
+
+<script type="text/javascript">
+    Mudim.LANG=[
+		'Tắt',
+		'VNI',
+		'Telex',
+		'VIQR',
+		'Đủ kiểu',
+		'Tự động',
+		'Sửa lỗi chính tả',
+		'Dùng kiểu bỏ dấu mới',
+		'Toggle',
+		'Toggle Panel',
+	];
+	Mudim.IGNORE_ID = ['email','url'];
+	Mudim.COOKIE_KEY_NAME = 'xf_vim|mudim-settings';
+
+	CHIM.ClearBuffer();
+	Mudim.method = parseInt('2');
+	CHIM.Speller.enabled = parseInt('1') ? true : false;
+	Mudim.newAccentRule = parseInt('1') ? true : false;
+
+	
+		Mudim.showPanel = false;
+        	CHIM.SetDisplay();
+	    	Mudim.SetPreference();
+	
+</script></body>
+</html>

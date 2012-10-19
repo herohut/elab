@@ -1,0 +1,270 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server Compact Edition
+-- --------------------------------------------------
+-- Date Created: 09/28/2012 17:52:11
+-- Generated from EDMX file: D:\HERO\elab\Eking.News\Eking.News\Models\Model.edmx
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- NOTE: if the constraint does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    ALTER TABLE [EntrySources] DROP CONSTRAINT [FK_EntrySourceSource];
+GO
+    ALTER TABLE [Entries] DROP CONSTRAINT [FK_GroupEntry];
+GO
+    ALTER TABLE [EntrySources] DROP CONSTRAINT [FK_EntryEntrySource];
+GO
+    ALTER TABLE [Likes] DROP CONSTRAINT [FK_EntryLike];
+GO
+    ALTER TABLE [Comments] DROP CONSTRAINT [FK_EntryComment];
+GO
+    ALTER TABLE [Groups] DROP CONSTRAINT [FK_GroupGroup];
+GO
+    ALTER TABLE [Tags] DROP CONSTRAINT [FK_EntryTag];
+GO
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- NOTE: if the table does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    DROP TABLE [Groups];
+GO
+    DROP TABLE [Sources];
+GO
+    DROP TABLE [EntrySources];
+GO
+    DROP TABLE [Entries];
+GO
+    DROP TABLE [Likes];
+GO
+    DROP TABLE [Comments];
+GO
+    DROP TABLE [Tags];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Groups'
+CREATE TABLE [Groups] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(4000)  NULL,
+    [Parent_Id] int  NULL
+);
+GO
+
+-- Creating table 'Sources'
+CREATE TABLE [Sources] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [HomeUrl] nvarchar(4000)  NULL,
+    [Icon] nvarchar(4000)  NULL,
+    [Name] nvarchar(4000)  NOT NULL
+);
+GO
+
+-- Creating table 'EntrySources'
+CREATE TABLE [EntrySources] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Url] nvarchar(4000)  NOT NULL,
+    [Source_Id] int  NULL,
+    [Entry_Id] int  NOT NULL
+);
+GO
+
+-- Creating table 'Entries'
+CREATE TABLE [Entries] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Title] nvarchar(4000)  NOT NULL,
+    [Description] nvarchar(4000)  NULL,
+    [Content] ntext  NULL,
+    [ImageUrl] nvarchar(4000)  NULL,
+    [Date] datetime  NULL,
+    [ViewIndex] int  NOT NULL,
+    [ViewType] nvarchar(4000)  NULL,
+    [Published] bit  NOT NULL,
+    [Group_Id] int  NULL
+);
+GO
+
+-- Creating table 'Likes'
+CREATE TABLE [Likes] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Date] datetime  NULL,
+    [Entry_Id] int  NOT NULL
+);
+GO
+
+-- Creating table 'Comments'
+CREATE TABLE [Comments] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Text] nvarchar(4000)  NOT NULL,
+    [Date] datetime  NULL,
+    [Entry_Id] int  NOT NULL
+);
+GO
+
+-- Creating table 'Tags'
+CREATE TABLE [Tags] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Word] nvarchar(4000)  NOT NULL,
+    [Entries_Id] int  NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [Id] in table 'Groups'
+ALTER TABLE [Groups]
+ADD CONSTRAINT [PK_Groups]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Sources'
+ALTER TABLE [Sources]
+ADD CONSTRAINT [PK_Sources]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'EntrySources'
+ALTER TABLE [EntrySources]
+ADD CONSTRAINT [PK_EntrySources]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Entries'
+ALTER TABLE [Entries]
+ADD CONSTRAINT [PK_Entries]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Likes'
+ALTER TABLE [Likes]
+ADD CONSTRAINT [PK_Likes]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Comments'
+ALTER TABLE [Comments]
+ADD CONSTRAINT [PK_Comments]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'Tags'
+ALTER TABLE [Tags]
+ADD CONSTRAINT [PK_Tags]
+    PRIMARY KEY ([Id] );
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on [Source_Id] in table 'EntrySources'
+ALTER TABLE [EntrySources]
+ADD CONSTRAINT [FK_EntrySourceSource]
+    FOREIGN KEY ([Source_Id])
+    REFERENCES [Sources]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EntrySourceSource'
+CREATE INDEX [IX_FK_EntrySourceSource]
+ON [EntrySources]
+    ([Source_Id]);
+GO
+
+-- Creating foreign key on [Group_Id] in table 'Entries'
+ALTER TABLE [Entries]
+ADD CONSTRAINT [FK_GroupEntry]
+    FOREIGN KEY ([Group_Id])
+    REFERENCES [Groups]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_GroupEntry'
+CREATE INDEX [IX_FK_GroupEntry]
+ON [Entries]
+    ([Group_Id]);
+GO
+
+-- Creating foreign key on [Entry_Id] in table 'EntrySources'
+ALTER TABLE [EntrySources]
+ADD CONSTRAINT [FK_EntryEntrySource]
+    FOREIGN KEY ([Entry_Id])
+    REFERENCES [Entries]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EntryEntrySource'
+CREATE INDEX [IX_FK_EntryEntrySource]
+ON [EntrySources]
+    ([Entry_Id]);
+GO
+
+-- Creating foreign key on [Entry_Id] in table 'Likes'
+ALTER TABLE [Likes]
+ADD CONSTRAINT [FK_EntryLike]
+    FOREIGN KEY ([Entry_Id])
+    REFERENCES [Entries]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EntryLike'
+CREATE INDEX [IX_FK_EntryLike]
+ON [Likes]
+    ([Entry_Id]);
+GO
+
+-- Creating foreign key on [Entry_Id] in table 'Comments'
+ALTER TABLE [Comments]
+ADD CONSTRAINT [FK_EntryComment]
+    FOREIGN KEY ([Entry_Id])
+    REFERENCES [Entries]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EntryComment'
+CREATE INDEX [IX_FK_EntryComment]
+ON [Comments]
+    ([Entry_Id]);
+GO
+
+-- Creating foreign key on [Parent_Id] in table 'Groups'
+ALTER TABLE [Groups]
+ADD CONSTRAINT [FK_GroupGroup]
+    FOREIGN KEY ([Parent_Id])
+    REFERENCES [Groups]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_GroupGroup'
+CREATE INDEX [IX_FK_GroupGroup]
+ON [Groups]
+    ([Parent_Id]);
+GO
+
+-- Creating foreign key on [Entries_Id] in table 'Tags'
+ALTER TABLE [Tags]
+ADD CONSTRAINT [FK_EntryTag]
+    FOREIGN KEY ([Entries_Id])
+    REFERENCES [Entries]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EntryTag'
+CREATE INDEX [IX_FK_EntryTag]
+ON [Tags]
+    ([Entries_Id]);
+GO
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

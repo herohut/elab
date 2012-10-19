@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "GroupsView";
+}
+@model Eking.News.Controllers.GroupsViewModel
+
+<div class="jScrollPane">
+    @{
+        foreach (var group in Model.Groups)
+        {
+            Html.RenderPartial("GroupView", group);
+        }
+    }
+</div>

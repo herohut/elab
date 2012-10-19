@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "EntriesView";
+}
+@model IEnumerable<Eking.News.Controllers.EntryViewModel>
+
+<div class="entries">
+    @{
+        foreach (var entry in Model)
+        {
+            var renderStyle = "entryStyle" + @entry.RenderType;
+            var size = entry.H * entry.W;
+
+            var titleDesc = size >= 4 ? "titleDesc" : null;
+        <div class="entry @renderStyle" data-renderSize="@entry.RenderType" data-Id="@entry.Id">
+            <div>
+
+                <a href="#view=entry&id=@entry.Id">
+                    @if (size >= 4 && entry.ImageUrl != null)
+                    {
+                        <div class="nailthumb-container entryImage">
+                            <img src="@entry.ImageUrl" alt="@entry.Title"/>
+                        </div>
+                    }
+
+
+                    <div class="@titleDesc">
+
+                        <h4>@Html.Raw(@entry.Title)</h4>
+
+                        @if (size >= 4)
+                        {
+                            <p>@entry.Desc</p>
+                        }
+                    </div>
+
+                    <h6 class="entryTime">@entry.PostedDate.ToString("dd.MM.yyyy")</h6>
+                </a>
+
+            </div>
+        </div>
+        }
+    }
+</div>

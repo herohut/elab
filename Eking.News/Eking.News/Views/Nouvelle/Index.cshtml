@@ -1,0 +1,69 @@
+﻿@using Eking.News
+@using Eking.News.Models
+@{
+    ViewBag.Title = "NOUVELLE";
+    var visibles = new[] { "Headline", "Technology", "SocialLife", "Education", "Science", "Sport", "Fun", "Cars", "..." };
+
+    var groups = ((List<Group>)ViewBag.Groups);
+    groups.Insert(0, new Group { Id = -1, Name = "Headline" });
+    groups = ((List<Group>)ViewBag.Groups).Where(g => visibles.Any(g1 => g1 == g.Name)).ToList();
+}
+
+<div class="screen">
+    <header class="nouvelleHeader">
+
+        <span class="homeArea">
+            <a href="/">
+                <span class="homeIcon"></span>
+            </a>
+            <span class="separator"></span>
+            <span class="headerButton">
+                <span class="headMediumIcon headMediumIcon1 headMediumIconDown"></span>
+            </span>
+        </span>
+
+        <span class="headerRightArea">
+
+            <img class="userAvatar" src="/Content/UserAvatar.png" />
+            <span class="userName">Admin
+            </span>
+
+            <span class="headerButton headerButtonWide">
+                <span class="headMediumIcon headMediumIcon2 headMediumIconSettings"></span>
+            </span>
+
+            <span class="headerButton">
+                <span class="headMediumIcon headMediumIcon2 headMediumIconDown"></span>
+            </span>
+        </span>
+
+        <ul>
+            @{                                                                    
+                foreach (var group in groups)
+                {
+                <li>
+                    <a href="#view=group&id=@group.Id">
+                        <span>
+                            @Translator.T(@group.Name)
+                        </span>
+                    </a>
+                </li>
+                }
+                <li>
+                    <a>
+                        <span>...</span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </header>
+    <footer class="nouvelleFooter">
+        <h5>© @DateTime.Now.Year  ThaiHung  Terms  Privacy  Developers  Vietnamese (VN)
+        </h5>
+    </footer>
+    <section class="adsSetion">ADS</section>
+
+    <div id="main">
+    </div>
+</div>
+

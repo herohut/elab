@@ -1,0 +1,186 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *, .jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspArrow
+{	
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+/* CUSTOMIZE */
+.jspVerticalBar
+{
+	width: 20px;
+	border: 1px solid #e3e3e3;
+}
+.jspTrack
+{
+	background: white;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 33px;
+}
+.jspDrag
+{
+	background: #e3e3e3;	
+	-webkit-transition: background 0.3s;
+}
+
+.jspDrag:hover
+{
+	background: gray;	
+}
+
+.jspArrow
+{
+    height: 17px;
+    width: 33px;
+}
+.jspArrowLeft
+{
+    background: white url('scroll_arrow_left.gif');
+}
+
+.jspArrowRight
+{
+    background: white url('scroll_arrow_right.gif');
+}
+
+.jspArrowDown
+{
+    background: white url('scroll_arrow_down.gif');
+    height:33px;
+    width:17px;
+    border:0px;
+}
+
+.jspArrowUp
+{
+    background: white url('scroll_arrow_up.gif');
+    height:33px;
+    width:17px;
+    border:0px;
+}
+
+.jspVerticalBar
+{
+    width:17px;
+    border:0px;
+    background:white;
+}
+
+.jspTrack, #eseller .jspDrag, #eseller .jspDrag:hover
+{
+    height: 17px;
+    border: 0px;    
+}
+
+.jspTrack
+{
+    background: #F0F0F0;
+}
+
+.jspHorizontalBar
+{
+    background: white;
+}

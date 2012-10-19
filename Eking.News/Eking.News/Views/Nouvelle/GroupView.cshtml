@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "GroupView";
+    var tmp = ViewBag.RenderByAction;
+    var renderByAction = tmp != null && (bool)tmp;
+}
+@using Eking.News
+@using Eking.News.Controllers
+@model GroupViewModel
+@{
+    var w = 500;
+    var h = 300;
+}
+
+<div class="groupView" data-groupId="@Model.Id">
+    <h2>@Translator.T(@Model.Name)</h2>
+
+    @if (renderByAction)
+    {
+        Html.RenderAction("GetEntries", new { groupId = Model.Id, page = 0 });
+    }
+    else
+    {
+        Html.RenderPartial("EntriesView", Model.Entries);
+    }
+
+    <div class="moreButton" data-nextpage="1">
+        <h6>@Translator.T("More")
+        </h6>
+    </div>
+</div>

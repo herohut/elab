@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Groups" EntityType="Model.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sources" EntityType="Model.Store.Sources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EntrySources" EntityType="Model.Store.EntrySources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Entries" EntityType="Model.Store.Entries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Likes" EntityType="Model.Store.Likes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comments" EntityType="Model.Store.Comments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tags" EntityType="Model.Store.Tags" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="EntrySourceSource" Association="Model.Store.EntrySourceSource">
+      <End Role="EntrySource" EntitySet="EntrySources" />
+      <End Role="Source" EntitySet="Sources" />
+    </AssociationSet>
+    <AssociationSet Name="GroupEntry" Association="Model.Store.GroupEntry">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Entry" EntitySet="Entries" />
+    </AssociationSet>
+    <AssociationSet Name="EntryEntrySource" Association="Model.Store.EntryEntrySource">
+      <End Role="Entry" EntitySet="Entries" />
+      <End Role="EntrySource" EntitySet="EntrySources" />
+    </AssociationSet>
+    <AssociationSet Name="EntryLike" Association="Model.Store.EntryLike">
+      <End Role="Entry" EntitySet="Entries" />
+      <End Role="Like" EntitySet="Likes" />
+    </AssociationSet>
+    <AssociationSet Name="EntryComment" Association="Model.Store.EntryComment">
+      <End Role="Entry" EntitySet="Entries" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="GroupGroup" Association="Model.Store.GroupGroup">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Group1" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="EntryTag" Association="Model.Store.EntryTag">
+      <End Role="Entry" EntitySet="Entries" />
+      <End Role="Tag" EntitySet="Tags" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" />
+    <Property Name="Parent_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Sources">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HomeUrl" Type="nvarchar" Nullable="true" />
+    <Property Name="Icon" Type="nvarchar" Nullable="true" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EntrySources">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Url" Type="nvarchar" Nullable="false" />
+    <Property Name="Source_Id" Type="int" Nullable="true" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" />
+    <Property Name="Content" Type="ntext" Nullable="true" />
+    <Property Name="ImageUrl" Type="nvarchar" Nullable="true" />
+    <Property Name="Date" Type="datetime" Nullable="true" />
+    <Property Name="ViewIndex" Type="int" Nullable="false" />
+    <Property Name="ViewType" Type="nvarchar" Nullable="true" />
+    <Property Name="Published" Type="bit" Nullable="false" />
+    <Property Name="Group_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Likes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="true" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="true" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Word" Type="nvarchar" Nullable="false" />
+    <Property Name="Entries_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <Association Name="EntrySourceSource">
+    <End Role="EntrySource" Type="Model.Store.EntrySources" Multiplicity="*" />
+    <End Role="Source" Type="Model.Store.Sources" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Source">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntrySource">
+        <PropertyRef Name="Source_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GroupEntry">
+    <End Role="Group" Type="Model.Store.Groups" Multiplicity="0..1" />
+    <End Role="Entry" Type="Model.Store.Entries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Entry">
+        <PropertyRef Name="Group_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryEntrySource">
+    <End Role="Entry" Type="Model.Store.Entries" Multiplicity="1" />
+    <End Role="EntrySource" Type="Model.Store.EntrySources" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntrySource">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryLike">
+    <End Role="Entry" Type="Model.Store.Entries" Multiplicity="1" />
+    <End Role="Like" Type="Model.Store.Likes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Like">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryComment">
+    <End Role="Entry" Type="Model.Store.Entries" Multiplicity="1" />
+    <End Role="Comment" Type="Model.Store.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GroupGroup">
+    <End Role="Group" Type="Model.Store.Groups" Multiplicity="0..1" />
+    <End Role="Group1" Type="Model.Store.Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Group1">
+        <PropertyRef Name="Parent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryTag">
+    <End Role="Entry" Type="Model.Store.Entries" Multiplicity="0..1" />
+    <End Role="Tag" Type="Model.Store.Tags" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tag">
+        <PropertyRef Name="Entries_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" >
+        <EntityContainer Name="NewsObjectContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Groups" EntityType="Model.Group" />
+          <EntitySet Name="Sources" EntityType="Model.Source" />
+          <EntitySet Name="EntrySources" EntityType="Model.EntrySource" />
+          <AssociationSet Name="EntrySourceSource" Association="Model.EntrySourceSource">
+            <End Role="EntrySource" EntitySet="EntrySources" />
+            <End Role="Source" EntitySet="Sources" />
+          </AssociationSet>
+          <EntitySet Name="Entries" EntityType="Model.Entry" />
+          <AssociationSet Name="GroupEntry" Association="Model.GroupEntry">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="Entry" EntitySet="Entries" />
+          </AssociationSet>
+          <AssociationSet Name="EntryEntrySource" Association="Model.EntryEntrySource">
+            <End Role="Entry" EntitySet="Entries" />
+            <End Role="EntrySource" EntitySet="EntrySources" />
+          </AssociationSet>
+          <EntitySet Name="Likes" EntityType="Model.Like" />
+          <AssociationSet Name="EntryLike" Association="Model.EntryLike">
+            <End Role="Entry" EntitySet="Entries" />
+            <End Role="Like" EntitySet="Likes" />
+          </AssociationSet>
+          <EntitySet Name="Comments" EntityType="Model.Comment" />
+          <AssociationSet Name="EntryComment" Association="Model.EntryComment">
+            <End Role="Entry" EntitySet="Entries" />
+            <End Role="Comment" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="GroupGroup" Association="Model.GroupGroup">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="Group1" EntitySet="Groups" />
+          </AssociationSet>
+          <EntitySet Name="Tags" EntityType="Model.Tag" />
+          <AssociationSet Name="EntryTag" Association="Model.EntryTag">
+            <End Role="Entry" EntitySet="Entries" />
+            <End Role="Tag" EntitySet="Tags" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" />
+          <NavigationProperty Name="Entries" Relationship="Model.GroupEntry" FromRole="Group" ToRole="Entry" />
+          <NavigationProperty Name="Children" Relationship="Model.GroupGroup" FromRole="Group" ToRole="Group1" />
+          <NavigationProperty Name="Parent" Relationship="Model.GroupGroup" FromRole="Group1" ToRole="Group" />
+          </EntityType>
+        <EntityType Name="Source">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="HomeUrl" />
+          <Property Type="String" Name="Icon" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <NavigationProperty Name="EntrySources" Relationship="Model.EntrySourceSource" FromRole="Source" ToRole="EntrySource" />
+        </EntityType>
+        <EntityType Name="EntrySource">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Url" Nullable="false" />
+          <NavigationProperty Name="Source" Relationship="Model.EntrySourceSource" FromRole="EntrySource" ToRole="Source" />
+          <NavigationProperty Name="Entry" Relationship="Model.EntryEntrySource" FromRole="EntrySource" ToRole="Entry" />
+        </EntityType>
+        <Association Name="EntrySourceSource">
+          <End Type="Model.EntrySource" Role="EntrySource" Multiplicity="*" />
+          <End Type="Model.Source" Role="Source" Multiplicity="0..1" />
+        </Association>
+        <EntityType Name="Entry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" />
+          <Property Type="String" Name="Description" />
+          <Property Type="String" Name="Content" MaxLength="Max" />
+          <Property Type="String" Name="ImageUrl" />
+          <Property Type="DateTime" Name="Date" />
+          <NavigationProperty Name="Group" Relationship="Model.GroupEntry" FromRole="Entry" ToRole="Group" />
+          <NavigationProperty Name="EntrySource" Relationship="Model.EntryEntrySource" FromRole="Entry" ToRole="EntrySource" />
+          <NavigationProperty Name="Likes" Relationship="Model.EntryLike" FromRole="Entry" ToRole="Like" />
+          <NavigationProperty Name="Comments" Relationship="Model.EntryComment" FromRole="Entry" ToRole="Comment" />
+          <NavigationProperty Name="Tags" Relationship="Model.EntryTag" FromRole="Entry" ToRole="Tag" />
+          <Property Type="Int32" Name="ViewIndex" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Type="String" Name="ViewType" />
+          <Property Type="Boolean" Name="Published" Nullable="false" />
+        </EntityType>
+        <Association Name="GroupEntry">
+          <End Type="Model.Group" Role="Group" Multiplicity="0..1" />
+          <End Type="Model.Entry" Role="Entry" Multiplicity="*" />
+        </Association>
+        <Association Name="EntryEntrySource">
+          <End Type="Model.Entry" Role="Entry" Multiplicity="1" />
+          <End Type="Model.EntrySource" Role="EntrySource" Multiplicity="0..1" />
+        </Association>
+        <EntityType Name="Like">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="Date" />
+          <NavigationProperty Name="Entry" Relationship="Model.EntryLike" FromRole="Like" ToRole="Entry" />
+        </EntityType>
+        <Association Name="EntryLike">
+          <End Type="Model.Entry" Role="Entry" Multiplicity="1" />
+          <End Type="Model.Like" Role="Like" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Text" Nullable="false" />
+          <Property Type="DateTime" Name="Date" />
+          <NavigationProperty Name="Entry" Relationship="Model.EntryComment" FromRole="Comment" ToRole="Entry" />
+        </EntityType>
+        <Association Name="EntryComment">
+          <End Type="Model.Entry" Role="Entry" Multiplicity="1" />
+          <End Type="Model.Comment" Role="Comment" Multiplicity="*" />
+        </Association>
+        <Association Name="GroupGroup">
+          <End Type="Model.Group" Role="Group" Multiplicity="0..1" />
+          <End Type="Model.Group" Role="Group1" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Word" Nullable="false" />
+          <NavigationProperty Name="Entries" Relationship="Model.EntryTag" FromRole="Tag" ToRole="Entry" />
+        </EntityType>
+        <Association Name="EntryTag">
+          <End Type="Model.Entry" Role="Entry" Multiplicity="0..1" />
+          <End Type="Model.Tag" Role="Tag" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="NewsObjectContext">
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Group)">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sources">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Source)">
+        <MappingFragment StoreEntitySet="Sources">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HomeUrl" ColumnName="HomeUrl" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EntrySources">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.EntrySource)">
+        <MappingFragment StoreEntitySet="EntrySources">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entries">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Entry)">
+        <MappingFragment StoreEntitySet="Entries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ViewIndex" ColumnName="ViewIndex" />
+          <ScalarProperty Name="ViewType" ColumnName="ViewType" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Likes">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Like)">
+        <MappingFragment StoreEntitySet="Likes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Comment)">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Tag)">
+        <MappingFragment StoreEntitySet="Tags">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Word" ColumnName="Word" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="EntrySourceSource" TypeName="Model.EntrySourceSource" StoreEntitySet="EntrySources">
+      <EndProperty Name="Source">
+        <ScalarProperty Name="Id" ColumnName="Source_Id" />
+      </EndProperty>
+      <EndProperty Name="EntrySource">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Source_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GroupEntry" TypeName="Model.GroupEntry" StoreEntitySet="Entries">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="Id" ColumnName="Group_Id" />
+      </EndProperty>
+      <EndProperty Name="Entry">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Group_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EntryEntrySource" TypeName="Model.EntryEntrySource" StoreEntitySet="EntrySources">
+      <EndProperty Name="Entry">
+        <ScalarProperty Name="Id" ColumnName="Entry_Id" />
+      </EndProperty>
+      <EndProperty Name="EntrySource">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EntryLike" TypeName="Model.EntryLike" StoreEntitySet="Likes">
+      <EndProperty Name="Entry">
+        <ScalarProperty Name="Id" ColumnName="Entry_Id" />
+      </EndProperty>
+      <EndProperty Name="Like">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EntryComment" TypeName="Model.EntryComment" StoreEntitySet="Comments">
+      <EndProperty Name="Entry">
+        <ScalarProperty Name="Id" ColumnName="Entry_Id" />
+      </EndProperty>
+      <EndProperty Name="Comment">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GroupGroup" TypeName="Model.GroupGroup" StoreEntitySet="Groups">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="Id" ColumnName="Parent_Id" />
+      </EndProperty>
+      <EndProperty Name="Group1">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Parent_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EntryTag" TypeName="Model.EntryTag" StoreEntitySet="Tags">
+      <EndProperty Name="Entry">
+        <ScalarProperty Name="Id" ColumnName="Entries_Id" />
+      </EndProperty>
+      <EndProperty Name="Tag">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Entries_Id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

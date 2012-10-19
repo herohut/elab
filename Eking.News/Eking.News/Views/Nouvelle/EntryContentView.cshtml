@@ -1,0 +1,43 @@
+﻿@using Eking.News
+@model Eking.News.Controllers.EntryViewModel
+
+<div class="entryContent">
+    <div class="entryContentHeader">
+        <div style="width: 100%; display: inline-block">
+            <div class="entryBreadCrumb">
+                @{
+
+                    for (int i = 0; i < Model.BreadCrumbGroups.Count; i++)
+                    {
+                        var group = Model.BreadCrumbGroups[i];
+                    <a href="#view=group&id=@group.Id" class="breadcrumb">
+                        @Translator.T(group.Name)
+                    </a>
+                    }
+                }
+            </div>
+            <div class="entrySharing">
+                <span class="commonButton entryFunctionButton thumbDown" title="dislike"></span>
+                <span class="commonButton entryFunctionButton thumbUp" title="like"></span>
+            </div>
+        </div>
+
+        <h2>@Html.Raw(Model.Title)</h2>
+
+        <h6>@Model.PostedDate.ToString("dd.MM.yyyy")</h6>
+    </div>
+    <div class="entryContentMiddle">
+        @Html.Raw(@Model.Content)
+    </div>
+    <div class="entryContentBottom">
+        <div class="entryTags">
+            @{
+                foreach (var tag in Model.Tags)
+                {
+                <a href="#view=search&type=tag&tag=@tag">@tag</a>
+                }
+            }
+        </div>
+        <a class="entrySource" href="@Model.SourceUrl">@Model.SourceText</a>
+    </div>
+</div>

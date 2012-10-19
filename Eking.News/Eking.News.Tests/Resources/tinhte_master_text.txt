@@ -1,0 +1,3734 @@
+﻿<!DOCTYPE html>
+<html id="XenForo" lang="" dir="LTR" class="Public LoggedOut Sidebar" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+	<meta charset="utf-8" />
+	
+		<base href="http://www.tinhte.vn/" />
+		<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "http://www.tinhte.vn/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ</title>
+	
+	<noscript><style>.JsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=6&amp;dir=LTR&amp;d=1348014278" />
+	<link rel="stylesheet" href="css.php?css=EWRblock_RecentNews,EWRblock_TinhteTopNews,EWRporta,TinhTe_PortalExtra_Nav,TinhTe_PortalExtra_Nav_Popup,bb_code,facebook,login_bar,message_user_info,sidebar_share_page,tinhte_xentag,wf_default&amp;style=6&amp;dir=LTR&amp;d=1348014278" />
+	
+	
+
+	<script>
+
+	var _gaq = [['_setAccount', 'UA-2120640-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="https://s.tinhtecdn.com/js/jquery/jquery-1.5.2.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="https://s.tinhtecdn.com/js/xenforo/xenforo.js?_v=bba17b4a"></script>
+	<script src="https://www.google.com/jsapi?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/as.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/bdTagMe/frontend.js?_v=bba17b4a"></script>
+	<script src="https://s.tinhtecdn.com/js/vim/mudim.js?_v=bba17b4a"></script>
+
+<script type="text/javascript" src="http://ads.tinhte.vn/x/www/delivery/spcjs.php?id=1&amp;target=_blank"></script>
+<script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: '6b9d67a3aa8f2f9576af843a7e82a055' };
+
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true, ui_click:true,ui_language: "vi",};</script>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=dihuta"></script>
+
+<link rel="apple-touch-icon" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://cdn.tinhte.vn/styles/xensplash/tinhte/tinhte114x114.png" />
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/3823916/Tinhte_AsusBox_Banner', [728, 90], 'div-gpt-ad-1343806923194-0').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Bottom_Banner', [728, 90], 'div-gpt-ad-1343806923194-1').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Right_Banner_3', [300, 250], 'div-gpt-ad-1343806923194-2').addService(googletag.pubads());
+googletag.defineSlot('/3823916/Tinhte_Right_Banner_4', [300, 250], 'div-gpt-ad-1345604815435-2').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS của Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" href="http://www.tinhte.vn/rss/" />
+	
+	<link rel="next" href="?page=2" /><link rel="canonical" href="http://www.tinhte.vn/" />
+	<meta name="description" content="Cộng đồng Khoa học &amp; Công nghệ, Diễn đàn thảo luận về Điện thoại, Máy tính, Máy ảnh và các thiết bị Khoa học &amp; Công nghệ." />
+	
+	<meta property="og:site_name" content="Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" />
+	
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.tinhte.vn/" />
+	<meta property="og:title" content="Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" />
+	<meta property="fb:app_id" content="145923738846814" />
+	
+
+<script type="text/javascript" src="http://www.tinhte.vn/mobiquo/tinhte_app_detect.js"></script>
+</head>
+
+<body>
+
+
+
+	
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Đăng Nhập hoặc Đăng Ký</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+	<div id="headerProxy"></div>
+
+<div id="content" class="EWRporta_Portal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			
+<div class="tinhte_top_box">
+	<div>+</div>
+
+
+<div id="searchBar" class="pageWidth">
+	
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Tìm kiếm..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Chì tìm tiêu đề</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Viết bởi thành viên:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Các tên cách nhau bởi dấu phẩy(,)</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Mới hơn:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Tìm kiếm" class="button primary Tooltip" title="Tìm ngay" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Mục tìm hữu ích" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Mục tìm hữu ích</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/threads?recent=1">Những chủ đề mới</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Tìm kiếm nâng cao" data-offsetx="-100">Thêm nữa...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+			
+			
+				<div class="mainContainer">
+					<div class="mainContent">
+						
+						
+						
+						
+						
+						
+						
+						
+					
+						
+												
+						
+						
+						
+						
+						
+						
+						
+						
+						<!-- main template -->
+						
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sidebar topRightBlocks ">
+	
+		
+<div class="topstories" id="topstories"> 
+    <div class="grid_holder">
+	
+		<a href="threads/1522964/" class="a_block_first a_block a_block_lg" class="newsTitle" title="[The Big Picture] Mùa thu hoạch - bởi levuongthinh">
+			<img src="http://simage.tinhte.vn/data.php?url=http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/harvest_2012/bp1.jpg&amp;w=384&amp;h=150" class="block_img"  width="384" height="150"/>
+			<div class="txt_holder">
+				<p>
+					<span class="txts">[The Big Picture] Mùa thu hoạch</span>
+					<span class="bg"></span>
+				</p>
+                                
+				<div class="timestamp">
+					<span class="txts">18/9/12 08:09</span>
+					<span class="bg"></span>
+				</div>
+			</div>
+		</a>
+		
+		
+		<a href="threads/1520601/" class="a_block a_block_md" class="newsTitle" title="Có nên Shutdown máy tính thường xuyên không? - bởi TDNC">
+			<img src="http://simage.tinhte.vn/data.php?url=http://media.tinhte.vn/photo/var/albums/Anh-Bai-/shutdown.jpg?m=1347891320&amp;w=265&amp;h=150" class="block_img"  width="265" height="150"/>
+			<div class="txt_holder">
+				<p>
+					<span class="txts">Có nên Shutdown máy tính thường xuyên không?</span>
+					<span class="bg"></span>
+				</p>
+                                
+				<div class="timestamp">
+					<span class="txts">18/9/12 08:09</span>
+					<span class="bg"></span>
+				</div>
+			</div>
+		</a>
+		
+		
+		<a href="threads/1521359/" class="a_block_first a_block a_block_sm" class="newsTitle" title="LG giới thiệu Optimus G ra thị trường thế giới - bởi vuhai6">
+			<img src="http://simage.tinhte.vn/data.php?url=http://cdn.tinhte.vn/attachments/685923/&amp;w=216&amp;h=150" class="block_img"  width="216" height="150"/>
+			<div class="txt_holder">
+				<p>
+					<span class="txts">LG giới thiệu Optimus G ra thị trường thế giới</span>
+					<span class="bg"></span>
+				</p>
+                                
+				<div class="timestamp">
+					<span class="txts">18/9/12 11:09</span>
+					<span class="bg"></span>
+				</div>
+			</div>
+		</a>
+		
+		
+		<a href="threads/1520202/" class="a_block a_block_sm" class="newsTitle" title="Rò rỉ hình ảnh và thông số kỹ thuật của HTC Elation chạy Windows Phone 8 (Cập nhật: có thể là giả) - bởi Blaze1st">
+			<img src="http://simage.tinhte.vn/data.php?url=http://cdn.tinhte.vn/attachments/684859/&amp;w=216&amp;h=150" class="block_img"  width="216" height="150"/>
+			<div class="txt_holder">
+				<p>
+					<span class="txts">Rò rỉ hình ảnh và thông số kỹ thuật của HTC Elation chạy Windows Phone 8 (Cập nhật: có thể là giả)</span>
+					<span class="bg"></span>
+				</p>
+                                
+				<div class="timestamp">
+					<span class="txts">17/9/12 08:09</span>
+					<span class="bg"></span>
+				</div>
+			</div>
+		</a>
+		
+		
+		<a href="threads/1519809/" class="a_block a_block_sm" class="newsTitle" title="Canon ra mắt EOS 6D: máy ảnh full-frame giá 2099USD, có WiFi, cảm biến 20.2MP, quay phim Full-HD - bởi Didu">
+			<img src="http://simage.tinhte.vn/data.php?url=http://cdn.tinhte.vn/attachments/684718/&amp;w=216&amp;h=150" class="block_img"  width="216" height="150"/>
+			<div class="txt_holder">
+				<p>
+					<span class="txts">Canon ra mắt EOS 6D: máy ảnh full-frame giá 2099USD, có WiFi, cảm biến 20.2MP, quay phim Full-HD</span>
+					<span class="bg"></span>
+				</p>
+                                
+				<div class="timestamp">
+					<span class="txts">17/9/12 04:09</span>
+					<span class="bg"></span>
+				</div>
+			</div>
+		</a>
+		
+		
+		</div>
+	<div class="clear"></div>
+</div>
+	
+</div>
+
+
+
+
+
+<div class="sidebar midRightBlocks ">
+	
+		
+
+
+
+<div id="recentNews">
+	
+		<div class="section sectionMain recentNews" id="1523502">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1523502/" class="newsTitle">SkyDrive được bổ sung Recycle Bin, sẽ sớm có tính năng tạo khảo sát bằng Excel Web App</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/39792/" class="username">Duy Luân</a> vào <a href="threads/1523502/">54 phút trước</a></span>
+						<span class="views"  style="display:none">(9 Xem / 5 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1523502/unread">23 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1523502/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/687061/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Microsoft vừa ra mắt tính năng Recycle Bin (&quot;Thùng rác&quot;) dành cho SkyDrive. Từ bây giờ, người sử dụng dịch vụ lưu trữ trực tuyến này sẽ có khả năng phục hồi lại những tập tin, thư mục mà mình đã xóa, giống với những gì mà Recycle Bin của Windows có thể làm. Bạn có thể vào khu vực này thông qua đường link &quot;Recycle Bin&quot; ở góc dưới bên trái cửa sổ trình duyệt. Microsoft cho biết rằng Recycle Bin sẽ bắt đầu tự xóa những dữ liệu bên trong khi kích thước của khu vực này vượt qua mức 10% tổng dung lượng của tài khoản SkyDrive mà bạn đang có. Ngoài ra, file sẽ bị xóa...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/460/"></a>' bắt đầu bởi <a href="members/39792/" class="username">Duy Luân</a>, <a href="threads/1523502/"><abbr class="DateTime" data-time="1348009910" data-diff="11588" data-datestring="19/9/12" data-timestring="06:11">19/9/12 at 06:11</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1523502/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1523501">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1523501/" class="newsTitle">Bên trong tai nghe Apple EarPods</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/39792/" class="username">Duy Luân</a> vào <a href="threads/1523501/">Hôm nay lúc 07:55</a></span>
+						<span class="views"  style="display:none">(1307 Xem / 19 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1523501/unread">183 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1523501/" class="internalLink"><img src="http://simage.tinhte.vn/data.php?w=500&amp;url=http://cdn.tinhte.vn/attachments/687028/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div>Khi giới thiệu iPhone 5 và những chiếc iPod mới, Apple cũng cùng lúc ra mắt một dòng tai nghe mới với tên gọi EarPods. Theo Apple, thiết bị này đã được thiết kế lại để vừa hơn với tai của nhiều người dùng cũng như phân phối âm tốt hơn so với thế hệ trước. Ngoài ra, nó còn có những lỗ thông gió với bên ngoài để tăng âm trầm, diaphragm cấu tạo từ hai loại để giảm hiện tượng mất âm cũng như tăng chất lượng tái tạo tiếng. EarPods được bán kèm theo iPhone 5, iPod Touch Gen 5 và iPod Nano Gen 7. Vậy còn bên trong thiết bị này thì như thế nào? Mời các bạn cùng xem phần &quot;phẫu thuật&quot; của các kĩ sư iFixit....</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/118/"></a>' bắt đầu bởi <a href="members/39792/" class="username">Duy Luân</a>, <a href="threads/1523501/"><abbr class="DateTime" data-time="1348009751" data-diff="11747" data-datestring="19/9/12" data-timestring="06:09">19/9/12 at 06:09</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1523501/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521037">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521037/" class="newsTitle">Phục chế thành công đoạn phim màu đầu tiên trên thế giới</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/52034/" class="username">bk9sw</a> vào <a href="threads/1521037/">Hôm nay lúc 07:25</a></span>
+						<span class="views"  style="display:none">(409 Xem / 4 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521037/unread">17 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1521037/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/687054/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Viện bảo tàng truyền thông quốc gia tại Bradford, Anh quốc, mới đây cho biết họ đang tiến hành phục chế đoạn ảnh động có màu đầu tiên trên thế giới. Đây là một đoạn phim thử nghiệm do nhiếp ảnh gia kiêm nhà phát minh Edward Raymond Turner người Anh (1873 - 1903) thực hiện vào khoảng năm 1901/1902. Thước phim được xem là một phần của lịch sử thế giới bị lãng quên bởi lâu nay, người ta vẫn cho rằng đây là một sản phẩm không thực tế của Turner. Tuy nhiên, với nổ lực của bảo tàng Bradford, thước phim đã được công chiếu lần đầu tiên sau 110 năm kể từ ngày sản xuất....</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/76/"></a>' bắt đầu bởi <a href="members/52034/" class="username">bk9sw</a>, <a href="threads/1521037/"><abbr class="DateTime" data-time="1347904019" data-diff="117479" data-datestring="18/9/12" data-timestring="00:46">18/9/12 at 00:46</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521037/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1523023">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1523023/" class="newsTitle">Hasselblad giới thiệu máy ảnh thay ống kính không gương lật Lunar dùng ngàm E-Mount</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/39792/" class="username">Duy Luân</a> vào <a href="threads/1523023/">Hôm nay lúc 07:18</a></span>
+						<span class="views"  style="display:none">(427 Xem / 5 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1523023/unread">43 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><span style="color: #888888"><a href="http://www.tinhte.vn/threads/1523023/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686709/" class="bbCodeImage LbImage" alt="[IMG]" /></a></span></div><div align="center"><span style="color: #888888">Hasselblad Lunar với báng cầm tay bọc da</span></div> <br />
+Hasselblad, nhà sản xuất các máy ảnh medium format nổi tiếng thế giới, vừa công bố kế hoạch gia nhập vào thị trường máy ảnh không gương lật &quot;siêu cao cấp&quot; vào đầu năm sau với chiếc Lunar. Luca Alessandrini, quản lí bộ phận phát triển kinh doanh của Hasselblad cho biết công ty đã thiết kế Lunar theo cách truyền thống, sử dụng các bản mẫu có gỗ được làm thủ công để đảm bảo trải nghiệm tốt cho người dùng cũng như khả năng vận hành cao. &quot;Chiếc máy này dành cho cả...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/71/"></a>' bắt đầu bởi <a href="members/39792/" class="username">Duy Luân</a>, <a href="threads/1523023/"><abbr class="DateTime" data-time="1347977929" data-diff="43569" data-datestring="18/9/12" data-timestring="21:18">18/9/12 at 21:18</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1523023/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1523304">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1523304/" class="newsTitle">Mẫu concept Lexus LF-CC hybird sắp sửa được ra mắt tại PMS 2012</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/52034/" class="username">bk9sw</a> vào <a href="threads/1523304/">Hôm nay lúc 07:16</a></span>
+						<span class="views"  style="display:none">(169 Xem / 3 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1523304/unread">17 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1523304/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686925/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Dựa trên một loạt các yếu tố từ bản concept LF-LC Hybrid Sports Coupe từng được giới thiệu tại triển lãm xe hơi Detroit hồi tháng 1 năm nay, Lexus đã vừa tiết lộ những hình ảnh đầu tiên về mẫu concept coupe cỡ trung LF-CC. Ngoài thiết kế cải tiến, LF-CC còn được trang bị động cơ 2.5L mới cùng hệ thống truyền động hybrid hoàn toàn. Mẫu xe sẽ sớm được Lexus bổ sung vào dòng sản phẩm của mình và dự kiến sẽ được ra mắt tại triển lãm Paris Motor Show (PMS 2012) sắp diễn ra.<br />
+ <br />
+Cũng giống như mẫu concept LF-LC, Lexus LF-CC là một mẫu xe động cơ đặt trước, dẫn động cầu...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/545/"></a>' bắt đầu bởi <a href="members/52034/" class="username">bk9sw</a>, <a href="threads/1523304/"><abbr class="DateTime" data-time="1347986465" data-diff="35033" data-datestring="18/9/12" data-timestring="23:41">18/9/12 at 23:41</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1523304/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1523469">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1523469/" class="newsTitle">HTC gợi ý sự kiện diễn ra vào tối nay qua hình ảnh trên Facebook</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">19</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/1050879/" class="username">Blaze1st</a> vào <a href="threads/1523469/">Hôm nay lúc 07:14</a></span>
+						<span class="views"  style="display:none">(917 Xem / 15 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1523469/unread">89 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1523469/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686962/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Tối nay vào lúc 10h, <a href="http://www.tinhte.vn/threads/1491299/" class="internalLink">HTC sẽ tổ chức buổi sự kiện giới thiệu sản phẩm mới</a>. Để tăng thêm phần hấp dẫn, trên trang Facebook của mình, hãng điện tử Đài Loan đã đăng tải một bức ảnh với mục đích gợi ý về buổi ra mắt thiết bị vào hôm nay. Nhìn qua hình, chún ta dễ dàng nhận thấy nội dung chỉ bao gồm thời gian là ngày 19.9 và hình ảnh góc của một chiếc smartphone nào đó. Đến tận bây giờ, chúng ta vẫn rất mơ hồ về việc HTC sẽ giới thiệu điện thoại Android hay loạt sản phẩm Windows Phone 8, bởi các tin đồn gần đây cho...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/10/"></a>' bắt đầu bởi <a href="members/1050879/" class="username">Blaze1st</a>, <a href="threads/1523469/"><abbr class="DateTime" data-time="1347995666" data-diff="25832" data-datestring="19/9/12" data-timestring="02:14">19/9/12 at 02:14</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1523469/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1522967">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1522967/" class="newsTitle">So sánh sức mạnh LG Optimus G với các smartphone 4 nhân khác</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/79155/" class="username">cuLong</a> vào <a href="threads/1522967/">Hôm qua lúc 20:47</a></span>
+						<span class="views"  style="display:none">(11924 Xem / 53 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1522967/unread">385 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1522967/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686636/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Như vậy là hôm nay 18/9, LG đã chính thức tung ra chiếc smartphone chạy Android mới nhất của mình với tên gọi Optimus G tại thị trường Hàn Quốc. Như chúng ta đã biết, Optimus G sử dụng chip Qualcomm Snapdragon S4 với 4 nhân xử lý bên trong, vậy thì sức mạnh của BXL này so với các đối thủ 4 nhân khác như Tegra 3 hoặc Exynos sẽ như thế nào, trang GSMarena đã rất nhanh tay thực hiện một bài đánh giá để giúp chúng ta xác định điều này.<br />
+ <br />
+<i><b>Đầu tiên, xin nhắc lại một chút về cấu hình của LG Optimus</b> <b>G.</b></i><br />
+BXL: Qualcomm...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/151/"></a>' bắt đầu bởi <a href="members/79155/" class="username">cuLong</a>, <a href="threads/1522967/"><abbr class="DateTime" data-time="1347976055" data-diff="45443" data-datestring="18/9/12" data-timestring="20:47">18/9/12 at 20:47</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1522967/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1522964">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1522964/" class="newsTitle">[The Big Picture] Mùa thu hoạch</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/15571/" class="username">levuongthinh</a> vào <a href="threads/1522964/">Hôm qua lúc 20:45</a></span>
+						<span class="views"  style="display:none">(3994 Xem / 28 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1522964/unread">55 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1522964/" class="internalLink"><img src="http://simage.tinhte.vn/data.php?w=500&amp;url=http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/harvest_2012/bp1.jpg" class="bbCodeImage LbImage" alt="[IMG]" /></a></div>Mùa thu hoạch là thời điểm của sự dồi dào, khi những ngày làm việc cực nhọc được tưởng thưởng bởi các sản vật. Nhịp sống của chúng ta đôi khi cũng được định hình bởi mùa thu hoạch, ngay cả đối với nhiều người sống ở thành thị. Khắp nơi trên thế giới, các lễ hội và lễ nghi thường diễn ra vào mùa thu hoạch. Năm nay, mùa màng bị ảnh hưởng khá nặng bởi nạn hạn hán. Và trong tình cảnh dân số ngày một tăng, giá cả lương thực ngày càng lên cao, nguy cơ về khủng hoảng an ninh lương thực đang dần hiển hiện rõ hơn. Hy vọng các nhà khoa học cũng như chính phủ các nước sẽ có cách giải quyết vấn đề này....</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/71/"></a>' bắt đầu bởi <a href="members/15571/" class="username">levuongthinh</a>, <a href="threads/1522964/"><abbr class="DateTime" data-time="1347975934" data-diff="45564" data-datestring="18/9/12" data-timestring="20:45">18/9/12 at 20:45</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1522964/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1520601">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1520601/" class="newsTitle">Có nên Shutdown máy tính thường xuyên không?</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/16287/" class="username">TDNC</a> vào <a href="threads/1520601/">Hôm qua lúc 20:45</a></span>
+						<span class="views"  style="display:none">(17884 Xem / 74 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1520601/unread">446 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1520601/" class="internalLink"><img src="http://media.tinhte.vn/photo/var/albums/Anh-Bai-/shutdown.jpg?m=1347891320" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Hầu hết chúng ta làm việc với máy tính mỗi ngày, sáng mở máy để làm, chiều tắt máy đi về. Nhưng bên cạnh đó, một số người thích để máy luôn luôn bật hoặc đặt máy trong trạng thái Sleep để sáng hôm sau chỉ cần nhấn một cái là máy sẽ bật lên ngay lập tức, không mất thời gian khởi động, không cần mở lại các phần mềm, các cửa sổ, tab duyệt web vẫn được giữ nguyên... nhưng bù lại sẽ tốn nhiều điện hơn. Vậy đâu là giải pháp phù hợp cho chúng ta? Ta có nên để máy luôn luôn chạy hay là nên tắt mỗi khi không sử dụng? Bài viết dưới đây sẽ...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/293/"></a>' bắt đầu bởi <a href="members/16287/" class="username">TDNC</a>, <a href="threads/1520601/"><abbr class="DateTime" data-time="1347891407" data-diff="130091" data-datestring="17/9/12" data-timestring="21:16">17/9/12 at 21:16</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1520601/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1520863">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1520863/" class="newsTitle">Amazon tự làm bản đồ dựa trên nền tảng của Nokia, không sử dụng Google Maps</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/60686/" class="username">Didu</a> vào <a href="threads/1520863/">Hôm qua lúc 19:30</a></span>
+						<span class="views"  style="display:none">(3583 Xem / 21 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1520863/unread">123 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1520863/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/685387/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Không chỉ Apple từ bỏ Google Maps để tự tạo nên dữ liệu bản đồ cho iOS mà Amazon cũng đã làm điều tương tự, dù họ đang sử dụng nền tảng Android do Google phát triển. Amazon hôm nay đã công bố những hàm API cho Amazon Maps để các lập trình viên có thể tích hợp những tính năng bản đồ Amazon dựa trên Nokia Location Maps vào các ứng dụng họ viết cho Kindle Fire hay Kindle Fire HD. Như vậy, trong khi Amazon vẫn là đối tác trên phương diện sử dụng nền tảng Android của Google thì họ sẽ mở lối đi riêng với ứng dụng bản đồ và các dịch vụ liên quan tới dữ liệu bản đồ, nói...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/10/"></a>' bắt đầu bởi <a href="members/60686/" class="username">Didu</a>, <a href="threads/1520863/"><abbr class="DateTime" data-time="1347898260" data-diff="123238" data-datestring="17/9/12" data-timestring="23:11">17/9/12 at 23:11</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1520863/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1518348">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1518348/" class="newsTitle">Hình ảnh trang trại năng lượng mặt trời khổng lồ của Apple</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/587993/" class="username">tungnt1108</a> vào <a href="threads/1518348/">Hôm qua lúc 19:28</a></span>
+						<span class="views"  style="display:none">(6315 Xem / 28 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1518348/unread">157 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1518348/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/684183/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div><div align="center"><i>Trang trại năng lượng mặt trời của hãng Apple có diện tích khoảng 400.000 m2 (nằm kế bên trung tâm dữ liệu) và đóng góp khoảng 60% năng lượng điện sử dụng cho toàn khu phức hợp</i></div> <br />
+Trang GigaOM vừa công bố một số hình ảnh mới nhất của trang trại năng lượng mặt trời khổng lồ thuộc khu phức hợp dữ liệu và năng lượng của Apple (Maiden, North Carolina, Mỹ), ngoài ra đây còn là nơi đóng đô của hai trung tâm dữ liệu và một nhà máy khí sinh học khác. Thông tin chi tiết:<br />
+<ul>
+<li>Trang trại năng lượng mặt trời của hãng có diện tích khoảng 400.000 m2...</li>
+</ul></div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/10/"></a>' bắt đầu bởi <a href="members/587993/" class="username">tungnt1108</a>, <a href="threads/1518348/"><abbr class="DateTime" data-time="1347807573" data-diff="213925" data-datestring="16/9/12" data-timestring="21:59">16/9/12 at 21:59</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1518348/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1522741">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1522741/" class="newsTitle">Rò rỉ giá bán của loạt máy tính bảng chạy Windows 8 của ASUS</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/1050879/" class="username">Blaze1st</a> vào <a href="threads/1522741/">Hôm qua lúc 19:27</a></span>
+						<span class="views"  style="display:none">(3192 Xem / 8 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1522741/unread">87 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><div align="center"><a href="http://www.tinhte.vn/threads/1522741/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686473/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div></div><div align="center"><br /></div>Tại Computex 2012 diễn ra vào đầu tháng 6, ASUS đã mang đến hai chiếc tablet và một chiếc MTXT lai bao gồm Vivo Tab, Vivo Tab RT và cuối cùng là TAICHI - laptop lai tablet được trang bị hai màn hình hoạt động độc lập. Mặc dù đã được tiết lộ đặc điểm phần cứng nhưng giá bán của chúng vẫn còn là bí ẩn. Trang ZDNet hôm nay đã đăng tải hình ảnh được cho là tài liệu nội bộ của ASUS có liên quan đến giá bán của loạt sản phẩm trên. Theo đó, mẫu máy có cấu hình thấp nhất và cũng có giá rẻ nhất là Vivo Tab RT - được trang bị CPU NVIDIA...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/358/"></a>' bắt đầu bởi <a href="members/1050879/" class="username">Blaze1st</a>, <a href="threads/1522741/"><abbr class="DateTime" data-time="1347968271" data-diff="53227" data-datestring="18/9/12" data-timestring="18:37">18/9/12 at 18:37</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1522741/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521150">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521150/" class="newsTitle">[Nghiên cứu] Công nghệ tiêm không đau bằng laser</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/104818/" class="username">babybungbu</a> vào <a href="threads/1521150/">Hôm qua lúc 19:25</a></span>
+						<span class="views"  style="display:none">(1660 Xem / 14 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521150/unread">59 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1521150/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/685781/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Tiêm thuốc từ lâu đã là nỗi sợ của nhiều người, kể cả trẻ em lẫn người lớn. Cái cảm giác có một mũi kim đâm vào da thịt là điều mà không phải tất cả chúng ta đều có thể dễ dàng chịu đựng. Chính vì thế, nhiều phương pháp tiêm mới đang được phát triển, giúp giảm mức độ đau cũng như nỗi sợ tâm lý cho bệnh nhân. Mới đây, các nhà khoa học thuộc Đại Học quốc gia Seoul, Hàn Quốc đã công bố một công nghệ tiêm mới bằng tia laser, hứa hẹn sẽ triệt tiêu hoàn toàn mọi cảm giác đau đớn.<br />
+ <br />
+Theo bài viết đăng trên tạp chí khoa học <i>Optics Letters</i>, phương pháp mới sẽ sử...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/76/"></a>' bắt đầu bởi <a href="members/104818/" class="username">babybungbu</a>, <a href="threads/1521150/"><abbr class="DateTime" data-time="1347924912" data-diff="96586" data-datestring="18/9/12" data-timestring="06:35">18/9/12 at 06:35</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521150/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1519130">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1519130/" class="newsTitle">Google quyết định khai tử phụ kiện laptop dock của Motorola</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/587993/" class="username">tungnt1108</a> vào <a href="threads/1519130/">Hôm qua lúc 19:15</a></span>
+						<span class="views"  style="display:none">(2275 Xem / 7 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1519130/unread">38 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1519130/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/685338/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Google vừa quyết định chấm dứt việc sản xuất phụ kiện laptop dock của Motorola - Đây là thiết bị giúp người dùng kết nối và hiển thị giao diện điện thoại Motorola ngay trên màn hình laptop (dữ liệu đi qua cổng MicroUSB còn hình ảnh truyền tải qua MicroHDMI). Laptop dock được xem như giải pháp mở rộng cho khách hàng, mang đến những trải nghiệm đầy đủ hơn với trình điều khiển có tên <a href="http://www.tinhte.vn/tags/webtop/" class="internalLink">Webtop</a>. Các phần mềm có sẵn bao gồm Firefox browser, Adobe Flash, Quick Office, Google Docs và File Manager. Ngoài ra, người dùng cũng sẽ...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/293/"></a>' bắt đầu bởi <a href="members/587993/" class="username">tungnt1108</a>, <a href="threads/1519130/"><abbr class="DateTime" data-time="1347852244" data-diff="169254" data-datestring="17/9/12" data-timestring="10:24">17/9/12 at 10:24</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1519130/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521647">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521647/" class="newsTitle">Hình ảnh thực tế BlackBerry 10 L-Series; sẽ được giới thiệu tại BlackBerry Jam Americas 2012?</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/587993/" class="username">tungnt1108</a> vào <a href="threads/1521647/">Hôm qua lúc 16:48</a></span>
+						<span class="views"  style="display:none">(7879 Xem / 43 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521647/unread">231 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1521647/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686252/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Hôm nay trang BlackBerry Italia vừa công bố thêm hai bức ảnh mới nhất của thiết bị BlackBerry 10 L-Series. Chúng ta dễ dàng nhìn thấy 2 anten hỗ trợ kết nối NFC thông qua hình chụp nắp lưng máy và gần như chắc chắn chiếc điện thoại này sẽ sử dụng Pin rời. Hiện tại đang rộ lên thông tin RIM sẽ chính thức giới thiệu BlackBerry 10 L-Series tại sự kiện dành cho các nhà phát triển - BlackBerry Jam Americas diễn ra từ ngày 25 đến 27/09 (San Jose, California). Được biết thống kê gần đây tại hai thị trường lớn mạnh nhất của RIM là Canada và Indonesia đã đem đến những...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/99/"></a>' bắt đầu bởi <a href="members/587993/" class="username">tungnt1108</a>, <a href="threads/1521647/"><abbr class="DateTime" data-time="1347940119" data-diff="81379" data-datestring="18/9/12" data-timestring="10:48">18/9/12 at 10:48</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521647/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521974">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521974/" class="newsTitle">LG giới thiệu Pocket Photo: máy in ảnh di động nhỏ nhất thế giới</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/1050879/" class="username">Blaze1st</a> vào <a href="threads/1521974/">Hôm qua lúc 16:45</a></span>
+						<span class="views"  style="display:none">(3358 Xem / 19 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521974/unread">76 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><div align="center"><a href="http://www.tinhte.vn/threads/1521974/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/686039/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div></div> <br />
+LG mới đây đã giới thiệu chiếc máy in hình ảnh di động nhỏ nhất thế giới, Pocket Photo. Đúng như tên gọi, chiếc máy in này dễ dàng bỏ vừa túi quần bởi kích thước 7,2 x 12,1 x 2,4 cm, lớn hơn chiếc điện thoại Optimus Vu một chút. Pocket Photo sử dụng công nghệ in của hãng Zink (Zero Ink), tức là thiết bị sẽ dùng loại giấy in đặc biệt (0,5 $/tờ) với các màu sắc đã được dựng sẵn, vì vậy công đoạn in bây giờ chỉ còn việc làm nóng giấy và tạo nên các hình ảnh được yêu cầu bởi người dùng.<br />
+ <br />
+Pocket Photo sẽ được điều khiển bởi một chiếc smartphone...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/293/"></a>' bắt đầu bởi <a href="members/1050879/" class="username">Blaze1st</a>, <a href="threads/1521974/"><abbr class="DateTime" data-time="1347948048" data-diff="73450" data-datestring="18/9/12" data-timestring="13:00">18/9/12 at 13:00</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521974/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1522225">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1522225/" class="newsTitle">Loa biến hình Transformative với 7 hình dạng có thể thay đổi được</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/16287/" class="username">TDNC</a> vào <a href="threads/1522225/">Hôm qua lúc 16:44</a></span>
+						<span class="views"  style="display:none">(2934 Xem / 14 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1522225/unread">42 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1522225/" class="internalLink"><img src="http://media.tinhte.vn/photo/var/albums/Anh-Bai-/Transformative%20500.jpg?m=1347954215" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Hãng loa DBEST của Anh vừa giới thiệu một chiếc loa rất độc đáo, có thể thay đổi hình dạng với 7 hình thù khác nhau có tên là Transformative. Chiếc loa này được ghép lại từ 3 phần khác nhau, có thể xoay 180 độ giúp chúng ta có thể thoải mái xoay nó các kiểu và tạo ra các hình dáng và hiệu ứng âm thanh riêng biệt.<br />
+ <br />
+Transformative hỗ trợ phát nhạc có dây (qua cổng mini USB, 3.5mm), không dây (Bluetooth 2.1) và tự phát nhạc qua khe cắm thẻ nhớ microSD. Với chừng đó cổng kết nối thì bạn có thể dùng nó để chơi với...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/293/"></a>' bắt đầu bởi <a href="members/16287/" class="username">TDNC</a>, <a href="threads/1522225/"><abbr class="DateTime" data-time="1347954254" data-diff="67244" data-datestring="18/9/12" data-timestring="14:44">18/9/12 at 14:44</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1522225/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1518288">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1518288/" class="newsTitle">[INFOGRAPHIC] Sự phát triển đáng kinh ngạc của Internet trong 10 năm qua</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/587993/" class="username">tungnt1108</a> vào <a href="threads/1518288/">Hôm qua lúc 16:40</a></span>
+						<span class="views"  style="display:none">(4176 Xem / 56 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1518288/unread">80 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1518288/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/685483/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div><div align="left"><br /></div><div align="left">Năm 2002 con người đã có thể tiếp cận với Internet băng thông rộng thay cho kết nối dial-up chậm chạp và đến hôm nay cả thế giới phải kinh ngạc trước sự phát triển chóng mặt của Internet cả về chất lượng lẫn số lượng, nó đã trở thành một phần không thể thiếu trong cuộc sống. <a href="http://www.tinhte.vn/tags/infographic/" class="internalLink">Infographic</a> bên dưới sẽ điểm lại những nét nổi bật trong quá trình phát triển của Internet từ năm 2002 tới 2012.</div><div align="center"><br /></div>...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/10/"></a>' bắt đầu bởi <a href="members/587993/" class="username">tungnt1108</a>, <a href="threads/1518288/"><abbr class="DateTime" data-time="1347805869" data-diff="215629" data-datestring="16/9/12" data-timestring="21:31">16/9/12 at 21:31</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1518288/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521987">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521987/" class="newsTitle">Tòa án chưa hủy lệnh cấm bán tạm thời Samsung Galaxy Tab 10.1</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/39792/" class="username">Duy Luân</a> vào <a href="threads/1521987/">Hôm qua lúc 16:33</a></span>
+						<span class="views"  style="display:none">(2367 Xem / 8 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521987/unread">87 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1521987/" class="internalLink"><img src="http://media.tinhte.vn/photo/var/albums/DuyLuan/500px-480212090.jpg?m=1340873609" class="bbCodeImage LbImage" alt="[IMG]" /></a></div>Trước đây thành viên của bồi thầm đoàn đã tuyên bố rằng <a href="http://www.tinhte.vn/threads/1469174/" class="internalLink">hai sản phẩm Galaxy Tab 10.1 WiFi và Galaxy Tab 10.1 4G LTE không vi phạm bản quyền về sáng chế số D'889 của Apple đăng kí cho iPad</a>. Dựa vào đó, <a href="http://www.tinhte.vn/threads/1474030/tags/samsung/" class="internalLink">Samsung</a> đã <a href="http://www.tinhte.vn/threads/1474030/" class="internalLink">nộp đơn lên tòa án</a> để yêu cầu bãi bỏ <a href="http://www.tinhte.vn/threads/1349076/" class="internalLink">lệnh cấm bán tạm thời hôm 26/6 áp dụng trên hai chiếc tablet...</a></div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/10/"></a>' bắt đầu bởi <a href="members/39792/" class="username">Duy Luân</a>, <a href="threads/1521987/"><abbr class="DateTime" data-time="1347948387" data-diff="73111" data-datestring="18/9/12" data-timestring="13:06">18/9/12 at 13:06</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521987/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="section sectionMain recentNews" id="1521603">
+
+			<div class="primaryContent ">
+				<div class="subHeading">
+					<a href="threads/1521603/" class="newsTitle">Rò rỉ thông tin về thế hệ tiếp theo của Galaxy Nexus, màn hình 720p, CPU 'ARM11'</a>
+				</div>
+
+				<div class="newsDate secondaryContent" style="display:none">
+					<div class="newsMonth heading">Sep</div>
+					<div class="newsDay">18</div>
+				</div>
+
+				<div class="messageContent baseHtml">
+					<div class="postedBy">
+						<span class="posted">bởi <a href="members/39792/" class="username">Duy Luân</a> vào <a href="threads/1521603/">Hôm qua lúc 16:31</a></span>
+						<span class="views"  style="display:none">(3114 Xem / 7 Thích)</span>
+						<span class="comments" style="display:none"><a href="threads/1521603/unread">69 Thảo luận</a></span>
+					</div>
+
+					<div class="newsText"><div align="center"><a href="http://www.tinhte.vn/threads/1521603/" class="internalLink"><img src="http://cdn.tinhte.vn/attachments/685909/" class="bbCodeImage LbImage" alt="[IMG]" /></a></div> <br />
+Chiếc <a href="http://www.tinhte.vn/threads/1462928/" class="internalLink">Samsung GT-i9260 đã bắt đầu lộ diện từ tháng rồi</a> và nó được cho là phiên bản kế nhiệm của Galaxy Nexus hiện nay (GT-i9250). Theo một tập tin User Agent Profile mà trang PocketNow vừa có được, GT-i9260 được trang bị màn hình độ phân giải 720 x 1280 giống Galaxy Nexus hiện tại. Về tên chính thức, chúng ta chưa biết rõ rằng Google và Samsung sẽ gọi chiếc máy này như thế nào, liệu đó là Galaxy Nexus II, Galaxy Nexus Plus, Galaxy Premier hay một thứ gì hoàn toàn khác biệt? Chỉ còn khoảng một tháng nữa là Galaxy...</div>
+					<div class="clearFix"></div>
+				</div>
+
+				<div class="sectionFooter" style="display:none">
+					
+						<div class="source">
+							Thảo luận trong '<a href="forums/151/"></a>' bắt đầu bởi <a href="members/39792/" class="username">Duy Luân</a>, <a href="threads/1521603/"><abbr class="DateTime" data-time="1347939084" data-diff="82414" data-datestring="18/9/12" data-timestring="10:31">18/9/12 at 10:31</abbr></a>.
+						</div>
+					
+
+					<div class="continue">
+						<a href="threads/1521603/" style="background: transparent url('http://cdn.tinhte.vn/styles/xensplash/xenforo/icons/redirect.png') no-repeat left bottom; padding-left: 20px;">
+							Xem chi tiết...
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+	
+	<div class="section sectionMain">
+		
+		
+			
+				
+
+
+<div class="PageNav"
+	data-page="1"
+	data-range="2"
+	data-start="2"
+	data-end="6"
+	data-last="218"
+	data-sentinel="{{sentinel}}"
+	data-baseurl="?page=%7B%7Bsentinel%7D%7D">
+	
+	<span class="pageNavHeader">Trang 1 / 218</span>
+	
+	<nav>
+		
+		
+		<a href="." class="currentPage " rel="start">1</a>
+		
+		
+			<a class="PageNavPrev"><b>&larr;</b></a> <span class="scrollable"><span class="items">
+		
+		
+		
+			<a href="?page=2" class="">2</a>
+		
+			<a href="?page=3" class="">3</a>
+		
+			<a href="?page=4" class="">4</a>
+		
+			<a href="?page=5" class="">5</a>
+		
+			<a href="?page=6" class="">6</a>
+		
+		
+		
+			</span></span> <a class="PageNavNext">&rarr;</a>
+		
+		
+		<a href="?page=218" class="">218</a>
+		
+		
+			<a href="?page=2" class="text">Sau &gt;</a>
+			
+		
+	</nav>	
+	
+	
+</div>
+
+			
+		
+		
+	</div>
+	
+</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+	
+
+						
+						
+						
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
+
+	
+		<ul id="eAuthUnit">
+			
+				
+				
+					
+					<li><a href="register/facebook?reg=1" class="fbLogin" tabindex="110"><span>Đăng nhập với facebook</span></a></li>
+				
+				
+			
+		</ul>
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Tên của bạn hoặc địa chỉ email:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Bạn đã có tài khoản rồi?</label>
+				<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Quên mật khẩu?</a></div>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						Không, tạo một tài khoản ngay bây giờ.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Có, mật khẩu của tôi là:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Đăng nhập" tabindex="104" data-loginPhrase="Đăng nhập" data-signupPhrase="Đăng ký" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Nhớ trạng thái đăng nhập</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+						
+						
+					</div>
+				</div>
+				
+				<!-- sidebar -->
+				<aside>
+					<div class="sidebar">
+						
+						
+						
+
+<div class="section loginButton">		
+	<div class="secondaryContent">
+		<label for="LoginControl" id="SignupButton"><a href="login/" class="inner">Đăng ký thành viên</a></label>
+	</div>
+</div>
+
+
+
+
+						
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget WidgetFramework_WidgetRenderer_Html" id="widget-24">
+				
+					<h3>
+						
+							Quảng cáo
+						
+					</h3>
+					<script type='text/javascript'>
+    OA_show(31);
+</script>
+
+<script type='text/javascript'>
+    OA_show(7);
+</script>
+				
+			</div>
+		
+	</div>
+<div class="WidgetFramework_WidgetRenderer_ShareThisPage">
+    	
+	
+	<div class="section infoBlock sharePage">
+		<div class="secondaryContent">
+			<h3>Chia sẻ trang này</h3>
+			
+				
+						
+				
+					<div class="facebookLike shareControl">
+						
+						<fb:like href="" layout="button_count" action="like" font="trebuchet ms" colorscheme="light"></fb:like>
+					</div>
+				
+				
+					<div class="plusone shareControl">
+						<div class="g-plusone" data-size="medium" data-count="true" data-href=""></div>
+					</div>
+					
+						
+			
+		</div>
+	</div>
+
+</div>
+
+
+	
+	<div class="section widget-container">
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_TaggedThreads" id="widget-19">
+				
+					<h3>
+						
+							Trên tay gần đây
+						
+					</h3>
+					<div class="avatarList">
+        <ul>
+            
+                
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1519767/"
+		
+		>
+		Trên tay Denon D7100: gió đổi chiều
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <abbr class="DateTime" data-time="1347868327" data-diff="152424" data-datestring="17/9/12" data-timestring="14:52">17/9/12 at 14:52</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1517515/"
+		
+		title="Trên tay Fujifilm X-E1 đen: Thừa thắng xông lên"
+		class="Tooltip"
+		
+		>
+		Trên tay Fujifilm X-E1 đen: Thừa thắng...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <abbr class="DateTime" data-time="1347781211" data-diff="239540" data-datestring="16/9/12" data-timestring="14:40">16/9/12 at 14:40</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1515114/"
+		
+		title="Trên tay Lenovo ThinkPad T430S: đen đen vuông vuông"
+		class="Tooltip"
+		
+		>
+		Trên tay Lenovo ThinkPad T430S: đen đen...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <abbr class="DateTime" data-time="1347683041" data-diff="337710" data-datestring="15/9/12" data-timestring="11:24">15/9/12 at 11:24</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/13809/" class="avatar Av13809s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/13/13809.jpg?1334116693" width="48" height="48" alt="sonlazio" /></a>
+                		
+
+
+	<a href="threads/1508398/"
+		
+		title="[IDF 2012] Trên tay Lenovo Thinkpad2, tablet Windows 8 đầy đủ dùng chip ATOM"
+		class="Tooltip"
+		
+		>
+		[IDF 2012] Trên tay Lenovo Thinkpad2,...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/13809/">sonlazio</a>, <span class="DateTime" title="12/9/12 at 12:42">12/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/13809/" class="avatar Av13809s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/13/13809.jpg?1334116693" width="48" height="48" alt="sonlazio" /></a>
+                		
+
+
+	<a href="threads/1508349/"
+		
+		title="[IDF 2012] Trên tay máy trạm AIO tháo lắp không cần vít của HP"
+		class="Tooltip"
+		
+		>
+		[IDF 2012] Trên tay máy trạm AIO tháo...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/13809/">sonlazio</a>, <span class="DateTime" title="12/9/12 at 12:21">12/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1506810/"
+		
+		title="Trên tay Samsung Galaxy Note II: S3 phóng to trang bị SPen..."
+		class="Tooltip"
+		
+		>
+		Trên tay Samsung Galaxy Note II: S3...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <span class="DateTime" title="11/9/12 at 17:43">11/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1503802/"
+		
+		title="Trên tay phụ kiện iPhone mới: iPhone 5 mỏng hơn, dài hơn, chuẩn kết nối mới"
+		class="Tooltip"
+		
+		>
+		Trên tay phụ kiện iPhone mới: iPhone 5...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <span class="DateTime" title="10/9/12 at 11:57">10/9/12</span></div>
+                	</li>
+            	
+            
+        </ul>
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_TaggedThreads" id="widget-20">
+				
+					<h3>
+						
+							Đánh giá gần đây
+						
+					</h3>
+					<div class="avatarList">
+        <ul>
+            
+                
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1513638/"
+		
+		title="Đánh giá ứng dụng BaoMoi phiên bản 4, giao diện lật trang"
+		class="Tooltip"
+		
+		>
+		Đánh giá ứng dụng BaoMoi phiên bản...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <abbr class="DateTime" data-time="1347618648" data-diff="402109" data-datestring="14/9/12" data-timestring="17:30">14/9/12 at 17:30</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/46/" class="avatar Av46s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/46.jpg?1332923124" width="48" height="48" alt="vuhai6" /></a>
+                		
+
+
+	<a href="threads/1491351/"
+		
+		title="Đánh giá HTC Desire V, điện thoại 2 sim 2 sóng"
+		class="Tooltip"
+		
+		>
+		Đánh giá HTC Desire V, điện thoại...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/46/">vuhai6</a>, <span class="DateTime" title="5/9/12 at 02:43">5/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1487576/"
+		
+		title="Đánh giá ứng dụng NhacCuaTui phiên bản mới trên Android và iOS"
+		class="Tooltip"
+		
+		>
+		Đánh giá ứng dụng NhacCuaTui phiên...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <span class="DateTime" title="3/9/12 at 10:26">3/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1475332/"
+		
+		title="Đánh giá Asus Transformer Pad TF300T: máy ngon, pin lâu, đế bàn phím hữu ích"
+		class="Tooltip"
+		
+		>
+		Đánh giá Asus Transformer Pad...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <span class="DateTime" title="28/8/12 at 08:40">28/8/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+                		
+
+
+	<a href="threads/1468663/"
+		
+		title="Đánh giá LG Optimus 4X HD: thiết kế và màn hình đẹp, cấu hình cao, máy chạy mượt"
+		class="Tooltip"
+		
+		>
+		Đánh giá LG Optimus 4X HD: thiết...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>, <span class="DateTime" title="24/8/12 at 20:18">24/8/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/16287/" class="avatar Av16287s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/16/16287.jpg?1345022803" width="48" height="48" alt="TDNC" /></a>
+                		
+
+
+	<a href="threads/1465225/"
+		
+		title="Đánh giá Galaxy Note 10.1: từ sổ tay biến thành cuốn tập vẽ"
+		class="Tooltip"
+		
+		>
+		Đánh giá Galaxy Note 10.1: từ sổ...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/16287/">TDNC</a>, <span class="DateTime" title="23/8/12 at 10:59">23/8/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/16287/" class="avatar Av16287s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/16/16287.jpg?1345022803" width="48" height="48" alt="TDNC" /></a>
+                		
+
+
+	<a href="threads/1457606/"
+		
+		title="Đánh giá chi tiết xe Suzuki EN150-A: 150 phân khối, FI, 6 số, 51 km/lít đường trường"
+		class="Tooltip"
+		
+		>
+		Đánh giá chi tiết xe Suzuki...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/16287/">TDNC</a>, <span class="DateTime" title="19/8/12 at 20:26">19/8/12</span></div>
+                	</li>
+            	
+            
+        </ul>
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_TaggedThreads" id="widget-18">
+				
+					<h3>
+						
+							Infographic gần đây
+						
+					</h3>
+					<div class="avatarList">
+        <ul>
+            
+                
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+                		
+
+
+	<a href="threads/1519206/"
+		
+		title="[INFOGRAPHIC] Cuộc cách mạng của Nokia từ 1984"
+		class="Tooltip"
+		
+		>
+		[INFOGRAPHIC] Cuộc cách mạng của Nokia...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/60686/">Didu</a>, <abbr class="DateTime" data-time="1347853889" data-diff="166880" data-datestring="17/9/12" data-timestring="10:51">17/9/12 at 10:51</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/587993/" class="avatar Av587993s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/587/587993.jpg?1332588375" width="48" height="48" alt="tungnt1108" /></a>
+                		
+
+
+	<a href="threads/1518288/"
+		
+		title="[INFOGRAPHIC] Sự phát triển đáng kinh ngạc của Internet trong 10 năm qua"
+		class="Tooltip"
+		
+		>
+		[INFOGRAPHIC] Sự phát triển đáng kinh...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/587993/">tungnt1108</a>, <abbr class="DateTime" data-time="1347805869" data-diff="214900" data-datestring="16/9/12" data-timestring="21:31">16/9/12 at 21:31</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/477334/" class="avatar Av477334s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/477/477334.jpg?1334487813" width="48" height="48" alt="uhraman" /></a>
+                		
+
+
+	<a href="threads/1510629/"
+		
+		title="[Infographic] 75% người dùng iPhone muốn nâng cấp lên iPhone 5 từ nay đến hết 2013"
+		class="Tooltip"
+		
+		>
+		[Infographic] 75% người dùng iPhone...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/477334/">uhraman</a>, <abbr class="DateTime" data-time="1347516443" data-diff="504326" data-datestring="13/9/12" data-timestring="13:07">13/9/12 at 13:07</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/477334/" class="avatar Av477334s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/477/477334.jpg?1334487813" width="48" height="48" alt="uhraman" /></a>
+                		
+
+
+	<a href="threads/1507546/"
+		
+		title="[Infographic] Mất ngủ và những thông tin cần biết"
+		class="Tooltip"
+		
+		>
+		[Infographic] Mất ngủ và những thông...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/477334/">uhraman</a>, <span class="DateTime" title="12/9/12 at 00:38">12/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1164885/" class="avatar Av1164885s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1164/1164885.jpg?1332588747" width="48" height="48" alt="suwaxbow" /></a>
+                		
+
+
+	<a href="threads/1504345/"
+		
+		title="[Infographic] Tổng hợp các tin đồn về iPhone 5"
+		class="Tooltip"
+		
+		>
+		[Infographic] Tổng hợp các tin đồn về...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/1164885/">suwaxbow</a>, <span class="DateTime" title="10/9/12 at 16:13">10/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1164885/" class="avatar Av1164885s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1164/1164885.jpg?1332588747" width="48" height="48" alt="suwaxbow" /></a>
+                		
+
+
+	<a href="threads/1496312/"
+		
+		>
+		[Infographic] Vũ khí hạt nhân
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/1164885/">suwaxbow</a>, <span class="DateTime" title="6/9/12 at 23:07">6/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1164885/" class="avatar Av1164885s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1164/1164885.jpg?1332588747" width="48" height="48" alt="suwaxbow" /></a>
+                		
+
+
+	<a href="threads/1486686/"
+		
+		title="[Infographic]Một thế giới nếu không có Internet"
+		class="Tooltip"
+		
+		>
+		[Infographic]Một thế giới nếu không có...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/1164885/">suwaxbow</a>, <span class="DateTime" title="2/9/12 at 16:59">2/9/12</span></div>
+                	</li>
+            	
+            
+        </ul>
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_TaggedThreads" id="widget-21">
+				
+					<h3>
+						
+							Ảnh đẹp
+						
+					</h3>
+					<div class="avatarList">
+        <ul>
+            
+                
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1522964/"
+		
+		>
+		[The Big Picture] Mùa thu hoạch
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <abbr class="DateTime" data-time="1347975934" data-diff="44843" data-datestring="18/9/12" data-timestring="20:45">18/9/12 at 20:45</abbr></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1505649/"
+		
+		title="[The Big Picture] Paralympics 2012 - Nơi gặp gỡ của những con người dũng cảm"
+		class="Tooltip"
+		
+		>
+		[The Big Picture] Paralympics 2012...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <span class="DateTime" title="11/9/12 at 09:46">11/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1505103/"
+		
+		title="[The Big Picture] Cuộc chiến cà chua năm 2012"
+		class="Tooltip"
+		
+		>
+		[The Big Picture] Cuộc chiến cà...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <span class="DateTime" title="10/9/12 at 23:02">10/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+                		
+
+
+	<a href="threads/1504276/"
+		
+		title="Canon Marathon 2012 đã có kết quả ở HCM"
+		class="Tooltip"
+		
+		>
+		Canon Marathon 2012 đã có kết quả...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>, <span class="DateTime" title="10/9/12 at 15:36">10/9/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1483355/"
+		
+		title="[The Big Picture] Thế giới dưới lòng đất (P2)"
+		class="Tooltip"
+		
+		>
+		[The Big Picture] Thế giới dưới...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <span class="DateTime" title="31/8/12 at 17:08">31/8/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1476801/"
+		
+		title="[The Big Picture] Neil Armstrong, 1930 – 2012"
+		class="Tooltip"
+		
+		>
+		[The Big Picture] Neil Armstrong,...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <span class="DateTime" title="28/8/12 at 18:44">28/8/12</span></div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/15571/" class="avatar Av15571s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/15/15571.jpg?1332587759" width="48" height="48" alt="levuongthinh" /></a>
+                		
+
+
+	<a href="threads/1474846/"
+		
+		title="[The Big Picture] Hình xăm – Sức hút từ những mũi kim"
+		class="Tooltip"
+		
+		>
+		[The Big Picture] Hình xăm – Sức...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+                		<div class="userTitle"><a href="members/15571/">levuongthinh</a>, <span class="DateTime" title="27/8/12 at 22:20">27/8/12</span></div>
+                	</li>
+            	
+            
+        </ul>
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container widget-tabs">
+		<div class="primaryContent">
+			<ul class="tabs Tabs" data-panes="#widget-tabs-quantam > li">
+				
+					
+						<li>
+							<a href="#widget-tab-22">
+								<h3>Top tuần</h3>
+							</a>
+						</li>
+					
+				
+					
+						<li>
+							<a href="#widget-tab-29">
+								<h3>Top tháng</h3>
+							</a>
+						</li>
+					
+				
+			</ul>
+		</div>
+		<div style="clear: both; height: 0px;">&nbsp;<!-- dirty fix, sorry --></div>
+		<div class="secondaryContent" id="widget-group-quantam">
+			<ul id="widget-tabs-quantam">
+				
+					
+						<li id="widget-tab-22" class="widget WidgetFramework_WidgetRenderer_Threads">
+							<ul>
+								<div class="avatarList">
+        <ul>
+            
+            	
+            	
+            	
+                
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+
+						
+
+
+	<a href="threads/1509758/"
+		
+		title="Apple giới thiệu iPhone 5: màn hình 4&quot; Retina, 4G LTE, CPU Apple A6"
+		class="Tooltip"
+		
+		>
+		Apple giới thiệu iPhone 5: màn...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 3,686</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+
+						
+
+
+	<a href="threads/1513893/"
+		
+		title="Lượng iPhone 5 cho đặt trước hết sau 1 giờ, khách hàng phải đợi thêm 2 tuần"
+		class="Tooltip"
+		
+		>
+		Lượng iPhone 5 cho đặt trước hết...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 1,884</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+
+						
+
+
+	<a href="threads/1516955/"
+		
+		title="[Hỏi Tinh Tế] Bạn nghĩ thế nào về iPhone 5"
+		class="Tooltip"
+		
+		>
+		[Hỏi Tinh Tế] Bạn nghĩ thế nào về...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>,, Trả lời: 1,712</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+
+						
+
+
+	<a href="threads/1509997/"
+		
+		title="Phil Schiller: iPhone không cần đến NFC và sạc không dây, cổng Lightning giúp máy mỏng hơn"
+		class="Tooltip"
+		
+		>
+		Phil Schiller: iPhone không cần...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>,, Trả lời: 850</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/46/" class="avatar Av46s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/46.jpg?1332923124" width="48" height="48" alt="vuhai6" /></a>
+
+						
+
+
+	<a href="threads/1512293/"
+		
+		title="Apple iPhone 5 bản quốc tế có giá từ 649$"
+		class="Tooltip"
+		
+		>
+		Apple iPhone 5 bản quốc tế có giá...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/46/">vuhai6</a>,, Trả lời: 781</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/39792/" class="avatar Av39792s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/39/39792.jpg?1332587814" width="48" height="48" alt="Duy Luân" /></a>
+
+						
+
+
+	<a href="threads/1511400/"
+		
+		title="Tổng hợp đánh giá ban đầu về iPhone 5 từ các trang web công nghệ lớn"
+		class="Tooltip"
+		
+		>
+		Tổng hợp đánh giá ban đầu về...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/39792/">Duy Luân</a>,, Trả lời: 737</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1050879/" class="avatar Av1050879s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1050/1050879.jpg?1332588670" width="48" height="48" alt="Blaze1st" /></a>
+
+						
+
+
+	<a href="threads/1518677/"
+		
+		title="Chip A6 trên iPhone 5 không phải Cortex A9/A15 mà do Apple tự phát triển trên nền ARMv7"
+		class="Tooltip"
+		
+		>
+		Chip A6 trên iPhone 5 không phải...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/1050879/">Blaze1st</a>,, Trả lời: 705</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+
+						
+
+
+	<a href="threads/1510835/"
+		
+		title="Tổng hợp sự kiện giới thiệu iPhone 5 của Apple"
+		class="Tooltip"
+		
+		>
+		Tổng hợp sự kiện giới thiệu iPhone...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 635</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1224549/" class="avatar Av1224549s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1224/1224549.jpg?1345730909" width="48" height="48" alt="power_zell" /></a>
+
+						
+
+
+	<a href="threads/1515347/"
+		
+		title="Club- Hội những người đam mê vẻ đẹp tiềm ẩn của &quot;xê ri&quot; K6"
+		class="Tooltip"
+		
+		>
+		Club- Hội những người đam mê vẻ...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/1224549/">power_zell</a>,, Trả lời: 569</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+
+						
+
+
+	<a href="threads/1514550/"
+		
+		>
+		iPhone 5: một bí mật đã bị bật mí
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>,, Trả lời: 563</div>
+                	</li>
+            	
+                
+            	
+            
+        </ul>
+    </div>
+							</ul>
+						</li>
+					
+				
+					
+						<li id="widget-tab-29" class="widget WidgetFramework_WidgetRenderer_Threads">
+							<ul>
+								<div class="avatarList">
+        <ul>
+            
+            	
+            	
+            	
+                
+                	<li>
+                		<a href="members/839/" class="avatar Av839s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/839.jpg?1332587724" width="48" height="48" alt="Hư Trúc" /></a>
+						
+
+
+	<a href="threads/1478483/"
+		
+		title="[Tặng] SVHouse tặng tai nghe cho thành viên Tinh Tế"
+		class="Tooltip"
+		
+		>
+		[Tặng] SVHouse tặng tai nghe cho thành...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/839/">Hư Trúc</a>,, Trả lời: 10,745</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+						
+
+
+	<a href="threads/1509758/"
+		
+		title="Apple giới thiệu iPhone 5: màn hình 4&quot; Retina, 4G LTE, CPU Apple A6"
+		class="Tooltip"
+		
+		>
+		Apple giới thiệu iPhone 5: màn hình 4&quot;...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 3,686</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/201372/" class="avatar Av201372s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/201/201372.jpg?1338291141" width="48" height="48" alt="nguyenson1709" /></a>
+						
+
+
+	<a href="threads/1469667/"
+		
+		title="Tất cả về SKy A820L...ROOT, RECOVERY, ROM, GAME và khắc phục những lỗi cơ bản..."
+		class="Tooltip"
+		
+		>
+		Tất cả về SKy A820L...ROOT, RECOVERY,...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/201372/">nguyenson1709</a>,, Trả lời: 2,696</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/537546/" class="avatar Av537546s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/537/537546.jpg?1332588342" width="48" height="48" alt="dlcr" /></a>
+						
+
+
+	<a href="threads/1480859/"
+		
+		title="Đã có rom stock ics 4.0.4 cho optimus 2x su 660"
+		class="Tooltip"
+		
+		>
+		Đã có rom stock ics 4.0.4 cho optimus...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/537546/">dlcr</a>,, Trả lời: 2,514</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/635478/" class="avatar Av635478s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/635/635478.jpg?1332588408" width="48" height="48" alt="quockhanh99999" /></a>
+						
+
+
+	<a href="threads/1474069/"
+		
+		title="Hội Android An Giang -thành lập có tổ chức ^^"
+		class="Tooltip"
+		
+		>
+		Hội Android An Giang -thành lập có tổ...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/635478/">quockhanh99999</a>,, Trả lời: 1,928</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/104818/" class="avatar Av104818s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/104/104818.jpg?1332587952" width="48" height="48" alt="babybungbu" /></a>
+						
+
+
+	<a href="threads/1469212/"
+		
+		title="Phản ứng của Apple và Samsung về phán quyết của tòa, những dự đoán cho tương lai"
+		class="Tooltip"
+		
+		>
+		Phản ứng của Apple và Samsung về phán...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/104818/">babybungbu</a>,, Trả lời: 1,908</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+						
+
+
+	<a href="threads/1513893/"
+		
+		title="Lượng iPhone 5 cho đặt trước hết sau 1 giờ, khách hàng phải đợi thêm 2 tuần"
+		class="Tooltip"
+		
+		>
+		Lượng iPhone 5 cho đặt trước hết sau 1...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 1,884</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/60686/" class="avatar Av60686s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/60/60686.jpg?1334730273" width="48" height="48" alt="Didu" /></a>
+						
+
+
+	<a href="threads/1483495/"
+		
+		title="Nokia Lumia 920 PureView và Lumia 820 lộ diện trước ngày giới thiệu"
+		class="Tooltip"
+		
+		>
+		Nokia Lumia 920 PureView và Lumia 820...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/60686/">Didu</a>,, Trả lời: 1,738</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/3/" class="avatar Av3s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/0/3.jpg?1332932664" width="48" height="48" alt="cuhiep" /></a>
+						
+
+
+	<a href="threads/1516955/"
+		
+		title="[Hỏi Tinh Tế] Bạn nghĩ thế nào về iPhone 5"
+		class="Tooltip"
+		
+		>
+		[Hỏi Tinh Tế] Bạn nghĩ thế nào về...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/3/">cuhiep</a>,, Trả lời: 1,712</div>
+                	</li>
+            	
+                	<li>
+                		<a href="members/1297419/" class="avatar Av1297419s" data-avatarHtml="true"><img src="http://photo.tinhte.vn/data/avatars/s/1297/1297419.jpg?1347441291" width="48" height="48" alt="calischen" /></a>
+						
+
+
+	<a href="threads/1485403/"
+		
+		title="HẢI PHÒNG- HTC EVO 4G+ 99% 4T7  SKYA820L FULLBOX 5TR5, LU6200 99% 4TR3 SKY 730 2TR5 MÀU HỒNG 99,99%"
+		class="Tooltip"
+		
+		>
+		HẢI PHÒNG- HTC EVO 4G+ 99% 4T7...
+	</a>
+
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Đang tải...</span>
+		</div>
+	</div>
+</div>
+
+                		<div class="userTitle"><a href="members/1297419/">calischen</a>,, Trả lời: 1,658</div>
+                	</li>
+            	
+                
+            	
+            
+        </ul>
+    </div>
+							</ul>
+						</li>
+					
+				
+			</ul>
+		</div>
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget WidgetFramework_WidgetRenderer_Html" id="widget-25">
+				
+					<h3>
+						
+							Quảng cáo
+						
+					</h3>
+					<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4328742155432872";
+/* Tinhte.vn - Right 3 */
+google_ad_slot = "9134575806";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div id='div-gpt-ad-1345604815435-2' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1345604815435-2'); });
+</script>
+</div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget Tinhte_XenTag_WidgetRenderer_Cloud" id="widget-6">
+				
+					<h3>
+						
+							<a href="tags/">Mây tag</a>
+						
+					</h3>
+					<div class="Tinhte_XenTag_TagCloud">
+        
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level5"><a href="tags/android/">android</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level5"><a href="tags/apple/">apple</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/asus/">asus</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/blackberry/">blackberry</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/dell/">dell</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/facebook/">facebook</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/google/">google</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/hp/">hp</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/htc/">htc</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/intel/">intel</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/ios/">ios</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/ipad/">ipad</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/ipad+2/">ipad 2</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level4"><a href="tags/iphone/">iphone</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/iphone+4/">iphone 4</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/laptop/">laptop</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/lg/">lg</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/microsoft/">microsoft</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/motorola/">motorola</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/m%C3%A1y+t%C3%ADnh+b%E1%BA%A3ng/">máy tính bảng</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/nokia/">nokia</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/rim/">rim</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level4"><a href="tags/samsung/">samsung</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/smartphone/">smartphone</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level3"><a href="tags/sony/">sony</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/tablet/">tablet</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/tr%C3%AAn+tay/">trên tay</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level1"><a href="tags/windows+8/">windows 8</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/windows+phone/">windows phone</a></li>
+            
+            	<li class="Tinhte_XenTag_TagCloudTag Tinhte_XenTag_TagCloud_Level2"><a href="tags/windows+phone+7/">windows phone 7</a></li>
+            
+        
+    </div>
+				
+			</div>
+		
+	</div>
+
+
+
+	
+	<div class="section widget-container">
+		
+			<div class="secondaryContent widget WidgetFramework_WidgetRenderer_Stats" id="widget-4">
+				
+					<h3>
+						
+							Thống kê diễn đàn
+						
+					</h3>
+					<div class="pairsJustified">
+	<dl class="discussionCount"><dt>Chủ đề:</dt>
+		<dd>1,217,737</dd></dl>
+	<dl class="messageCount"><dt>Bài viết:</dt>
+		<dd>20,867,972</dd></dl>
+	<dl class="memberCount"><dt>Thành viên:</dt>
+		<dd>1,314,725</dd></dl>
+	<dl><dt>Thành viên mới nhất:</dt>
+		<dd><a href="members/1354982/" class="username">bhhp</a></dd></dl>
+	<!-- slot: forum_stats_extra -->
+</div>
+				
+			</div>
+		
+	</div>
+
+						
+						
+					</div>
+				</aside>
+			
+			
+						
+			<div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=portal" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Mở di chuyển nhanh"><!--Chuyển đến...--></a>
+			
+		<div class="boardTitle"><strong>Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ</strong></div>
+		
+		<span class="crumbs">
+			
+			
+			
+				<span class="crust">
+					<a href="http://www.tinhte.vn/" class="crumb"><span>Trang chủ</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+						
+			<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4328742155432872";
+/* Bottom Banner */
+google_ad_slot = "2432881187";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+						
+		</div>
+	</div>
+</div>
+
+<header>
+	
+<div id="header">
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			<div id="logo"><a href="http://www.tinhte.vn/">
+				<span></span>
+				<img src="https://cdn.tinhte.vn/styles/xensplash/tinhte/logo.png" alt="Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ" />
+			</a></div>
+			
+			<div style="float:right;width=729px;margin-top:45px;margin-right:0px"><script type='text/javascript'><!--// <![CDATA[
+			              
+			 OA_show(35);
+			
+			// ]]> --></script>
+			</div>
+<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal selected">
+			
+				<a href="http://www.tinhte.vn/" class="navLink">Trang chủ</a>
+				<a href="http://www.tinhte.vn/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="tabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Trang chủ</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					
+<ul class="secondaryContent blockLinksList">
+	<li style="left: 0px;" class="TinhTe_rootNav">
+		<ul>
+			<li>
+				<span class="TinhTe_Icon">&nbsp;</span>
+			</li>
+			<li class="TinhTe_subNav">
+				<ul>
+					
+					
+						<li>
+							<a href="http://www.tinhte.vn/find-new/threads?t=dien-dan" class="internalLink">Bài mới</a>
+						</li>
+					
+					
+					
+					
+						<li>
+							<a href="http://www.tinhte.vn/watched/threads" class="internalLink">Chủ đề theo dõi</a>
+						</li>
+					
+					
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li style="left: 450px;" class="TinhTe_rootNav">
+		<ul>
+			<li>
+				<span class="TinhTe_Icon">&nbsp;</span>
+			</li>
+			<li class="TinhTe_subNav">
+				<ul>
+					
+					
+						<li>
+							<a href="http://www.tinhte.vn/forums/553/" class="internalLink">Samsung Galaxy Note</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/iphone 5/" class="internalLink">iPhone 5</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/forums/533/" class="internalLink">Nokia Lumia</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/forums/551/" class="internalLink">IFA 2012</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/windows 8/" class="internalLink">Windows 8</a>
+						</li>
+					
+					
+					
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/windows+phone+8/" class="internalLink">Windows Phone 8</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/mountain%20lion/" class="internalLink">Mac Mountain Lion 10.8</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/kindle/" class="internalLink">Amazon Kindle</a>
+						</li>
+					
+						<li>
+							<a href="http://www.tinhte.vn/tags/the+big+picture/" class="internalLink">The Big Picture</a>
+						</li>
+					
+					
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li class="Popup PopupControl PopupClosed TinhTe_moreNav">
+		<a id="portalExtraSeeAll" style="cursor:pointer;" rel="Menu">&nbsp;</a>
+		
+<div id="portalExtra" class="Menu JsOnly">
+	<div class="listPlaceholder">
+		<ul class="blockLinksList">
+			<li class="portalExtra-topLevel portalExtra-border-right">
+				<ul>
+					<li class="portalExtra-title">
+						<a><span class="TinhTe_Icon TinhTe_Icon_Trending"></span> DIỄN ĐÀN & CHỨC NĂNG</a>
+					</li>
+					<li class="portalExtra-item">
+	<ul>
+
+		
+		
+			<li>
+				<a href="http://www.tinhte.vn/find-new/threads?t=dien-dan" class="internalLink">Bài mới</a>
+			</li>
+		
+		
+	</ul>
+</li>
+					<li class="portalExtra-item">
+	<ul>
+
+		
+		
+			<li>
+				<a href="http://www.tinhte.vn/watched/threads" class="internalLink">Chủ đề theo dõi</a>
+			</li>
+		
+		
+	</ul>
+</li>
+				</ul>
+			</li>
+			<li class="portalExtra-topLevel">
+				<ul>
+					<li class="portalExtra-title">
+						<a><span class="TinhTe_Icon TinhTe_Icon_Hubs"></span> CHỦ ĐỀ NỔI BẬT</a>
+					</li>
+					<li class="portalExtra-item">
+	<ul>
+
+		
+		
+			<li>
+				<a href="http://www.tinhte.vn/forums/553/" class="internalLink">Samsung Galaxy Note</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/iphone 5/" class="internalLink">iPhone 5</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/forums/533/" class="internalLink">Nokia Lumia</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/forums/551/" class="internalLink">IFA 2012</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/windows 8/" class="internalLink">Windows 8</a>
+			</li>
+		
+		
+	</ul>
+</li>
+					<li class="portalExtra-item">
+	<ul>
+
+		
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/windows+phone+8/" class="internalLink">Windows Phone 8</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/mountain%20lion/" class="internalLink">Mac Mountain Lion 10.8</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/kindle/" class="internalLink">Amazon Kindle</a>
+			</li>
+		
+			<li>
+				<a href="http://www.tinhte.vn/tags/the+big+picture/" class="internalLink">The Big Picture</a>
+			</li>
+		
+		
+	</ul>
+</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+	</li>
+</ul>
+<script type="text/javascript">
+	$('#portalExtraSeeAll').click(function(){
+		var $parent = $(this).parent().parent().parent();
+		if ($('#portalExtra').is(':hidden'))
+		{
+			$('#portalExtra').css({top: $parent.offset().top+$parent.height(), left: $parent.offset().left}).width($parent.width()-2).slideDown('fast');
+		}
+		else
+		{
+			$('#portalExtra').slideUp('fast');
+		}
+		return false;
+	});
+
+	$('#portalExtraSeeAll').live('mouseover', function(){
+		var $parent = $(this).parent().parent().parent();
+		if ($('#portalExtra').is(':hidden'))
+		{
+			$('#portalExtra').css({top: $parent.offset().top+$parent.height(), left: $parent.offset().left}).width($parent.width()-2);
+		}
+		return true;
+	});
+</script>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/forum/" class="navLink">Diễn đàn</a>
+				<a href="http://www.tinhte.vn/forum/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Diễn đàn</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						<li><a href="search/?type=post">Tìm kiếm</a></li>
+						
+						<li><a href="find-new/threads?t=dien-dan">Bài mới</a></li>
+<li><a href="find-new/threads?t=rao-vat">Rao vặt mới</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+			
+				<li class="navTab events Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/events/" class="navLink">Sự kiện</a>
+				<a href="http://www.tinhte.vn/events/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Sự kiện</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="events/monthly">Tháng</a></li>
+	<li><a href="events/weekly">Tuần</a></li>
+	<li><a href="events/upcoming">Sắp diễn ra</a></li>
+	<li><a href="events/history">Mục lưu trữ</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+			
+				<li class="navTab wiki Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/wiki/" class="navLink">Wiki</a>
+				<a href="http://www.tinhte.vn/wiki/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Wiki</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="wiki/">Wiki Tinhte.vn</a></li>
+	<li><a href="wiki/special/pages">Danh sách trang</a></li>
+	
+	
+	
+</ul>
+				</div>
+			</li>
+			
+		
+			
+				<li class="navTab nodetab474 PopupClosed">
+					<a href="http://www.tinhte.vn/link-forums/474/" class="navLink">Video</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab nodetab35 Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/forums/35/" class="navLink">Rao vặt</a>
+				<a href="http://www.tinhte.vn/forums/35/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Rao vặt</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	<li><a href="find-new/threads?t=rao-vat">Rao vặt mới</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=4">Toàn quốc</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=10">HCM</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=16">Hà Nội</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=37">Đà Nẵng</a></li>
+	<li><a href="find-new/threads?f=35&amp;p=29">Khu vực khác</a></li>
+
+	<li><a href="http://www.tinhte.vn/threads/121526/">Điều kiện gửi bài</a></li>
+	<li><a href="http://www.tinhte.vn/threads/20/#post-942993">Nội qui Mua bán</a></li>
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+			<li class="navTab help Popup PopupControl PopupClosed">
+			
+				<a href="http://www.tinhte.vn/help/" class="navLink" rel="help">Giúp đỡ</a>
+				<a href="http://www.tinhte.vn/help/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Giúp đỡ</h3>
+						<div class="muted">Liên kết nhanh</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						<li><a href="help/smilies">Mặt cười</a></li>
+						<li><a href="help/bb-codes">BB Codes</a></li>
+						<li><a href="help/trophies">Danh hiệu</a></li>
+						<li><a href="help/cookies">Cookie Usage</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: end -->
+		
+		
+		
+		<!-- no selection -->
+		
+		
+	</ul>
+	
+	
+</div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+	
+</div>
+
+	
+	
+</header>
+
+</div>
+
+<footer>
+	
+
+
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			<ul class="footerLinks">
+			
+				
+				<li><a href="http://www.tinhte.vn/">Trang chủ</a></li>
+				<li><a href="/#navigation">Lên đầu</a></li>
+
+				<li><a href="http://feeds.feedburner.com/tinhte" rel="alternate" class="globalFeed" target="_blank"
+					title="RSS của Tinhte.vn - Cộng đồng Khoa học &amp; Công nghệ">RSS</a></li>
+				<li><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=dihuta"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a></li>
+				
+			</ul>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+
+<div class="footerLegal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<div id="copyright">Copyright 2006 - 2012 ViMobi Co., Ltd • Giấy phép số 24/GP-TTĐT và 59/GXN-TTĐT do Bộ Thông Tin Truyền Thông cấp.</div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Điều khoản & Quy định</a></li>
+				
+			
+			</ul>
+		
+			
+			
+			<span class="helper"></span>
+		</div>
+	</div>	
+</div>
+
+<div class="footer_main_bot">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<ul class="menu">
+				<li class="menu_title"><h3>Tinhte.vn</h3></li>
+				<li><a href="http://www.tinhte.vn/">Trang nhất</a></li>
+				<li><a href="http://www.tinhte.vn/forum/">Diễn đàn</a></li>
+				<li><a href="http://www.tinhte.vn/link-forums/474/">Video công nghệ</a></li>
+				<li><a href="http://www.tinhte.vn/wiki/index/">Wiki Thiết bị</a></li>
+				<li><a href="http://www.tinhte.vn/forums/35/">Mua bán - Rao vặt</a></li>
+				<li><a href="http://www.tinhte.vn/pages/cafe/">Cafe Tinh tế</a></li>
+				<li><a href="http://www.tinhte.vn/pages/lien-he/">Liên hệ</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/10/">Tin tức</a></li>
+				<li><a href="http://www.tinhte.vn/forums/230/">Khuyến mãi</a></li>
+				<li><a href="http://www.tinhte.vn/forums/6/">Windows</a></li>
+				<li><a href="http://www.tinhte.vn/forums/195/">Mac OS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/79/">Linux</a></li>
+				<li><a href="http://www.tinhte.vn/forums/70/">Máy ảnh số</a></li>
+				<li><a href="http://www.tinhte.vn/forums/285/">Máy quay phim</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/82/">iOS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/150/">Android</a></li>
+				<li><a href="http://www.tinhte.vn/forums/3/">Windows Phone</a></li>
+				<li><a href="http://www.tinhte.vn/forums/98/">BlackBerry</a></li>
+				<li><a href="http://www.tinhte.vn/forums/83/">Symbian</a></li>
+				<li><a href="http://www.tinhte.vn/forums/429/">Bada</a></li>
+				<li><a href="http://www.tinhte.vn/forums/405/">Meego</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/4/">Palm</a></li>
+				<li><a href="http://www.tinhte.vn/forums/459/">Điện thoại Nhật</a></li>
+				<li><a href="http://www.tinhte.vn/forums/362/">Điện thoại phổ thông</a></li>
+				<li><a href="http://www.tinhte.vn/forums/270/">Phát triển phần mềm</a></li>
+				<li><a href="http://www.tinhte.vn/forums/510/">Mạng di động</a></li>
+				<li><a href="http://www.tinhte.vn/forums/511/">Internet</a></li>
+				<li><a href="http://www.tinhte.vn/forums/348/">Công nghệ 3G, 4G</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Diễn đàn</h3></li>
+				<li><a href="http://www.tinhte.vn/forums/347/">GPS</a></li>
+				<li><a href="http://www.tinhte.vn/forums/490/">Server</a></li>
+				<li><a href="http://www.tinhte.vn/forums/29/">Thiết bị ngoại vi</a></li>
+				<li><a href="http://www.tinhte.vn/forums/293/">Điện tử, tiêu dùng</a></li>
+				<li><a href="http://www.tinhte.vn/forums/426/">Máy đọc sách</a></li>
+				<li><a href="http://www.tinhte.vn/forum/#548">Phương tiện</a></li>
+				<li><a href="http://www.tinhte.vn/forums/76/">Khoa học công nghệ</a></li>
+			</ul>
+			<ul class="menu">
+				<li class="menu_title"><h3>Liên kết & hợp tác</h3></li>
+				<li><a href="http://www.facebook.com/tinhtefan" title="Tinhte.vn trên Facebook" target="_blank">Tinhte.vn Facebook</a></li>
+				<li><a href="http://www.twitter.com/tinhtefan" title="Theo Tinhte.vn trên Twitter" target="_blank" title="" target="_blank">Tinhte.vn Twitter</a></li>
+				<li><a href="http://www.khacten.com/" title="Bao da, miếng dán da" target="_blank">Khacten.com</a></li>
+				<li><a href="http://www.1tudien.com" title="Từ điển trực tuyến" target="_blank">1TuDien.com</a></li>
+				<li><a href="http://www.nhaccuatui.com" title="Nghe nhạc mọi lúc mọi nơi" target="_blank">Nhaccuatui.com</a></li>
+				<li><a href="http://www.chodientu.vn" title="Mua hàng trực tuyến" target="_blank">Chodientu.vn</a></li>
+				<li><a href="http://www.webtretho.com/" title="Web trẻ thơ" target="_blank">Webtretho.com</a></li>
+			</ul>
+			<br/>
+		</div>
+	</div>	
+</div>
+</footer>
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1348021498,
+		today: 1347987600,
+		todayDow: 3
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "2",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 400,
+		closeSpeed: 200,
+		mask:
+		{
+			color: "rgb(0, 0, 0)",
+			opacity: "0.6",
+			loadSpeed: 400,
+			closeSpeed: 200
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"tinhte_xentag":true,"EWRporta":true,"EWRblock_TinhteTopNews":true,"message_user_info":true,"bb_code":true,"EWRblock_RecentNews":true,"wf_default":true,"sidebar_share_page":true,"login_bar":true,"facebook":true,"TinhTe_PortalExtra_Nav":true,"TinhTe_PortalExtra_Nav_Popup":true,"https:\/\/www.google.com\/jsapi?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/as.js?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/bdTagMe\/frontend.js?_v=bba17b4a":true,"https:\/\/s.tinhtecdn.com\/js\/vim\/mudim.js?_v=bba17b4a":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "bba17b4a"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Hủy",
+
+	a_moment_ago:    "Mới đây",
+	one_minute_ago:  "1 phút trước",
+	x_minutes_ago:   "%minutes% phút trước",
+	today_at_x:      "Hôm nay lúc %time%",
+	yesterday_at_x:  "Hôm qua lúc %time%",
+	day_x_at_time_y: "%day% lúc %time%",
+
+	day0: "Chủ nhật",
+	day1: "Thứ hai",
+	day2: "Thứ ba",
+	day3: "Thứ tư",
+	day4: "Thứ năm",
+	day5: "thứ sáu",
+	day6: "Thứ bảy",
+
+	_months: "Tháng 1,Tháng 2,Tháng 3,Tháng 4,Tháng 5,Tháng 6,Tháng 7,Tháng 8,Tháng 9,Tháng 10,Tháng 11,Tháng 12",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "Có lỗi hoặc lưu ý",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Đang đăng nhập",
+	click_image_show_full_size_version: "Bấm vào để phóng to.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "145923738846814";
+XenForo.Facebook.forceInit = true;
+google.load('search', '1');
+$(document).ready(function() {
+    $("#ctrl_title_thread_create").bind("blur", function(){
+	
+    var searchControl = new google.search.SearchControl();
+	var siteSearch = new google.search.WebSearch();
+    var options = new google.search.SearcherOptions();
+
+    options.setExpandMode(google.search.SearchControl.EXPAND_MODE_OPEN);
+    options.setRoot(document.getElementById("Tinhte_SimilarThreadCheck_div"));
+
+    // site restricted web search using a custom search engine
+    siteSearch.setUserDefinedLabel("Vui lòng xem qua các đề tài dưới đây trước khi gửi bài mới.");
+	siteSearch.setSiteRestriction("partner-pub-4328742155432872:fsd7ii-uvqt");
+	searchControl.addSearcher(siteSearch, options);
+	searchControl.setNoResultsString("Không tìm thấy chủ đề tương tự, bạn có thể gửi chủ đề mới.");
+
+
+    // Tell the searcher to draw itself and tell it where to attach
+    searchControl.draw(document.getElementById("ctrl_title_thread_create"));
+    searchControl.execute(document.getElementById("ctrl_title_thread_create").value);
+    });
+});
+
+
+
+</script>
+
+	
+
+
+
+
+
+
+<script type="text/javascript">
+!function($, window, document, _undefined) {
+	XenForo.bdTagMe_suggestionMaxLength = 0;
+} (jQuery, this, document);
+</script>
+
+
+<script type="text/javascript">
+    Mudim.LANG=[
+		'Tắt',
+		'VNI',
+		'Telex',
+		'VIQR',
+		'Đủ kiểu',
+		'Tự động',
+		'Sửa lỗi chính tả',
+		'Dùng kiểu bỏ dấu mới',
+		'Toggle',
+		'Toggle Panel',
+	];
+	Mudim.IGNORE_ID = ['email','url'];
+	Mudim.COOKIE_KEY_NAME = 'xf_vim|mudim-settings';
+
+	CHIM.ClearBuffer();
+	Mudim.method = parseInt('2');
+	CHIM.Speller.enabled = parseInt('1') ? true : false;
+	Mudim.newAccentRule = parseInt('1') ? true : false;
+
+	
+		Mudim.showPanel = false;
+        	CHIM.SetDisplay();
+	    	Mudim.SetPreference();
+	
+</script></body>
+</html>

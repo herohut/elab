@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b2ea97f57014477b92382c474fcf4635" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model.Group" PointX="2.125" PointY="0.5" Width="1.5" />
+        <EntityTypeShape EntityType="Model.Source" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.EntrySource" Width="1.5" PointX="0.5" PointY="2.625" />
+        <AssociationConnector Association="Model.EntrySourceSource" />
+        <EntityTypeShape EntityType="Model.Entry" Width="1.5" PointX="4.375" PointY="3.625" />
+        <AssociationConnector Association="Model.GroupEntry" />
+        <AssociationConnector Association="Model.EntryEntrySource" />
+        <EntityTypeShape EntityType="Model.Like" Width="1.5" PointX="4.75" PointY="0.5" />
+        <AssociationConnector Association="Model.EntryLike" />
+        <EntityTypeShape EntityType="Model.Comment" Width="1.5" PointX="6.5" PointY="0.5" />
+        <AssociationConnector Association="Model.EntryComment" />
+        <AssociationConnector Association="Model.GroupGroup" />
+        <EntityTypeShape EntityType="Model.Tag" Width="1.5" PointX="8.125" PointY="0.5" />
+        <AssociationConnector Association="Model.EntryTag" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

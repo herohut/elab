@@ -1,0 +1,34 @@
+﻿@using Eking.News
+@model Eking.News.Controllers.EntryViewModel
+
+<div class="entryView">
+    <div class="entryViewLeftSide">
+        <h2>@Translator.T("Related")</h2>
+        
+
+        <ul>
+            @foreach (var item in Model.InGroupEntries)
+            {
+                <li>
+                    <a href="#view=entry&id=@item.Id" title="@item.Title">@Html.Raw(item.Title)</a>
+                </li>
+            }
+        </ul>
+        
+        
+        <h2>@Translator.T(@Model.GroupName)</h2>
+        <ul>
+            @foreach (var item in Model.InGroupEntries)
+            {
+                this.
+                <li>
+                    <a href="#view=entry&id=@item.Id" title="@item.Title">@Html.Raw(item.Title)</a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="entryViewCenter jScrollPane">
+        @Html.Partial("EntryContentView", Model)
+    </div>
+</div>

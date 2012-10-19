@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/themes/base/css", "~/Content/css")
+        @Styles.Render("~/Content/MyCss")
+        @Styles.Render("~/Content/MySass")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div id="body">
+            @RenderBody()
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryui")
+        @Scripts.Render("~/MyJs")
+        @Scripts.Render("~/MyCoffee")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="herohut_enewsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="herohut_enewsModelStoreContainer">
+    <EntitySet Name="Comments" EntityType="herohut_enewsModel.Store.Comments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Entries" EntityType="herohut_enewsModel.Store.Entries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EntrySources" EntityType="herohut_enewsModel.Store.EntrySources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Groups" EntityType="herohut_enewsModel.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Likes" EntityType="herohut_enewsModel.Store.Likes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sources" EntityType="herohut_enewsModel.Store.Sources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tags" EntityType="herohut_enewsModel.Store.Tags" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="EntryComment" Association="herohut_enewsModel.Store.EntryComment">
+      <End Role="Entries" EntitySet="Entries" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="EntryEntrySource" Association="herohut_enewsModel.Store.EntryEntrySource">
+      <End Role="Entries" EntitySet="Entries" />
+      <End Role="EntrySources" EntitySet="EntrySources" />
+    </AssociationSet>
+    <AssociationSet Name="EntryLike" Association="herohut_enewsModel.Store.EntryLike">
+      <End Role="Entries" EntitySet="Entries" />
+      <End Role="Likes" EntitySet="Likes" />
+    </AssociationSet>
+    <AssociationSet Name="EntrySourceSource" Association="herohut_enewsModel.Store.EntrySourceSource">
+      <End Role="Sources" EntitySet="Sources" />
+      <End Role="EntrySources" EntitySet="EntrySources" />
+    </AssociationSet>
+    <AssociationSet Name="EntryTag" Association="herohut_enewsModel.Store.EntryTag">
+      <End Role="Entries" EntitySet="Entries" />
+      <End Role="Tags" EntitySet="Tags" />
+    </AssociationSet>
+    <AssociationSet Name="GroupEntry" Association="herohut_enewsModel.Store.GroupEntry">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Entries" EntitySet="Entries" />
+    </AssociationSet>
+    <AssociationSet Name="GroupGroup" Association="herohut_enewsModel.Store.GroupGroup">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Groups1" EntitySet="Groups" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="nvarchar" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="ImageUrl" Type="nvarchar" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="ViewIndex" Type="int" Nullable="false" />
+    <Property Name="ViewType" Type="nvarchar" />
+    <Property Name="Published" Type="bit" Nullable="false" />
+    <Property Name="Group_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="EntrySources">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Url" Type="nvarchar" Nullable="false" />
+    <Property Name="Source_Id" Type="int" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" />
+    <Property Name="Parent_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Likes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Entry_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sources">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HomeUrl" Type="nvarchar" />
+    <Property Name="Icon" Type="nvarchar" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Word" Type="nvarchar" Nullable="false" />
+    <Property Name="Entries_Id" Type="int" />
+  </EntityType>
+  <Association Name="EntryComment">
+    <End Role="Entries" Type="herohut_enewsModel.Store.Entries" Multiplicity="1" />
+    <End Role="Comments" Type="herohut_enewsModel.Store.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryEntrySource">
+    <End Role="Entries" Type="herohut_enewsModel.Store.Entries" Multiplicity="1" />
+    <End Role="EntrySources" Type="herohut_enewsModel.Store.EntrySources" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntrySources">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryLike">
+    <End Role="Entries" Type="herohut_enewsModel.Store.Entries" Multiplicity="1" />
+    <End Role="Likes" Type="herohut_enewsModel.Store.Likes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Likes">
+        <PropertyRef Name="Entry_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntrySourceSource">
+    <End Role="Sources" Type="herohut_enewsModel.Store.Sources" Multiplicity="0..1" />
+    <End Role="EntrySources" Type="herohut_enewsModel.Store.EntrySources" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sources">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntrySources">
+        <PropertyRef Name="Source_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EntryTag">
+    <End Role="Entries" Type="herohut_enewsModel.Store.Entries" Multiplicity="0..1" />
+    <End Role="Tags" Type="herohut_enewsModel.Store.Tags" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tags">
+        <PropertyRef Name="Entries_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GroupEntry">
+    <End Role="Groups" Type="herohut_enewsModel.Store.Groups" Multiplicity="0..1" />
+    <End Role="Entries" Type="herohut_enewsModel.Store.Entries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Entries">
+        <PropertyRef Name="Group_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GroupGroup">
+    <End Role="Groups" Type="herohut_enewsModel.Store.Groups" Multiplicity="0..1" />
+    <End Role="Groups1" Type="herohut_enewsModel.Store.Groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Groups1">
+        <PropertyRef Name="Parent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
