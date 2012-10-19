@@ -1,0 +1,8 @@
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\bin\Release\Promova.Modules.ModernMedication.exe
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\bin\Release\Promova.Modules.ModernMedication.pdb
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\ResolveAssemblyReference.cache
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\Promova.Modules.ModernMedication.MediControl.resources
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\Promova.Modules.ModernMedication.Properties.Resources.resources
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\Promova.Modules.ModernMedication.csproj.GenerateResource.Cache
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\Promova.Modules.ModernMedication.exe
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\obj\Release\Promova.Modules.ModernMedication.pdb

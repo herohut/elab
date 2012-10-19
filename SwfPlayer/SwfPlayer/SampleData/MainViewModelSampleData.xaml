@@ -1,0 +1,294 @@
+<SwfPlayer:MainViewModel xmlns:SwfPlayer="clr-namespace:SwfPlayer">
+	<SwfPlayer:MainViewModel.Categories>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Fusce aliquet vestibulum">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Aliquam vestibulum phasellus" Title="Class sed curae">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Nam curabitur aenean"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Integer adipiscing" Title="Mauris parturient duis quisque">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Dis cras"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Est vestibulum" Title="Hac amet ante donec leo">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Nunc vestibulum"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Nec arcu adipiscing non diam" Title="Vivamus per">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Consequat convallis mus nullam aptent"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Sed etiam" Title="Maecenas aliquam">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Dignissim auctor elementum facilisis parturient"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Augue gravida adipiscing parturient dolor">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Sem blandit" Title="Enim erat fermentum adipiscing">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Congue cursus eget vestibulum elit"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vel lorem" Title="Vestibulum dictum praesent cubilia">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Commodo sit parturient conubia"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Eros nam sed" Title="Dis vestibulum dapibus">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Lectus libero ligula"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Est adipiscing" Title="Parturient morbi fringilla vestibulum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Egestas litora nibh nisi"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum hac magnis" Title="Nulla habitasse leo feugiat proin">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Euismod luctus"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Vestibulum adipiscing inceptos morbi cras">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Nisl vestibulum iaculis fames lacinia" Title="Nunc laoreet felis hendrerit adipiscing">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Vestibulum mus accumsan bibendum"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Odio mattis orci" Title="Pede posuere ipsum parturient himenaeos">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Natoque nec non"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum mauris" Title="Lacus imperdiet sed malesuada lorem">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Quam per potenti pretium justo"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Magna penatibus vestibulum" Title="Nam adipiscing">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Dictumst eleifend sem sit vel"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Rhoncus facilisi sed mollis faucibus" Title="Habitant porttitor vestibulum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Quis parturient urna massa metus"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Sed porta enim">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Interdum tristique" Title="Montes sodales neque hac">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Dis est parturient tincidunt"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Leo ultricies amet venenatis" Title="Lobortis nostra vestibulum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Duis nunc viverra"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Pharetra mus integer curabitur placerat" Title="Ante nec">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Nascetur vestibulum aliquam vulputate"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Quisque parturient non per ornare" Title="Arcu nulla vestibulum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Netus adipiscing"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum eget elit senectus" Title="Adipiscing sociosqu">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Pulvinar diam sagittis"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Quis semper dapibus">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Nibh aliquam" Title="Nisi aliquet phasellus">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Purus vivamus erat platea eros"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vel convallis odio" Title="Primis rutrum nam sed parturient">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Nisl sem consequat nunc sit"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Adipiscing elementum" Title="Dis est facilisis">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Suscipit vestibulum dignissim sapien vestibulum"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Ultrices blandit fermentum orci" Title="Commodo pede">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Hac torquent parturient"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Leo conubia mus" Title="Vestibulum quam cubilia">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Risus vestibulum"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Nam sed turpis">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Vehicula egestas sociis" Title="Vitae volutpat maecenas class habitasse">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Fringilla nec velit"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Per taciti cras tellus" Title="Duis adipiscing parturient himenaeos">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Hendrerit non urna praesent euismod"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Imperdiet gravida" Title="Malesuada donec iaculis">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Sed feugiat curae"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum vestibulum etiam" Title="Fusce nunc">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Lacinia laoreet"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Posuere sem sit" Title="Tempus tortor lorem vel ante">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Amet tempor natoque adipiscing penatibus"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Vulputate adipiscing sed orci">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Vestibulum diam" Title="Potenti dis porttitor">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Parturient arcu varius accumsan"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Elit bibendum enim tincidunt" Title="Erat est adipiscing">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Vestibulum eget morbi pretium"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum aenean vestibulum proin eros" Title="Tristique nibh">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Rhoncus parturient hac nulla"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Ultricies adipiscing viverra nisi parturient" Title="Venenatis nullam">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Sodales mauris leo mus"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Nisl eleifend non" Title="Nunc vestibulum per odio">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Nec vestibulum augue dictumst aliquam"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Vestibulum adipiscing parturient dis placerat">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Curabitur sem faucibus" Title="Quisque phasellus">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Facilisi integer pede quam"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Consequat dolor urna sit" Title="Vel nam cras">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Aptent quis"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Vestibulum habitant" Title="Inceptos amet vivamus fames aliquam">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Parturient duis vestibulum nunc"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Ante convallis interdum adipiscing" Title="Lobortis dignissim">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Felis ipsum"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Arcu nascetur vestibulum diam sed" Title="Elementum pharetra">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Aliquet blandit parturient"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Morbi sed">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Auctor commodo conubia" Title="Cubilia pulvinar dapibus">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Vestibulum vestibulum eget"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Egestas hac" Title="Leo mus euismod justo">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Congue est"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Adipiscing elit" Title="Magna facilisis gravida fermentum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Lacus lorem cursus feugiat nec"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Massa lacinia metus sagittis" Title="Enim fringilla">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Dictum iaculis"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Per parturient" Title="Libero senectus sociosqu">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Laoreet lectus non erat"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+		<SwfPlayer:SwfCategory IsExpanded="True" Name="Vivamus quam magnis">
+			<SwfPlayer:SwfCategory.Items>
+				<SwfPlayer:SwfItem FilePath="Torquent natoque ultrices posuere" Title="Sit vestibulum vestibulum">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Sem suscipit eros"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Hendrerit neque vestibulum" Title="Nibh potenti netus ligula himenaeos">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Adipiscing vel habitasse parturient"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Litora vehicula pretium" Title="Nisi rhoncus adipiscing">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Nulla nam vestibulum porta sed"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Dis purus parturient imperdiet malesuada" Title="Maecenas viverra nisl">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="True" Name="Volutpat sodales"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+				<SwfPlayer:SwfItem FilePath="Orci integer luctus" Title="Quisque pede est">
+					<SwfPlayer:SwfItem.Category>
+						<SwfPlayer:SwfCategory IsExpanded="False" Name="Penatibus aliquam risus nunc odio"/>
+					</SwfPlayer:SwfItem.Category>
+				</SwfPlayer:SwfItem>
+			</SwfPlayer:SwfCategory.Items>
+		</SwfPlayer:SwfCategory>
+	</SwfPlayer:MainViewModel.Categories>
+</SwfPlayer:MainViewModel>

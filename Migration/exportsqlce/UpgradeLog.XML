@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExportSQLCE40">
+</Property><Property Name="Solution File" Value="D:\HERO\OPEN-FREE\exportsqlce\ExportSQLCE40.sln">
+</Property><Property Name="Date" Value="Wednesday, February 15, 2012">
+</Property><Property Name="Time" Value="12:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExportSQLCE40.sln" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\ExportSQLCE40.sln">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="ExportSQLCE40.csproj" Description="Project file successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\ExportSQLCE40.csproj">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\DescriptionHelper.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\DescriptionHelper.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\DgmlHelper.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\DgmlHelper.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\Generator.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\Generator.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\Helper.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\Helper.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\IGenerator.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\IGenerator.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Generator\SqlCeDiff.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Generator\SqlCeDiff.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\Column.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\Column.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\ColumnList.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\ColumnList.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\Constraint.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\Constraint.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\DbDescription.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\DbDescription.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\Index.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\Index.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\PrimaryKey.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\PrimaryKey.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Models\YesNoOptionEnum.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Models\YesNoOptionEnum.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Repositories\DBRepository.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Repositories\DBRepository.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Repositories\IRepository.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Repositories\IRepository.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Program.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="Repositories\ServerDBRepository.cs" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\Repositories\ServerDBRepository.cs">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="data_out.ico" Description="File successfully backed up as D:\HERO\OPEN-FREE\exportsqlce\Backup\data_out.ico">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="ExportSQLCE40.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExportSQLCE40" Source="ExportSQLCE40.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExportSQLCE40.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExportSQLCE40.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="ExportSQLCE40.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ExportSQLCE40" Source="ExportSQLCE40.csproj" Description="References to a previous version of the SQL Server Compact provider were updated.">
+</Event></UpgradeLog>

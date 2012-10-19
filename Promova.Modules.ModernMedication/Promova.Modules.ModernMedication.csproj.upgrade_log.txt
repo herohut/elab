@@ -1,0 +1,8 @@
+-----------------------------------------------------------------------------------------------------------
+E:\PROMOVA\src\trunk_espas_newPrcs\Promova.Modules.ModernMedication\Promova.Modules.ModernMedication.csproj
+-----------------------------------------------------------------------------------------------------------
+Setting <ExpressionBlendVersion> value to '4.0.20525.0'
+Updating ToolsVersion from '3.5' to '4.0'
+Saving file
+
+

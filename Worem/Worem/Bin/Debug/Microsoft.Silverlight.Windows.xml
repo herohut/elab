@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Silverlight.Windows</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Silverlight.Windows.Installer.CheckNESLInstalled(System.Int32,System.Int32)">
+            <summary>
+            Checks to see if the NESL native runtime is installed on the machine. This function returns true if the supplied NESL installer has been used to install the runtime.
+            </summary>
+            <param name="MajorVersion">The major version of the current runtime</param>
+            <param name="MinorVersion">The minor version of the current runtime</param>
+            <returns>True if installed</returns>
+        </member>
+        <member name="M:Microsoft.Silverlight.Windows.Installer.InstallNESL(System.Uri,System.Boolean,System.Boolean)">
+            <summary>
+            Invokes the MSI installer to install the NESL runtime from within a Silverlight OOB app running in elevated trust.
+            </summary>
+            <param name="NESLPackageUri">URI to the NESL MSI installer package. Can be locally included in the XAP, or remotely hosted. If locally included in the XAP, the build action on the installer package must be set to Content and the relative URI to the package in the XAP should be passed in. If remotely hosted and accessed over the public internet, it is advisable to use a secure HTTP connection.</param>
+            <param name="Remote">False if the installer is contained in the XAP. Default is true.</param>
+            <param name="ShowProgress">False if you do not want to display the standard MSI install progress dialog. Default is is true.</param>
+        </member>
+        <member name="T:Microsoft.Silverlight.Windows.BaseCOMObjectWrapper">
+            <summary>
+            A base class for Silverlight objects that wrap COM automation capable components.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Silverlight.Windows.BaseCOMObjectWrapper.#ctor(System.String)">
+            <summary>
+            Constructs a new instance of BaseCOMObjectWrapper. Also attempts to instantiate the underlying COM automation component based on the supplied Prog ID.
+            </summary>
+            <remarks>You cannot construct an instance of the abstract BaseCOMObjectWrapper class directly. The BaseCOMObjectWrapper constructors exist to help you properly initialize an instance of a derived class.</remarks>
+            <param name="ProgId">Prog ID for the COM Automation object</param>
+        </member>
+        <member name="M:Microsoft.Silverlight.Windows.BaseCOMObjectWrapper.#ctor(System.Object)">
+            <summary>
+            Constructs a new instance of BaseCOMObjectWrapper with an already created COM automation object.
+            </summary>
+            <remarks>You cannot construct an instance of the abstract BaseCOMObjectWrapper class directly. The BaseCOMObjectWrapper constructors exist to help you properly initialize an instance of a derived class.</remarks>
+            <param name="COMObject">An instance of a COM Automation object</param>
+        </member>
+        <member name="M:Microsoft.Silverlight.Windows.BaseCOMObjectWrapper.Dispose">
+            <summary>
+            Call to explicitly dispose an instance as well as release the underlying the COM automation object.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.BaseCOMObjectWrapper.COMObject">
+            <summary>
+            Get the wrapped COM object
+            </summary>
+        </member>
+        <member name="T:Microsoft.Silverlight.Windows.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_AUTOMATIONNOTAVAILABLE">
+            <summary>
+              Looks up a localized string similar to COM Automation not available.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_ERR_MANIFEST">
+            <summary>
+              Looks up a localized string similar to Manifest Error.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_ERR_MANIFEST_PARSE">
+            <summary>
+              Looks up a localized string similar to Error parsing manifest.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_ERROR_LIBRARY">
+            <summary>
+              Looks up a localized string similar to Error installing {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_ERROR_LIBRARYNOTFOUND">
+            <summary>
+              Looks up a localized string similar to Error downloading {0} : Library not found.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_INVALID_CATALYST_INSTALLPATH">
+            <summary>
+              Looks up a localized string similar to Invalid path : Please make sure you provide a valid and absolute path to install the libraries.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_MISSING_MANIFEST_VERSION">
+            <summary>
+              Looks up a localized string similar to Error: Manifest version required.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_NULLARGUMENT">
+            <summary>
+              Looks up a localized string similar to Invalid Argument : Null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Silverlight.Windows.Resources.MSG_REGISTRYACCESS">
+            <summary>
+              Looks up a localized string similar to Required registry access not allowed.
+            </summary>
+        </member>
+    </members>
+</doc>

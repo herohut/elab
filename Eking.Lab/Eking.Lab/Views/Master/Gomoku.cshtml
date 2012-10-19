@@ -1,0 +1,30 @@
+﻿<script src="/Scripts/jquery.signalR-0.5.2.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.dateFormat-1.0.min.js" type="text/javascript"></script>
+<script src="/echannel/hubs" type="text/javascript"></script>
+<script src="/Scripts/Gomoku.js" type="text/javascript"></script>
+
+<div>
+    <input type="text" id="playerName" />
+    <input type="button" id="btnSetPlayerName" value="Set your Name" />
+    <hr />
+    <ul id="players">
+    </ul>
+    <hr />
+    <input type="button" value="Test tick" id="testTick" />
+    <hr />
+    <ul id="msgLog">
+    </ul>
+    <hr />
+    <div id="matchConfirm" style="visibility: hidden">
+        <label id="matchRequestText"></label>
+        <input type="button" id="btnYesMatch" value="Yes" />
+        <input type="button" id="btnNoMatch" value="No" />
+    </div>
+    <hr />
+    <label id="matchStatus">Match: None</label>
+</div>
+<script type="text/javascript">
+    new gomoku();
+</script>
+
+

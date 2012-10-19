@@ -1,0 +1,10 @@
+#noSupportBrower {
+	background-color: #F00;
+	width: 1000px;
+	visibility: hidden;
+}
+#supportedBrower {
+	background-color: #0F0;
+	width: 1000px;
+	visibility: hidden;
+}

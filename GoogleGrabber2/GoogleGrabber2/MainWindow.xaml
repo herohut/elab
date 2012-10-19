@@ -1,0 +1,13 @@
+﻿<Window x:Class="GoogleGrabber2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="761" DataContext="{DynamicResource Locator}" >
+    <StackPanel>
+        <WebBrowser x:Name="navigator" Height="400" VerticalAlignment="Top"/>
+        <TextBlock Text="{Binding Main.CurrentUrl}"></TextBlock>
+        <Button Click="Button_Click_1">DO IT</Button>
+        <Button Click="Button_Click_2">Process Html</Button>
+        <Button Click="Button_Click_3">Others</Button>
+        <Button Click="Button_Click_4">WRITE PHP</Button>
+    </StackPanel>
+</Window>

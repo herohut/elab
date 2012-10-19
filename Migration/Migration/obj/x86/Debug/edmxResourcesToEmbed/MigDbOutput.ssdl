@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MigDbOutputModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MigDbOutputModelStoreContainer">
+    <EntitySet Name="_Group" EntityType="MigDbOutputModel.Store._Group" store:Type="Tables" />
+    <EntitySet Name="_User" EntityType="MigDbOutputModel.Store._User" store:Type="Tables" />
+    <EntitySet Name="ActivityData" EntityType="MigDbOutputModel.Store.ActivityData" store:Type="Tables" />
+    <EntitySet Name="AddressInformation" EntityType="MigDbOutputModel.Store.AddressInformation" store:Type="Tables" />
+    <EntitySet Name="AppointmentSerializable" EntityType="MigDbOutputModel.Store.AppointmentSerializable" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="MigDbOutputModel.Store.Category" store:Type="Tables" />
+    <EntitySet Name="ClassificationLevel" EntityType="MigDbOutputModel.Store.ClassificationLevel" store:Type="Tables" />
+    <EntitySet Name="Client" EntityType="MigDbOutputModel.Store.Client" store:Type="Tables" />
+    <EntitySet Name="ClientGroupMembership" EntityType="MigDbOutputModel.Store.ClientGroupMembership" store:Type="Tables" />
+    <EntitySet Name="ClientToolsSelectionData" EntityType="MigDbOutputModel.Store.ClientToolsSelectionData" store:Type="Tables" />
+    <EntitySet Name="ClientUser" EntityType="MigDbOutputModel.Store.ClientUser" store:Type="Tables" />
+    <EntitySet Name="CompostiteGenericData" EntityType="MigDbOutputModel.Store.CompostiteGenericData" store:Type="Tables" />
+    <EntitySet Name="DataField" EntityType="MigDbOutputModel.Store.DataField" store:Type="Tables" />
+    <EntitySet Name="DateTimeGenericData" EntityType="MigDbOutputModel.Store.DateTimeGenericData" store:Type="Tables" />
+    <EntitySet Name="DiagramData" EntityType="MigDbOutputModel.Store.DiagramData" store:Type="Tables" />
+    <EntitySet Name="DiagramEntityData" EntityType="MigDbOutputModel.Store.DiagramEntityData" store:Type="Tables" />
+    <EntitySet Name="DiagramPersonRelationData" EntityType="MigDbOutputModel.Store.DiagramPersonRelationData" store:Type="Tables" />
+    <EntitySet Name="EntryTypeVisibility" EntityType="MigDbOutputModel.Store.EntryTypeVisibility" store:Type="Tables" />
+    <EntitySet Name="FileSyncronizedSettings" EntityType="MigDbOutputModel.Store.FileSyncronizedSettings" store:Type="Tables" />
+    <EntitySet Name="GenericPerson" EntityType="MigDbOutputModel.Store.GenericPerson" store:Type="Tables" />
+    <EntitySet Name="GroupMembership" EntityType="MigDbOutputModel.Store.GroupMembership" store:Type="Tables" />
+    <EntitySet Name="JournalEntryData" EntityType="MigDbOutputModel.Store.JournalEntryData" store:Type="Tables" />
+    <EntitySet Name="OfficeDocument" EntityType="MigDbOutputModel.Store.OfficeDocument" store:Type="Tables" />
+    <EntitySet Name="PersonData" EntityType="MigDbOutputModel.Store.PersonData" store:Type="Tables" />
+    <EntitySet Name="PhaseData" EntityType="MigDbOutputModel.Store.PhaseData" store:Type="Tables" />
+    <EntitySet Name="Point" EntityType="MigDbOutputModel.Store.Point" store:Type="Tables" />
+    <EntitySet Name="ProcessData" EntityType="MigDbOutputModel.Store.ProcessData" store:Type="Tables" />
+    <EntitySet Name="PromovaProfilingData" EntityType="MigDbOutputModel.Store.PromovaProfilingData" store:Type="Tables" />
+    <EntitySet Name="RelationInfoData" EntityType="MigDbOutputModel.Store.RelationInfoData" store:Type="Tables" />
+    <EntitySet Name="RemoteDatabase" EntityType="MigDbOutputModel.Store.RemoteDatabase" store:Type="Tables" />
+    <EntitySet Name="ReportExportToExcelSettings" EntityType="MigDbOutputModel.Store.ReportExportToExcelSettings" store:Type="Tables" />
+    <EntitySet Name="ReportSettings" EntityType="MigDbOutputModel.Store.ReportSettings" store:Type="Tables" />
+    <EntitySet Name="SchedulerStorageSerializable" EntityType="MigDbOutputModel.Store.SchedulerStorageSerializable" store:Type="Tables" />
+    <EntitySet Name="ServerMethodCallProfilingData" EntityType="MigDbOutputModel.Store.ServerMethodCallProfilingData" store:Type="Tables" />
+    <EntitySet Name="StringGenericData" EntityType="MigDbOutputModel.Store.StringGenericData" store:Type="Tables" />
+    <EntitySet Name="ToolProfilingData" EntityType="MigDbOutputModel.Store.ToolProfilingData" store:Type="Tables" />
+    <EntitySet Name="UserApplicationData" EntityType="MigDbOutputModel.Store.UserApplicationData" store:Type="Tables" />
+    <EntitySet Name="UserGroupMembership" EntityType="MigDbOutputModel.Store.UserGroupMembership" store:Type="Tables" />
+    <EntitySet Name="ValidationRule" EntityType="MigDbOutputModel.Store.ValidationRule" store:Type="Tables" />
+    <EntitySet Name="VersionedICF" EntityType="MigDbOutputModel.Store.VersionedICF" store:Type="Tables" />
+    <AssociationSet Name="Fk__User_ClientUser" Association="MigDbOutputModel.Store.Fk__User_ClientUser">
+      <End Role="ClientUser" EntitySet="ClientUser" />
+      <End Role="_User" EntitySet="_User" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_AddressInformation_DataField" Association="MigDbOutputModel.Store.Fk_AddressInformation_DataField">
+      <End Role="DataField" EntitySet="DataField" />
+      <End Role="AddressInformation" EntitySet="AddressInformation" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_AppointmentSerializable_SchedulerStorageSerializable" Association="MigDbOutputModel.Store.Fk_AppointmentSerializable_SchedulerStorageSerializable">
+      <End Role="SchedulerStorageSerializable" EntitySet="SchedulerStorageSerializable" />
+      <End Role="AppointmentSerializable" EntitySet="AppointmentSerializable" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Client_ClientUser" Association="MigDbOutputModel.Store.Fk_Client_ClientUser">
+      <End Role="ClientUser" EntitySet="ClientUser" />
+      <End Role="Client" EntitySet="Client" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ClientToolsSelectionData_UserApplicationData" Association="MigDbOutputModel.Store.Fk_ClientToolsSelectionData_UserApplicationData">
+      <End Role="UserApplicationData" EntitySet="UserApplicationData" />
+      <End Role="ClientToolsSelectionData" EntitySet="ClientToolsSelectionData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ClientUser_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_ClientUser_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="ClientUser" EntitySet="ClientUser" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_CompostiteGenericData_DataField" Association="MigDbOutputModel.Store.Fk_CompostiteGenericData_DataField">
+      <End Role="DataField" EntitySet="DataField" />
+      <End Role="CompostiteGenericData" EntitySet="CompostiteGenericData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DataField_Client" Association="MigDbOutputModel.Store.Fk_DataField_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="DataField" EntitySet="DataField" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DateTimeGenericData_DataField" Association="MigDbOutputModel.Store.Fk_DateTimeGenericData_DataField">
+      <End Role="DataField" EntitySet="DataField" />
+      <End Role="DateTimeGenericData" EntitySet="DateTimeGenericData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DiagramData_DataField" Association="MigDbOutputModel.Store.Fk_DiagramData_DataField">
+      <End Role="DataField" EntitySet="DataField" />
+      <End Role="DiagramData" EntitySet="DiagramData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DiagramEntityData_DiagramData" Association="MigDbOutputModel.Store.Fk_DiagramEntityData_DiagramData">
+      <End Role="DiagramData" EntitySet="DiagramData" />
+      <End Role="DiagramEntityData" EntitySet="DiagramEntityData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_EntryTypeVisibility__Group" Association="MigDbOutputModel.Store.Fk_EntryTypeVisibility__Group">
+      <End Role="_Group" EntitySet="_Group" />
+      <End Role="EntryTypeVisibility" EntitySet="EntryTypeVisibility" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_FileSyncronizedSettings_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_FileSyncronizedSettings_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="FileSyncronizedSettings" EntitySet="FileSyncronizedSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_GenericPerson_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_GenericPerson_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="GenericPerson" EntitySet="GenericPerson" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_OfficeDocument_Client" Association="MigDbOutputModel.Store.Fk_OfficeDocument_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="OfficeDocument" EntitySet="OfficeDocument" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_PersonData_Client" Association="MigDbOutputModel.Store.Fk_PersonData_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="PersonData" EntitySet="PersonData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Point_DiagramEntityData" Association="MigDbOutputModel.Store.Fk_Point_DiagramEntityData">
+      <End Role="DiagramEntityData" EntitySet="DiagramEntityData" />
+      <End Role="Point" EntitySet="Point" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_PromovaProfilingData_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_PromovaProfilingData_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="PromovaProfilingData" EntitySet="PromovaProfilingData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ReportExportToExcelSettings_ReportSettings" Association="MigDbOutputModel.Store.Fk_ReportExportToExcelSettings_ReportSettings">
+      <End Role="ReportSettings" EntitySet="ReportSettings" />
+      <End Role="ReportExportToExcelSettings" EntitySet="ReportExportToExcelSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ReportSettings_FileSyncronizedSettings" Association="MigDbOutputModel.Store.Fk_ReportSettings_FileSyncronizedSettings">
+      <End Role="FileSyncronizedSettings" EntitySet="FileSyncronizedSettings" />
+      <End Role="ReportSettings" EntitySet="ReportSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_SchedulerStorageSerializable_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_SchedulerStorageSerializable_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="SchedulerStorageSerializable" EntitySet="SchedulerStorageSerializable" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ServerMethodCallProfilingData_ToolProfilingData" Association="MigDbOutputModel.Store.Fk_ServerMethodCallProfilingData_ToolProfilingData">
+      <End Role="ToolProfilingData" EntitySet="ToolProfilingData" />
+      <End Role="ServerMethodCallProfilingData" EntitySet="ServerMethodCallProfilingData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_StringGenericData_DataField" Association="MigDbOutputModel.Store.Fk_StringGenericData_DataField">
+      <End Role="DataField" EntitySet="DataField" />
+      <End Role="StringGenericData" EntitySet="StringGenericData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ToolProfilingData_PromovaProfilingData" Association="MigDbOutputModel.Store.Fk_ToolProfilingData_PromovaProfilingData">
+      <End Role="PromovaProfilingData" EntitySet="PromovaProfilingData" />
+      <End Role="ToolProfilingData" EntitySet="ToolProfilingData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_UserApplicationData__User" Association="MigDbOutputModel.Store.Fk_UserApplicationData__User">
+      <End Role="_User" EntitySet="_User" />
+      <End Role="UserApplicationData" EntitySet="UserApplicationData" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_VersionedICF_RemoteDatabase" Association="MigDbOutputModel.Store.Fk_VersionedICF_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabase" />
+      <End Role="VersionedICF" EntitySet="VersionedICF" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="_Group">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="parentId" Type="ntext" />
+    <Property Name="defunct" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="_User">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdClientUser" Type="int" />
+    <Property Name="groupOfUserRights" Type="ntext" />
+    <Property Name="password" Type="ntext" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+  </EntityType>
+  <EntityType Name="ActivityData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="toolClass" Type="ntext" />
+    <Property Name="_OffSet" Type="float" />
+    <Property Name="finished" Type="bit" />
+    <Property Name="ignored" Type="bit" />
+    <Property Name="autoFinishPhase" Type="bit" />
+    <Property Name="startData" Type="ntext" />
+    <Property Name="firstUsedDate" Type="datetime" />
+    <Property Name="lastUsedDate" Type="datetime" />
+    <Property Name="isFinishable" Type="bit" />
+    <Property Name="markedToImportDataTo" Type="bit" />
+    <Property Name="markedToImportFrom" Type="bit" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="description" Type="ntext" />
+    <Property Name="urlHelp" Type="ntext" />
+  </EntityType>
+  <EntityType Name="AddressInformation">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDataField" Type="int" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="AppointmentSerializable">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdSchedulerStorageSerializable" Type="int" />
+    <Property Name="statusId" Type="int" />
+    <Property Name="resourceId" Type="ntext" />
+    <Property Name="recurrenceInfo" Type="ntext" />
+    <Property Name="description" Type="ntext" />
+    <Property Name="label" Type="float" />
+    <Property Name="location" Type="ntext" />
+    <Property Name="subject" Type="ntext" />
+    <Property Name="allDay" Type="bit" />
+    <Property Name="_End" Type="datetime" />
+    <Property Name="start" Type="datetime" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="creatorID" Type="ntext" />
+    <Property Name="type" Type="int" />
+    <Property Name="absenceReason" Type="ntext" />
+    <Property Name="appointmentType" Type="ntext" />
+    <Property Name="ilegitimAbsence" Type="bit" />
+    <Property Name="vorgabe" Type="ntext" />
+    <Property Name="ist" Type="ntext" />
+    <Property Name="massname" Type="ntext" />
+    <Property Name="solltarif" Type="ntext" />
+    <Property Name="appSource" Type="int" />
+    <Property Name="_groupId" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="letter" Type="ntext" />
+    <Property Name="color" Type="ntext" />
+    <Property Name="groupSpecific" Type="bit" />
+    <Property Name="toStringFormat" Type="ntext" />
+    <Property Name="_shouldNotBeMoved" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="ClassificationLevel">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="nodeId" Type="ntext" />
+    <Property Name="number" Type="ntext" />
+    <Property Name="title" Type="ntext" />
+    <Property Name="description" Type="ntext" />
+    <Property Name="evaluation" Type="bit" />
+    <Property Name="parentID" Type="ntext" />
+    <Property Name="indent" Type="int" />
+    <Property Name="isFake" Type="bit" />
+    <Property Name="defunct" Type="bit" />
+    <Property Name="selectAsGoal" Type="bit" />
+    <Property Name="editable" Type="bit" />
+    <Property Name="canAddChildren" Type="bit" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdClientUser" Type="int" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+  </EntityType>
+  <EntityType Name="ClientGroupMembership">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="selectable" Type="bit" />
+    <Property Name="pastGroupMembership" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="groupID" Type="ntext" />
+    <Property Name="validFrom" Type="datetime" />
+    <Property Name="validUntil" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ClientToolsSelectionData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdUserApplicationData" Type="int" />
+    <Property Name="lastToolName" Type="ntext" />
+    <Property Name="_toolsUserSelectionDictionary" Type="ntext" />
+  </EntityType>
+  <EntityType Name="ClientUser">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+    <Property Name="enableUserFunctionalities" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="CompostiteGenericData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDataField" Type="int" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="DataField">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdClient" Type="int" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+    <Property Name="__IdClientUser" Type="int" />
+    <Property Name="__IdUser" Type="int" />
+    <Property Name="__IdGenericPerson" Type="int" />
+  </EntityType>
+  <EntityType Name="DateTimeGenericData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDataField" Type="int" />
+    <Property Name="data" Type="datetime" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="DiagramData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDataField" Type="int" />
+    <Property Name="lastPersonIdEdited" Type="ntext" />
+  </EntityType>
+  <EntityType Name="DiagramEntityData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDiagramData" Type="int" />
+    <Property Name="entityID" Type="ntext" />
+    <Property Name="primarySystem" Type="bit" />
+  </EntityType>
+  <EntityType Name="DiagramPersonRelationData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="frequencyStyle" Type="ntext" />
+    <Property Name="roleStyle" Type="ntext" />
+    <Property Name="firstID" Type="ntext" />
+    <Property Name="secondID" Type="ntext" />
+    <Property Name="positivityStyle" Type="int" />
+  </EntityType>
+  <EntityType Name="EntryTypeVisibility">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__Id_Group" Type="int" />
+    <Property Name="__IdGroup" Type="int" />
+    <Property Name="visible" Type="bit" />
+    <Property Name="lastChange" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FileSyncronizedSettings">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+  </EntityType>
+  <EntityType Name="GenericPerson">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="GroupMembership">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="pastGroupMembership" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="groupID" Type="ntext" />
+    <Property Name="validFrom" Type="datetime" />
+    <Property Name="validUntil" Type="datetime" />
+  </EntityType>
+  <EntityType Name="JournalEntryData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="entryType" Type="ntext" />
+    <Property Name="entryDate" Type="datetime" />
+    <Property Name="timeSpent" Type="ntext" />
+    <Property Name="importantDevelopment" Type="bit" />
+    <Property Name="bodyText" Type="ntext" />
+    <Property Name="title" Type="ntext" />
+    <Property Name="concerningDate" Type="datetime" />
+    <Property Name="homeGroupID" Type="ntext" />
+    <Property Name="bodyUnformattedText" Type="ntext" />
+    <Property Name="shouldRebuildMaps" Type="bit" />
+    <Property Name="cacheIndex" Type="int" />
+    <Property Name="preserveID" Type="bit" />
+  </EntityType>
+  <EntityType Name="OfficeDocument">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdClient" Type="int" />
+    <Property Name="serverFileName" Type="ntext" />
+  </EntityType>
+  <EntityType Name="PersonData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdClient" Type="int" />
+    <Property Name="categoryID" Type="ntext" />
+    <Property Name="firstName" Type="ntext" />
+    <Property Name="deleted" Type="bit" />
+    <Property Name="createDate" Type="datetime" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+    <Property Name="__IdUser" Type="int" />
+    <Property Name="__IdClientUser" Type="int" />
+    <Property Name="__IdGenericPerson" Type="int" />
+  </EntityType>
+  <EntityType Name="PhaseData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="length" Type="float" />
+    <Property Name="startDate" Type="datetime" />
+    <Property Name="color" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="description" Type="ntext" />
+    <Property Name="urlHelp" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Point">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDiagramEntityData" Type="int" />
+  </EntityType>
+  <EntityType Name="ProcessData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="label" Type="ntext" />
+    <Property Name="subProcessOnly" Type="bit" />
+    <Property Name="addProcessToGroups" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="_noTimeRestrictions" Type="bit" />
+    <Property Name="visualDepth" Type="int" />
+    <Property Name="visited" Type="bit" />
+    <Property Name="markForChangeParent" Type="bit" />
+    <Property Name="markForAcceptChild" Type="bit" />
+    <Property Name="dynamicLabel" Type="ntext" />
+    <Property Name="dynamicLabelExtraction" Type="ntext" />
+    <Property Name="name" Type="ntext" />
+    <Property Name="description" Type="ntext" />
+    <Property Name="urlHelp" Type="ntext" />
+  </EntityType>
+  <EntityType Name="PromovaProfilingData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+    <Property Name="profilingStartingDate" Type="ntext" />
+  </EntityType>
+  <EntityType Name="RelationInfoData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="firstPersonRole" Type="ntext" />
+    <Property Name="secondPersonRole" Type="ntext" />
+    <Property Name="startDate" Type="datetime" />
+    <Property Name="endDate" Type="datetime" />
+    <Property Name="comment" Type="ntext" />
+  </EntityType>
+  <EntityType Name="RemoteDatabase">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="metaInformation" Type="ntext" />
+    <Property Name="demoVersion" Type="bit" />
+    <Property Name="demoExpired" Type="bit" />
+    <Property Name="advancedSearchVersion" Type="ntext" />
+  </EntityType>
+  <EntityType Name="ReportExportToExcelSettings">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdReportSettings" Type="int" />
+    <Property Name="_printTitleRows" Type="ntext" />
+    <Property Name="_pageIndexPos" Type="ntext" />
+  </EntityType>
+  <EntityType Name="ReportSettings">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdFileSyncronizedSettings" Type="int" />
+    <Property Name="_name" Type="ntext" />
+    <Property Name="_title" Type="ntext" />
+    <Property Name="_copyRightsFrom" Type="ntext" />
+    <Property Name="_defaultReport" Type="bit" />
+    <Property Name="_exportFile" Type="ntext" />
+    <Property Name="_hiddenInList" Type="bit" />
+    <Property Name="_translatedTitle" Type="ntext" />
+  </EntityType>
+  <EntityType Name="SchedulerStorageSerializable">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+    <Property Name="__IdClient" Type="int" />
+  </EntityType>
+  <EntityType Name="ServerMethodCallProfilingData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdToolProfilingData" Type="int" />
+    <Property Name="callCounter" Type="float" />
+    <Property Name="processorTime" Type="float" />
+  </EntityType>
+  <EntityType Name="StringGenericData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdDataField" Type="int" />
+    <Property Name="data" Type="ntext" />
+    <Property Name="preserveID" Type="bit" />
+    <Property Name="__IdAddressInformation" Type="int" />
+  </EntityType>
+  <EntityType Name="ToolProfilingData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdPromovaProfilingData" Type="int" />
+    <Property Name="toolName" Type="ntext" />
+    <Property Name="seconds" Type="float" />
+    <Property Name="enterCounter" Type="int" />
+  </EntityType>
+  <EntityType Name="UserApplicationData">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__Id_User" Type="int" />
+    <Property Name="__IdUser" Type="int" />
+    <Property Name="lastSelectedPersonID" Type="ntext" />
+    <Property Name="lastToolName" Type="ntext" />
+    <Property Name="lastLogout" Type="datetime" />
+    <Property Name="lastLogin" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserGroupMembership">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="canModify" Type="bit" />
+    <Property Name="canLogin" Type="bit" />
+    <Property Name="pastGroupMembership" Type="bit" />
+    <Property Name="id" Type="ntext" />
+    <Property Name="groupID" Type="ntext" />
+    <Property Name="validFrom" Type="datetime" />
+    <Property Name="validUntil" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ValidationRule">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="fieldName" Type="ntext" />
+  </EntityType>
+  <EntityType Name="VersionedICF">
+    <Key>
+      <PropertyRef Name="__Id" />
+    </Key>
+    <Property Name="__Id" Type="int" Nullable="false" />
+    <Property Name="__IdRemoteDatabase" Type="int" />
+    <Property Name="version" Type="ntext" />
+  </EntityType>
+  <Association Name="Fk__User_ClientUser">
+    <End Role="ClientUser" Type="MigDbOutputModel.Store.ClientUser" Multiplicity="0..1" />
+    <End Role="_User" Type="MigDbOutputModel.Store._User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientUser">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="_User">
+        <PropertyRef Name="__IdClientUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_AddressInformation_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="0..1" />
+    <End Role="AddressInformation" Type="MigDbOutputModel.Store.AddressInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="AddressInformation">
+        <PropertyRef Name="__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_AppointmentSerializable_SchedulerStorageSerializable">
+    <End Role="SchedulerStorageSerializable" Type="MigDbOutputModel.Store.SchedulerStorageSerializable" Multiplicity="0..1" />
+    <End Role="AppointmentSerializable" Type="MigDbOutputModel.Store.AppointmentSerializable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchedulerStorageSerializable">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="AppointmentSerializable">
+        <PropertyRef Name="__IdSchedulerStorageSerializable" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Client_ClientUser">
+    <End Role="ClientUser" Type="MigDbOutputModel.Store.ClientUser" Multiplicity="0..1" />
+    <End Role="Client" Type="MigDbOutputModel.Store.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientUser">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="__IdClientUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ClientToolsSelectionData_UserApplicationData">
+    <End Role="UserApplicationData" Type="MigDbOutputModel.Store.UserApplicationData" Multiplicity="0..1" />
+    <End Role="ClientToolsSelectionData" Type="MigDbOutputModel.Store.ClientToolsSelectionData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserApplicationData">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ClientToolsSelectionData">
+        <PropertyRef Name="__IdUserApplicationData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ClientUser_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="ClientUser" Type="MigDbOutputModel.Store.ClientUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ClientUser">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_CompostiteGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="0..1" />
+    <End Role="CompostiteGenericData" Type="MigDbOutputModel.Store.CompostiteGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="CompostiteGenericData">
+        <PropertyRef Name="__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DataField_Client">
+    <End Role="Client" Type="MigDbOutputModel.Store.Client" Multiplicity="0..1" />
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="DataField">
+        <PropertyRef Name="__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DateTimeGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="0..1" />
+    <End Role="DateTimeGenericData" Type="MigDbOutputModel.Store.DateTimeGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="DateTimeGenericData">
+        <PropertyRef Name="__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DiagramData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="0..1" />
+    <End Role="DiagramData" Type="MigDbOutputModel.Store.DiagramData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="DiagramData">
+        <PropertyRef Name="__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DiagramEntityData_DiagramData">
+    <End Role="DiagramData" Type="MigDbOutputModel.Store.DiagramData" Multiplicity="0..1" />
+    <End Role="DiagramEntityData" Type="MigDbOutputModel.Store.DiagramEntityData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiagramData">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="DiagramEntityData">
+        <PropertyRef Name="__IdDiagramData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_EntryTypeVisibility__Group">
+    <End Role="_Group" Type="MigDbOutputModel.Store._Group" Multiplicity="0..1" />
+    <End Role="EntryTypeVisibility" Type="MigDbOutputModel.Store.EntryTypeVisibility" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Group">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="EntryTypeVisibility">
+        <PropertyRef Name="__Id_Group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_FileSyncronizedSettings_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="FileSyncronizedSettings" Type="MigDbOutputModel.Store.FileSyncronizedSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="FileSyncronizedSettings">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_GenericPerson_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="GenericPerson" Type="MigDbOutputModel.Store.GenericPerson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="GenericPerson">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_OfficeDocument_Client">
+    <End Role="Client" Type="MigDbOutputModel.Store.Client" Multiplicity="0..1" />
+    <End Role="OfficeDocument" Type="MigDbOutputModel.Store.OfficeDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="OfficeDocument">
+        <PropertyRef Name="__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_PersonData_Client">
+    <End Role="Client" Type="MigDbOutputModel.Store.Client" Multiplicity="0..1" />
+    <End Role="PersonData" Type="MigDbOutputModel.Store.PersonData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="PersonData">
+        <PropertyRef Name="__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Point_DiagramEntityData">
+    <End Role="DiagramEntityData" Type="MigDbOutputModel.Store.DiagramEntityData" Multiplicity="0..1" />
+    <End Role="Point" Type="MigDbOutputModel.Store.Point" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiagramEntityData">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="Point">
+        <PropertyRef Name="__IdDiagramEntityData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_PromovaProfilingData_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="PromovaProfilingData" Type="MigDbOutputModel.Store.PromovaProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="PromovaProfilingData">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ReportExportToExcelSettings_ReportSettings">
+    <End Role="ReportSettings" Type="MigDbOutputModel.Store.ReportSettings" Multiplicity="0..1" />
+    <End Role="ReportExportToExcelSettings" Type="MigDbOutputModel.Store.ReportExportToExcelSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReportSettings">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ReportExportToExcelSettings">
+        <PropertyRef Name="__IdReportSettings" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ReportSettings_FileSyncronizedSettings">
+    <End Role="FileSyncronizedSettings" Type="MigDbOutputModel.Store.FileSyncronizedSettings" Multiplicity="0..1" />
+    <End Role="ReportSettings" Type="MigDbOutputModel.Store.ReportSettings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileSyncronizedSettings">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ReportSettings">
+        <PropertyRef Name="__IdFileSyncronizedSettings" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_SchedulerStorageSerializable_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="SchedulerStorageSerializable" Type="MigDbOutputModel.Store.SchedulerStorageSerializable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="SchedulerStorageSerializable">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ServerMethodCallProfilingData_ToolProfilingData">
+    <End Role="ToolProfilingData" Type="MigDbOutputModel.Store.ToolProfilingData" Multiplicity="0..1" />
+    <End Role="ServerMethodCallProfilingData" Type="MigDbOutputModel.Store.ServerMethodCallProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ToolProfilingData">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ServerMethodCallProfilingData">
+        <PropertyRef Name="__IdToolProfilingData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_StringGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.Store.DataField" Multiplicity="0..1" />
+    <End Role="StringGenericData" Type="MigDbOutputModel.Store.StringGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="StringGenericData">
+        <PropertyRef Name="__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ToolProfilingData_PromovaProfilingData">
+    <End Role="PromovaProfilingData" Type="MigDbOutputModel.Store.PromovaProfilingData" Multiplicity="0..1" />
+    <End Role="ToolProfilingData" Type="MigDbOutputModel.Store.ToolProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PromovaProfilingData">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="ToolProfilingData">
+        <PropertyRef Name="__IdPromovaProfilingData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_UserApplicationData__User">
+    <End Role="_User" Type="MigDbOutputModel.Store._User" Multiplicity="0..1" />
+    <End Role="UserApplicationData" Type="MigDbOutputModel.Store.UserApplicationData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_User">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="UserApplicationData">
+        <PropertyRef Name="__Id_User" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_VersionedICF_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.Store.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="VersionedICF" Type="MigDbOutputModel.Store.VersionedICF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="__Id" />
+      </Principal>
+      <Dependent Role="VersionedICF">
+        <PropertyRef Name="__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

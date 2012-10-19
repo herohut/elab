@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Migration">
+</Property><Property Name="Solution File" Value="D:\HERO\LAB\Migration\Migration.sln">
+</Property><Property Name="Date" Value="Tuesday, February 14, 2012">
+</Property><Property Name="Time" Value="12:24:48 PM">
+</Property></Properties><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\PromovaTraveller.csproj" Description="Project file successfully backed up as D:\HERO\LAB\Migration\Backup\PromovaTraveller.csproj">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\RawDataWriter.cs" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\RawDataWriter.cs">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\Deserializer.cs" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\Deserializer.cs">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\Serializer.cs" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\Serializer.cs">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\SerializerInfo.cs" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\SerializerInfo.cs">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\mykey.snk" Description="File successfully backed up as D:\HERO\LAB\Migration\Backup\mykey.snk">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\PromovaTraveller.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PromovaTraveller" Source="PromovaTraveller\PromovaTraveller.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PromovaTraveller" Source="PromovaTraveller\PromovaTraveller.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

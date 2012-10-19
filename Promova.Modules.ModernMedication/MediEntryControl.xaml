@@ -1,0 +1,41 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Promova.Modules.ModernMedication.MediEntryControl"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480">
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="View/styles.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+			<DataTemplate x:Key="MedicationViewModelTemplate">
+				<StackPanel>
+					<TextBlock Text="{Binding MediType}"/>
+				</StackPanel>
+			</DataTemplate>
+		</ResourceDictionary>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot" d:DataContext="{d:DesignData /SampleData/MedicationEntryViewModelSampleData.xaml}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.25*"/>
+			<ColumnDefinition Width="0.25*"/>
+			<ColumnDefinition Width="0.25*"/>
+			<ColumnDefinition Width="0.25*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="40"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Border BorderBrush="Black" Grid.ColumnSpan="4"/>
+		<TextBlock TextWrapping="Wrap" Text="Verordnungsart" VerticalAlignment="Center" Padding="0,3" Margin="5"/>
+		<TextBlock TextWrapping="Wrap" Text="Verordnungsart" Padding="0,3" Grid.Column="2" d:LayoutOverrides="Height" Margin="5" VerticalAlignment="Center"/>
+		<ComboBox Grid.Column="1" Margin="5" VerticalAlignment="Center" IsEditable="True" ItemTemplate="{DynamicResource MedicationViewModelTemplate}" ItemsSource="{Binding Medications}" SelectedItem="{Binding CurrentMedication}" Text="{Binding CurrentMedication.MediType}"/>
+		<TextBox Grid.Column="3" TextWrapping="Wrap" Text="{Binding CurrentMedication.Medikament}" Margin="5" VerticalAlignment="Center"/>
+		<ContentControl Grid.ColumnSpan="4" Content="{Binding MediView}" Grid.Row="1"/>
+	</Grid>
+</UserControl>

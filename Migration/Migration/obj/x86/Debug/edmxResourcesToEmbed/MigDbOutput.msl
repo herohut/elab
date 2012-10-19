@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MigDbOutputModelStoreContainer" CdmEntityContainer="MigDbOutputEntities">
+    <EntitySetMapping Name="C_Group">
+      <EntityTypeMapping TypeName="MigDbOutputModel.C_Group">
+        <MappingFragment StoreEntitySet="_Group">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="parentId" ColumnName="parentId" />
+          <ScalarProperty Name="defunct" ColumnName="defunct" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_User">
+      <EntityTypeMapping TypeName="MigDbOutputModel.C_User">
+        <MappingFragment StoreEntitySet="_User">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdClientUser" ColumnName="__IdClientUser" />
+          <ScalarProperty Name="groupOfUserRights" ColumnName="groupOfUserRights" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActivityDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ActivityData">
+        <MappingFragment StoreEntitySet="ActivityData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="toolClass" ColumnName="toolClass" />
+          <ScalarProperty Name="C_OffSet" ColumnName="_OffSet" />
+          <ScalarProperty Name="finished" ColumnName="finished" />
+          <ScalarProperty Name="ignored" ColumnName="ignored" />
+          <ScalarProperty Name="autoFinishPhase" ColumnName="autoFinishPhase" />
+          <ScalarProperty Name="startData" ColumnName="startData" />
+          <ScalarProperty Name="firstUsedDate" ColumnName="firstUsedDate" />
+          <ScalarProperty Name="lastUsedDate" ColumnName="lastUsedDate" />
+          <ScalarProperty Name="isFinishable" ColumnName="isFinishable" />
+          <ScalarProperty Name="markedToImportDataTo" ColumnName="markedToImportDataTo" />
+          <ScalarProperty Name="markedToImportFrom" ColumnName="markedToImportFrom" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="urlHelp" ColumnName="urlHelp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AddressInformations">
+      <EntityTypeMapping TypeName="MigDbOutputModel.AddressInformation">
+        <MappingFragment StoreEntitySet="AddressInformation">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDataField" ColumnName="__IdDataField" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppointmentSerializables">
+      <EntityTypeMapping TypeName="MigDbOutputModel.AppointmentSerializable">
+        <MappingFragment StoreEntitySet="AppointmentSerializable">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdSchedulerStorageSerializable" ColumnName="__IdSchedulerStorageSerializable" />
+          <ScalarProperty Name="statusId" ColumnName="statusId" />
+          <ScalarProperty Name="resourceId" ColumnName="resourceId" />
+          <ScalarProperty Name="recurrenceInfo" ColumnName="recurrenceInfo" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="label" ColumnName="label" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="allDay" ColumnName="allDay" />
+          <ScalarProperty Name="C_End" ColumnName="_End" />
+          <ScalarProperty Name="start" ColumnName="start" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="creatorID" ColumnName="creatorID" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="absenceReason" ColumnName="absenceReason" />
+          <ScalarProperty Name="appointmentType" ColumnName="appointmentType" />
+          <ScalarProperty Name="ilegitimAbsence" ColumnName="ilegitimAbsence" />
+          <ScalarProperty Name="vorgabe" ColumnName="vorgabe" />
+          <ScalarProperty Name="ist" ColumnName="ist" />
+          <ScalarProperty Name="massname" ColumnName="massname" />
+          <ScalarProperty Name="solltarif" ColumnName="solltarif" />
+          <ScalarProperty Name="appSource" ColumnName="appSource" />
+          <ScalarProperty Name="C_groupId" ColumnName="_groupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="MigDbOutputModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="letter" ColumnName="letter" />
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="groupSpecific" ColumnName="groupSpecific" />
+          <ScalarProperty Name="toStringFormat" ColumnName="toStringFormat" />
+          <ScalarProperty Name="C_shouldNotBeMoved" ColumnName="_shouldNotBeMoved" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassificationLevels">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ClassificationLevel">
+        <MappingFragment StoreEntitySet="ClassificationLevel">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="evaluation" ColumnName="evaluation" />
+          <ScalarProperty Name="parentID" ColumnName="parentID" />
+          <ScalarProperty Name="indent" ColumnName="indent" />
+          <ScalarProperty Name="isFake" ColumnName="isFake" />
+          <ScalarProperty Name="defunct" ColumnName="defunct" />
+          <ScalarProperty Name="selectAsGoal" ColumnName="selectAsGoal" />
+          <ScalarProperty Name="editable" ColumnName="editable" />
+          <ScalarProperty Name="canAddChildren" ColumnName="canAddChildren" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="MigDbOutputModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdClientUser" ColumnName="__IdClientUser" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientGroupMemberships">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ClientGroupMembership">
+        <MappingFragment StoreEntitySet="ClientGroupMembership">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="selectable" ColumnName="selectable" />
+          <ScalarProperty Name="pastGroupMembership" ColumnName="pastGroupMembership" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="validFrom" ColumnName="validFrom" />
+          <ScalarProperty Name="validUntil" ColumnName="validUntil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientToolsSelectionDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ClientToolsSelectionData">
+        <MappingFragment StoreEntitySet="ClientToolsSelectionData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdUserApplicationData" ColumnName="__IdUserApplicationData" />
+          <ScalarProperty Name="lastToolName" ColumnName="lastToolName" />
+          <ScalarProperty Name="C_toolsUserSelectionDictionary" ColumnName="_toolsUserSelectionDictionary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUsers">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ClientUser">
+        <MappingFragment StoreEntitySet="ClientUser">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+          <ScalarProperty Name="enableUserFunctionalities" ColumnName="enableUserFunctionalities" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompostiteGenericDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.CompostiteGenericData">
+        <MappingFragment StoreEntitySet="CompostiteGenericData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDataField" ColumnName="__IdDataField" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataFields">
+      <EntityTypeMapping TypeName="MigDbOutputModel.DataField">
+        <MappingFragment StoreEntitySet="DataField">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdClient" ColumnName="__IdClient" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+          <ScalarProperty Name="C__IdClientUser" ColumnName="__IdClientUser" />
+          <ScalarProperty Name="C__IdUser" ColumnName="__IdUser" />
+          <ScalarProperty Name="C__IdGenericPerson" ColumnName="__IdGenericPerson" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DateTimeGenericDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.DateTimeGenericData">
+        <MappingFragment StoreEntitySet="DateTimeGenericData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDataField" ColumnName="__IdDataField" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DiagramDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.DiagramData">
+        <MappingFragment StoreEntitySet="DiagramData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDataField" ColumnName="__IdDataField" />
+          <ScalarProperty Name="lastPersonIdEdited" ColumnName="lastPersonIdEdited" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DiagramEntityDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.DiagramEntityData">
+        <MappingFragment StoreEntitySet="DiagramEntityData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDiagramData" ColumnName="__IdDiagramData" />
+          <ScalarProperty Name="entityID" ColumnName="entityID" />
+          <ScalarProperty Name="primarySystem" ColumnName="primarySystem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DiagramPersonRelationDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.DiagramPersonRelationData">
+        <MappingFragment StoreEntitySet="DiagramPersonRelationData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="frequencyStyle" ColumnName="frequencyStyle" />
+          <ScalarProperty Name="roleStyle" ColumnName="roleStyle" />
+          <ScalarProperty Name="firstID" ColumnName="firstID" />
+          <ScalarProperty Name="secondID" ColumnName="secondID" />
+          <ScalarProperty Name="positivityStyle" ColumnName="positivityStyle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EntryTypeVisibilities">
+      <EntityTypeMapping TypeName="MigDbOutputModel.EntryTypeVisibility">
+        <MappingFragment StoreEntitySet="EntryTypeVisibility">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__Id_Group" ColumnName="__Id_Group" />
+          <ScalarProperty Name="C__IdGroup" ColumnName="__IdGroup" />
+          <ScalarProperty Name="visible" ColumnName="visible" />
+          <ScalarProperty Name="lastChange" ColumnName="lastChange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FileSyncronizedSettings">
+      <EntityTypeMapping TypeName="MigDbOutputModel.FileSyncronizedSetting">
+        <MappingFragment StoreEntitySet="FileSyncronizedSettings">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GenericPersons">
+      <EntityTypeMapping TypeName="MigDbOutputModel.GenericPerson">
+        <MappingFragment StoreEntitySet="GenericPerson">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupMemberships">
+      <EntityTypeMapping TypeName="MigDbOutputModel.GroupMembership">
+        <MappingFragment StoreEntitySet="GroupMembership">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="pastGroupMembership" ColumnName="pastGroupMembership" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="validFrom" ColumnName="validFrom" />
+          <ScalarProperty Name="validUntil" ColumnName="validUntil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JournalEntryDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.JournalEntryData">
+        <MappingFragment StoreEntitySet="JournalEntryData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="entryType" ColumnName="entryType" />
+          <ScalarProperty Name="entryDate" ColumnName="entryDate" />
+          <ScalarProperty Name="timeSpent" ColumnName="timeSpent" />
+          <ScalarProperty Name="importantDevelopment" ColumnName="importantDevelopment" />
+          <ScalarProperty Name="bodyText" ColumnName="bodyText" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="concerningDate" ColumnName="concerningDate" />
+          <ScalarProperty Name="homeGroupID" ColumnName="homeGroupID" />
+          <ScalarProperty Name="bodyUnformattedText" ColumnName="bodyUnformattedText" />
+          <ScalarProperty Name="shouldRebuildMaps" ColumnName="shouldRebuildMaps" />
+          <ScalarProperty Name="cacheIndex" ColumnName="cacheIndex" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OfficeDocuments">
+      <EntityTypeMapping TypeName="MigDbOutputModel.OfficeDocument">
+        <MappingFragment StoreEntitySet="OfficeDocument">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdClient" ColumnName="__IdClient" />
+          <ScalarProperty Name="serverFileName" ColumnName="serverFileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.PersonData">
+        <MappingFragment StoreEntitySet="PersonData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdClient" ColumnName="__IdClient" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+          <ScalarProperty Name="C__IdUser" ColumnName="__IdUser" />
+          <ScalarProperty Name="C__IdClientUser" ColumnName="__IdClientUser" />
+          <ScalarProperty Name="C__IdGenericPerson" ColumnName="__IdGenericPerson" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhaseDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.PhaseData">
+        <MappingFragment StoreEntitySet="PhaseData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="urlHelp" ColumnName="urlHelp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Points">
+      <EntityTypeMapping TypeName="MigDbOutputModel.Point">
+        <MappingFragment StoreEntitySet="Point">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDiagramEntityData" ColumnName="__IdDiagramEntityData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProcessDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ProcessData">
+        <MappingFragment StoreEntitySet="ProcessData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="label" ColumnName="label" />
+          <ScalarProperty Name="subProcessOnly" ColumnName="subProcessOnly" />
+          <ScalarProperty Name="addProcessToGroups" ColumnName="addProcessToGroups" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_noTimeRestrictions" ColumnName="_noTimeRestrictions" />
+          <ScalarProperty Name="visualDepth" ColumnName="visualDepth" />
+          <ScalarProperty Name="visited" ColumnName="visited" />
+          <ScalarProperty Name="markForChangeParent" ColumnName="markForChangeParent" />
+          <ScalarProperty Name="markForAcceptChild" ColumnName="markForAcceptChild" />
+          <ScalarProperty Name="dynamicLabel" ColumnName="dynamicLabel" />
+          <ScalarProperty Name="dynamicLabelExtraction" ColumnName="dynamicLabelExtraction" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="urlHelp" ColumnName="urlHelp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PromovaProfilingDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.PromovaProfilingData">
+        <MappingFragment StoreEntitySet="PromovaProfilingData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+          <ScalarProperty Name="profilingStartingDate" ColumnName="profilingStartingDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RelationInfoDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.RelationInfoData">
+        <MappingFragment StoreEntitySet="RelationInfoData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="firstPersonRole" ColumnName="firstPersonRole" />
+          <ScalarProperty Name="secondPersonRole" ColumnName="secondPersonRole" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RemoteDatabases">
+      <EntityTypeMapping TypeName="MigDbOutputModel.RemoteDatabase">
+        <MappingFragment StoreEntitySet="RemoteDatabase">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="metaInformation" ColumnName="metaInformation" />
+          <ScalarProperty Name="demoVersion" ColumnName="demoVersion" />
+          <ScalarProperty Name="demoExpired" ColumnName="demoExpired" />
+          <ScalarProperty Name="advancedSearchVersion" ColumnName="advancedSearchVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReportExportToExcelSettings">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ReportExportToExcelSetting">
+        <MappingFragment StoreEntitySet="ReportExportToExcelSettings">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdReportSettings" ColumnName="__IdReportSettings" />
+          <ScalarProperty Name="C_printTitleRows" ColumnName="_printTitleRows" />
+          <ScalarProperty Name="C_pageIndexPos" ColumnName="_pageIndexPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReportSettings">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ReportSetting">
+        <MappingFragment StoreEntitySet="ReportSettings">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdFileSyncronizedSettings" ColumnName="__IdFileSyncronizedSettings" />
+          <ScalarProperty Name="C_name" ColumnName="_name" />
+          <ScalarProperty Name="C_title" ColumnName="_title" />
+          <ScalarProperty Name="C_copyRightsFrom" ColumnName="_copyRightsFrom" />
+          <ScalarProperty Name="C_defaultReport" ColumnName="_defaultReport" />
+          <ScalarProperty Name="C_exportFile" ColumnName="_exportFile" />
+          <ScalarProperty Name="C_hiddenInList" ColumnName="_hiddenInList" />
+          <ScalarProperty Name="C_translatedTitle" ColumnName="_translatedTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchedulerStorageSerializables">
+      <EntityTypeMapping TypeName="MigDbOutputModel.SchedulerStorageSerializable">
+        <MappingFragment StoreEntitySet="SchedulerStorageSerializable">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+          <ScalarProperty Name="C__IdClient" ColumnName="__IdClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServerMethodCallProfilingDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ServerMethodCallProfilingData">
+        <MappingFragment StoreEntitySet="ServerMethodCallProfilingData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdToolProfilingData" ColumnName="__IdToolProfilingData" />
+          <ScalarProperty Name="callCounter" ColumnName="callCounter" />
+          <ScalarProperty Name="processorTime" ColumnName="processorTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StringGenericDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.StringGenericData">
+        <MappingFragment StoreEntitySet="StringGenericData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdDataField" ColumnName="__IdDataField" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="preserveID" ColumnName="preserveID" />
+          <ScalarProperty Name="C__IdAddressInformation" ColumnName="__IdAddressInformation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ToolProfilingDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ToolProfilingData">
+        <MappingFragment StoreEntitySet="ToolProfilingData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdPromovaProfilingData" ColumnName="__IdPromovaProfilingData" />
+          <ScalarProperty Name="toolName" ColumnName="toolName" />
+          <ScalarProperty Name="seconds" ColumnName="seconds" />
+          <ScalarProperty Name="enterCounter" ColumnName="enterCounter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserApplicationDatas">
+      <EntityTypeMapping TypeName="MigDbOutputModel.UserApplicationData">
+        <MappingFragment StoreEntitySet="UserApplicationData">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__Id_User" ColumnName="__Id_User" />
+          <ScalarProperty Name="C__IdUser" ColumnName="__IdUser" />
+          <ScalarProperty Name="lastSelectedPersonID" ColumnName="lastSelectedPersonID" />
+          <ScalarProperty Name="lastToolName" ColumnName="lastToolName" />
+          <ScalarProperty Name="lastLogout" ColumnName="lastLogout" />
+          <ScalarProperty Name="lastLogin" ColumnName="lastLogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserGroupMemberships">
+      <EntityTypeMapping TypeName="MigDbOutputModel.UserGroupMembership">
+        <MappingFragment StoreEntitySet="UserGroupMembership">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="canModify" ColumnName="canModify" />
+          <ScalarProperty Name="canLogin" ColumnName="canLogin" />
+          <ScalarProperty Name="pastGroupMembership" ColumnName="pastGroupMembership" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="validFrom" ColumnName="validFrom" />
+          <ScalarProperty Name="validUntil" ColumnName="validUntil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValidationRules">
+      <EntityTypeMapping TypeName="MigDbOutputModel.ValidationRule">
+        <MappingFragment StoreEntitySet="ValidationRule">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="fieldName" ColumnName="fieldName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VersionedICFs">
+      <EntityTypeMapping TypeName="MigDbOutputModel.VersionedICF">
+        <MappingFragment StoreEntitySet="VersionedICF">
+          <ScalarProperty Name="C__Id" ColumnName="__Id" />
+          <ScalarProperty Name="C__IdRemoteDatabase" ColumnName="__IdRemoteDatabase" />
+          <ScalarProperty Name="version" ColumnName="version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

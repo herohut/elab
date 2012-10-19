@@ -1,0 +1,17 @@
+<Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel xmlns:Promova_Modules_ModernMedication_ViewModel="clr-namespace:Promova.Modules.ModernMedication.ViewModel" IsInDesignMode="False" IsInDesignModeStatic="True" IsTrigger="True">
+	<Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel.CurrentMedication>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="True" IsInDesignModeStatic="False" Medikament="Curabitur phasellus curae nam donec" MediType="Aliquam integer class vestibulum"/>
+	</Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel.CurrentMedication>
+	<Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel.Medications>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Fusce quisque vivamus aliquam aliquet" MediType="Maecenas cras praesent etiam"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Amet adipiscing sed ante" MediType="Duis nunc blandit"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Conubia diam cubilia convallis" MediType="Arcu consequat commodo accumsan"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Parturient lorem morbi nulla dictumst" MediType="Bibendum dapibus eget egestas elit"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Augue euismod dignissim vestibulum" MediType="Aenean eleifend mauris nullam proin"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Feugiat enim faucibus" MediType="Facilisi elementum dolor fames"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Aptent fermentum auctor inceptos" MediType="Habitant dis facilisis"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Felis nascetur fringilla habitasse erat" MediType="Vestibulum interdum lobortis congue adipiscing"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Ipsum hendrerit pharetra gravida" MediType="Cursus dictum"/>
+		<Promova_Modules_ModernMedication_ViewModel:MedicationViewModel IsInDesignMode="False" IsInDesignModeStatic="True" Medikament="Nibh parturient hac justo" MediType="Eros est placerat"/>
+	</Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel.Medications>
+</Promova_Modules_ModernMedication_ViewModel:MedicationEntryViewModel>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HERO'S LAB: HTML5</title>
+    <script src="Lib/jquery-1.6.3.min.js" type="text/javascript"></script>
+    <script src="Html5Framework/GeometryHelper.js" type="text/javascript"></script>
+    <script src="Html5Framework/UiBase.js" type="text/javascript"></script>
+    <script src="Html5Framework/Utils.js" type="text/javascript"></script>
+    <script src="Html5ProApp/Engine.js" type="text/javascript"></script>
+    <script src="Html5ProApp/ConnectorControl.js" type="text/javascript"></script>
+    <script src="Html5ProApp/NodeControl.js" type="text/javascript"></script>
+    <script src="Html5Framework/ButtonBase.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var engine = undefined;
+        $(document).ready(function () {
+            engine = new Engine(document.getElementById("canvas"));
+            engine.draw();            
+        });
+        
+        
+    </script>
+</head>
+<body>
+    <section>
+        <button style="width: 60px" onclick="engine.addObjectRandom()">
+            ADD
+        </button>
+    </section>
+    <div>
+        <canvas id="canvas" height="500" width="1000">
+        </canvas>
+    </div>
+</body>
+</html>

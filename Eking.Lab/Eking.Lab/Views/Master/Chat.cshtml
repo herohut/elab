@@ -1,0 +1,30 @@
+﻿@Scripts.Render("/Scripts/jquery.signalR-0.5.2.min.js")
+@Scripts.Render("/Scripts/jquery.dateFormat-1.0.min.js")
+@Scripts.Render("/echannel/hubs")
+@Scripts.Render("/Scripts/chat.js")
+
+<h2>CHAT APPLICATION</h2>
+<script type="text/javascript">
+    new chat();
+</script>
+
+<div class="chatView">
+    <div id="inRoom"></div>
+    <div>
+        @*<textarea id="chatMsgs">
+
+        </textarea>*@
+        <ul id="chatMsgs" style="list-style: none; background: white; height: 300px; border: 1px solid gray">
+        </ul>
+    </div>
+
+    <div>
+        <input type="text" id="loginName" />
+        <input type="button" value="Login" id="btnLogin" />
+    </div>
+    <div>
+        <input type="text" id="textToChat" />
+        <input type="button" id="btnSendChat" value="Send" />
+    </div>
+</div>
+

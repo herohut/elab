@@ -1,0 +1,27 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Promova.Modules.ModernMedication" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Promova.Modules.ModernMedication.MediControl"
+    Height="526" Width="1004" Background="White"    
+    >
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="View/styles.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+			<DataTemplate x:Key="MedicationEntryViewModelTemplate">
+				
+				<local:MediEntryControl />
+				
+			</DataTemplate>
+		</ResourceDictionary>
+	</UserControl.Resources>
+    <Grid d:DataContext="{d:DesignData /SampleData/MediControlViewModelSampleData.xaml}">
+    	<ListBox ItemTemplate="{DynamicResource MedicationEntryViewModelTemplate}" 
+                 ItemsSource="{Binding MedicationEntries}" ItemsPanel="{DynamicResource ItemsPanelTemplate1}" 
+                 HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" 
+                 ItemContainerStyle="{DynamicResource mediListBoxItem}" ScrollViewer.CanContentScroll="False"
+                 local:ListBoxExtenders.AutoScrollToEnd="True"
+                 />
+    </Grid>
+</UserControl>

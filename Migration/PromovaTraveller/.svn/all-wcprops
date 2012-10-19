@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller
+END
+PromovaTraveller.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/PromovaTraveller.csproj
+END
+RawDataWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/RawDataWriter.cs
+END
+Deserializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/Deserializer.cs
+END
+mykey.snk
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/mykey.snk
+END
+SerializerInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/SerializerInfo.cs
+END
+Serializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/promova/!svn/ver/7683/branches/trunk_espas_test/trunk_espas_test/PromovaTraveller/Serializer.cs
+END

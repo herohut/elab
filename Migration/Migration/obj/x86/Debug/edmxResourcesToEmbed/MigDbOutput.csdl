@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MigDbOutputModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MigDbOutputEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C_Group" EntityType="MigDbOutputModel.C_Group" />
+    <EntitySet Name="C_User" EntityType="MigDbOutputModel.C_User" />
+    <EntitySet Name="ActivityDatas" EntityType="MigDbOutputModel.ActivityData" />
+    <EntitySet Name="AddressInformations" EntityType="MigDbOutputModel.AddressInformation" />
+    <EntitySet Name="AppointmentSerializables" EntityType="MigDbOutputModel.AppointmentSerializable" />
+    <EntitySet Name="Categories" EntityType="MigDbOutputModel.Category" />
+    <EntitySet Name="ClassificationLevels" EntityType="MigDbOutputModel.ClassificationLevel" />
+    <EntitySet Name="Clients" EntityType="MigDbOutputModel.Client" />
+    <EntitySet Name="ClientGroupMemberships" EntityType="MigDbOutputModel.ClientGroupMembership" />
+    <EntitySet Name="ClientToolsSelectionDatas" EntityType="MigDbOutputModel.ClientToolsSelectionData" />
+    <EntitySet Name="ClientUsers" EntityType="MigDbOutputModel.ClientUser" />
+    <EntitySet Name="CompostiteGenericDatas" EntityType="MigDbOutputModel.CompostiteGenericData" />
+    <EntitySet Name="DataFields" EntityType="MigDbOutputModel.DataField" />
+    <EntitySet Name="DateTimeGenericDatas" EntityType="MigDbOutputModel.DateTimeGenericData" />
+    <EntitySet Name="DiagramDatas" EntityType="MigDbOutputModel.DiagramData" />
+    <EntitySet Name="DiagramEntityDatas" EntityType="MigDbOutputModel.DiagramEntityData" />
+    <EntitySet Name="DiagramPersonRelationDatas" EntityType="MigDbOutputModel.DiagramPersonRelationData" />
+    <EntitySet Name="EntryTypeVisibilities" EntityType="MigDbOutputModel.EntryTypeVisibility" />
+    <EntitySet Name="FileSyncronizedSettings" EntityType="MigDbOutputModel.FileSyncronizedSetting" />
+    <EntitySet Name="GenericPersons" EntityType="MigDbOutputModel.GenericPerson" />
+    <EntitySet Name="GroupMemberships" EntityType="MigDbOutputModel.GroupMembership" />
+    <EntitySet Name="JournalEntryDatas" EntityType="MigDbOutputModel.JournalEntryData" />
+    <EntitySet Name="OfficeDocuments" EntityType="MigDbOutputModel.OfficeDocument" />
+    <EntitySet Name="PersonDatas" EntityType="MigDbOutputModel.PersonData" />
+    <EntitySet Name="PhaseDatas" EntityType="MigDbOutputModel.PhaseData" />
+    <EntitySet Name="Points" EntityType="MigDbOutputModel.Point" />
+    <EntitySet Name="ProcessDatas" EntityType="MigDbOutputModel.ProcessData" />
+    <EntitySet Name="PromovaProfilingDatas" EntityType="MigDbOutputModel.PromovaProfilingData" />
+    <EntitySet Name="RelationInfoDatas" EntityType="MigDbOutputModel.RelationInfoData" />
+    <EntitySet Name="RemoteDatabases" EntityType="MigDbOutputModel.RemoteDatabase" />
+    <EntitySet Name="ReportExportToExcelSettings" EntityType="MigDbOutputModel.ReportExportToExcelSetting" />
+    <EntitySet Name="ReportSettings" EntityType="MigDbOutputModel.ReportSetting" />
+    <EntitySet Name="SchedulerStorageSerializables" EntityType="MigDbOutputModel.SchedulerStorageSerializable" />
+    <EntitySet Name="ServerMethodCallProfilingDatas" EntityType="MigDbOutputModel.ServerMethodCallProfilingData" />
+    <EntitySet Name="StringGenericDatas" EntityType="MigDbOutputModel.StringGenericData" />
+    <EntitySet Name="ToolProfilingDatas" EntityType="MigDbOutputModel.ToolProfilingData" />
+    <EntitySet Name="UserApplicationDatas" EntityType="MigDbOutputModel.UserApplicationData" />
+    <EntitySet Name="UserGroupMemberships" EntityType="MigDbOutputModel.UserGroupMembership" />
+    <EntitySet Name="ValidationRules" EntityType="MigDbOutputModel.ValidationRule" />
+    <EntitySet Name="VersionedICFs" EntityType="MigDbOutputModel.VersionedICF" />
+    <AssociationSet Name="Fk_EntryTypeVisibility__Group" Association="MigDbOutputModel.Fk_EntryTypeVisibility__Group">
+      <End Role="C_Group" EntitySet="C_Group" />
+      <End Role="EntryTypeVisibility" EntitySet="EntryTypeVisibilities" />
+    </AssociationSet>
+    <AssociationSet Name="Fk__User_ClientUser" Association="MigDbOutputModel.Fk__User_ClientUser">
+      <End Role="ClientUser" EntitySet="ClientUsers" />
+      <End Role="C_User" EntitySet="C_User" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_UserApplicationData__User" Association="MigDbOutputModel.Fk_UserApplicationData__User">
+      <End Role="C_User" EntitySet="C_User" />
+      <End Role="UserApplicationData" EntitySet="UserApplicationDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_AddressInformation_DataField" Association="MigDbOutputModel.Fk_AddressInformation_DataField">
+      <End Role="DataField" EntitySet="DataFields" />
+      <End Role="AddressInformation" EntitySet="AddressInformations" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_AppointmentSerializable_SchedulerStorageSerializable" Association="MigDbOutputModel.Fk_AppointmentSerializable_SchedulerStorageSerializable">
+      <End Role="SchedulerStorageSerializable" EntitySet="SchedulerStorageSerializables" />
+      <End Role="AppointmentSerializable" EntitySet="AppointmentSerializables" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Client_ClientUser" Association="MigDbOutputModel.Fk_Client_ClientUser">
+      <End Role="ClientUser" EntitySet="ClientUsers" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DataField_Client" Association="MigDbOutputModel.Fk_DataField_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="DataField" EntitySet="DataFields" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_OfficeDocument_Client" Association="MigDbOutputModel.Fk_OfficeDocument_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="OfficeDocument" EntitySet="OfficeDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_PersonData_Client" Association="MigDbOutputModel.Fk_PersonData_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="PersonData" EntitySet="PersonDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ClientToolsSelectionData_UserApplicationData" Association="MigDbOutputModel.Fk_ClientToolsSelectionData_UserApplicationData">
+      <End Role="UserApplicationData" EntitySet="UserApplicationDatas" />
+      <End Role="ClientToolsSelectionData" EntitySet="ClientToolsSelectionDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ClientUser_RemoteDatabase" Association="MigDbOutputModel.Fk_ClientUser_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="ClientUser" EntitySet="ClientUsers" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_CompostiteGenericData_DataField" Association="MigDbOutputModel.Fk_CompostiteGenericData_DataField">
+      <End Role="DataField" EntitySet="DataFields" />
+      <End Role="CompostiteGenericData" EntitySet="CompostiteGenericDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DateTimeGenericData_DataField" Association="MigDbOutputModel.Fk_DateTimeGenericData_DataField">
+      <End Role="DataField" EntitySet="DataFields" />
+      <End Role="DateTimeGenericData" EntitySet="DateTimeGenericDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DiagramData_DataField" Association="MigDbOutputModel.Fk_DiagramData_DataField">
+      <End Role="DataField" EntitySet="DataFields" />
+      <End Role="DiagramData" EntitySet="DiagramDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_StringGenericData_DataField" Association="MigDbOutputModel.Fk_StringGenericData_DataField">
+      <End Role="DataField" EntitySet="DataFields" />
+      <End Role="StringGenericData" EntitySet="StringGenericDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_DiagramEntityData_DiagramData" Association="MigDbOutputModel.Fk_DiagramEntityData_DiagramData">
+      <End Role="DiagramData" EntitySet="DiagramDatas" />
+      <End Role="DiagramEntityData" EntitySet="DiagramEntityDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Point_DiagramEntityData" Association="MigDbOutputModel.Fk_Point_DiagramEntityData">
+      <End Role="DiagramEntityData" EntitySet="DiagramEntityDatas" />
+      <End Role="Point" EntitySet="Points" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_FileSyncronizedSettings_RemoteDatabase" Association="MigDbOutputModel.Fk_FileSyncronizedSettings_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="FileSyncronizedSettings" EntitySet="FileSyncronizedSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ReportSettings_FileSyncronizedSettings" Association="MigDbOutputModel.Fk_ReportSettings_FileSyncronizedSettings">
+      <End Role="FileSyncronizedSettings" EntitySet="FileSyncronizedSettings" />
+      <End Role="ReportSettings" EntitySet="ReportSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_GenericPerson_RemoteDatabase" Association="MigDbOutputModel.Fk_GenericPerson_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="GenericPerson" EntitySet="GenericPersons" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_PromovaProfilingData_RemoteDatabase" Association="MigDbOutputModel.Fk_PromovaProfilingData_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="PromovaProfilingData" EntitySet="PromovaProfilingDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ToolProfilingData_PromovaProfilingData" Association="MigDbOutputModel.Fk_ToolProfilingData_PromovaProfilingData">
+      <End Role="PromovaProfilingData" EntitySet="PromovaProfilingDatas" />
+      <End Role="ToolProfilingData" EntitySet="ToolProfilingDatas" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_SchedulerStorageSerializable_RemoteDatabase" Association="MigDbOutputModel.Fk_SchedulerStorageSerializable_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="SchedulerStorageSerializable" EntitySet="SchedulerStorageSerializables" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_VersionedICF_RemoteDatabase" Association="MigDbOutputModel.Fk_VersionedICF_RemoteDatabase">
+      <End Role="RemoteDatabase" EntitySet="RemoteDatabases" />
+      <End Role="VersionedICF" EntitySet="VersionedICFs" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ReportExportToExcelSettings_ReportSettings" Association="MigDbOutputModel.Fk_ReportExportToExcelSettings_ReportSettings">
+      <End Role="ReportSettings" EntitySet="ReportSettings" />
+      <End Role="ReportExportToExcelSettings" EntitySet="ReportExportToExcelSettings" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_ServerMethodCallProfilingData_ToolProfilingData" Association="MigDbOutputModel.Fk_ServerMethodCallProfilingData_ToolProfilingData">
+      <End Role="ToolProfilingData" EntitySet="ToolProfilingDatas" />
+      <End Role="ServerMethodCallProfilingData" EntitySet="ServerMethodCallProfilingDatas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="C_Group">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="parentId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="defunct" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="EntryTypeVisibilities" Relationship="MigDbOutputModel.Fk_EntryTypeVisibility__Group" FromRole="C_Group" ToRole="EntryTypeVisibility" />
+  </EntityType>
+  <EntityType Name="C_User">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdClientUser" Type="Int32" />
+    <Property Name="groupOfUserRights" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <NavigationProperty Name="ClientUser" Relationship="MigDbOutputModel.Fk__User_ClientUser" FromRole="C_User" ToRole="ClientUser" />
+    <NavigationProperty Name="UserApplicationDatas" Relationship="MigDbOutputModel.Fk_UserApplicationData__User" FromRole="C_User" ToRole="UserApplicationData" />
+  </EntityType>
+  <EntityType Name="ActivityData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="toolClass" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_OffSet" Type="Double" />
+    <Property Name="finished" Type="Boolean" />
+    <Property Name="ignored" Type="Boolean" />
+    <Property Name="autoFinishPhase" Type="Boolean" />
+    <Property Name="startData" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstUsedDate" Type="DateTime" />
+    <Property Name="lastUsedDate" Type="DateTime" />
+    <Property Name="isFinishable" Type="Boolean" />
+    <Property Name="markedToImportDataTo" Type="Boolean" />
+    <Property Name="markedToImportFrom" Type="Boolean" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="urlHelp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="AddressInformation">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDataField" Type="Int32" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="DataField" Relationship="MigDbOutputModel.Fk_AddressInformation_DataField" FromRole="AddressInformation" ToRole="DataField" />
+  </EntityType>
+  <EntityType Name="AppointmentSerializable">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdSchedulerStorageSerializable" Type="Int32" />
+    <Property Name="statusId" Type="Int32" />
+    <Property Name="resourceId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recurrenceInfo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="label" Type="Double" />
+    <Property Name="location" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="subject" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="allDay" Type="Boolean" />
+    <Property Name="C_End" Type="DateTime" />
+    <Property Name="start" Type="DateTime" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="creatorID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="absenceReason" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="appointmentType" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ilegitimAbsence" Type="Boolean" />
+    <Property Name="vorgabe" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ist" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="massname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="solltarif" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="appSource" Type="Int32" />
+    <Property Name="C_groupId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="SchedulerStorageSerializable" Relationship="MigDbOutputModel.Fk_AppointmentSerializable_SchedulerStorageSerializable" FromRole="AppointmentSerializable" ToRole="SchedulerStorageSerializable" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="letter" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="color" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="groupSpecific" Type="Boolean" />
+    <Property Name="toStringFormat" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_shouldNotBeMoved" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="ClassificationLevel">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="nodeId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="number" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="title" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="evaluation" Type="Boolean" />
+    <Property Name="parentID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="indent" Type="Int32" />
+    <Property Name="isFake" Type="Boolean" />
+    <Property Name="defunct" Type="Boolean" />
+    <Property Name="selectAsGoal" Type="Boolean" />
+    <Property Name="editable" Type="Boolean" />
+    <Property Name="canAddChildren" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdClientUser" Type="Int32" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <NavigationProperty Name="ClientUser" Relationship="MigDbOutputModel.Fk_Client_ClientUser" FromRole="Client" ToRole="ClientUser" />
+    <NavigationProperty Name="DataFields" Relationship="MigDbOutputModel.Fk_DataField_Client" FromRole="Client" ToRole="DataField" />
+    <NavigationProperty Name="OfficeDocuments" Relationship="MigDbOutputModel.Fk_OfficeDocument_Client" FromRole="Client" ToRole="OfficeDocument" />
+    <NavigationProperty Name="PersonDatas" Relationship="MigDbOutputModel.Fk_PersonData_Client" FromRole="Client" ToRole="PersonData" />
+  </EntityType>
+  <EntityType Name="ClientGroupMembership">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="selectable" Type="Boolean" />
+    <Property Name="pastGroupMembership" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="groupID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="validFrom" Type="DateTime" />
+    <Property Name="validUntil" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="ClientToolsSelectionData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdUserApplicationData" Type="Int32" />
+    <Property Name="lastToolName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_toolsUserSelectionDictionary" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="UserApplicationData" Relationship="MigDbOutputModel.Fk_ClientToolsSelectionData_UserApplicationData" FromRole="ClientToolsSelectionData" ToRole="UserApplicationData" />
+  </EntityType>
+  <EntityType Name="ClientUser">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <Property Name="enableUserFunctionalities" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="C_User" Relationship="MigDbOutputModel.Fk__User_ClientUser" FromRole="ClientUser" ToRole="C_User" />
+    <NavigationProperty Name="Clients" Relationship="MigDbOutputModel.Fk_Client_ClientUser" FromRole="ClientUser" ToRole="Client" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_ClientUser_RemoteDatabase" FromRole="ClientUser" ToRole="RemoteDatabase" />
+  </EntityType>
+  <EntityType Name="CompostiteGenericData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDataField" Type="Int32" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="DataField" Relationship="MigDbOutputModel.Fk_CompostiteGenericData_DataField" FromRole="CompostiteGenericData" ToRole="DataField" />
+  </EntityType>
+  <EntityType Name="DataField">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdClient" Type="Int32" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <Property Name="C__IdClientUser" Type="Int32" />
+    <Property Name="C__IdUser" Type="Int32" />
+    <Property Name="C__IdGenericPerson" Type="Int32" />
+    <NavigationProperty Name="AddressInformations" Relationship="MigDbOutputModel.Fk_AddressInformation_DataField" FromRole="DataField" ToRole="AddressInformation" />
+    <NavigationProperty Name="Client" Relationship="MigDbOutputModel.Fk_DataField_Client" FromRole="DataField" ToRole="Client" />
+    <NavigationProperty Name="CompostiteGenericDatas" Relationship="MigDbOutputModel.Fk_CompostiteGenericData_DataField" FromRole="DataField" ToRole="CompostiteGenericData" />
+    <NavigationProperty Name="DateTimeGenericDatas" Relationship="MigDbOutputModel.Fk_DateTimeGenericData_DataField" FromRole="DataField" ToRole="DateTimeGenericData" />
+    <NavigationProperty Name="DiagramDatas" Relationship="MigDbOutputModel.Fk_DiagramData_DataField" FromRole="DataField" ToRole="DiagramData" />
+    <NavigationProperty Name="StringGenericDatas" Relationship="MigDbOutputModel.Fk_StringGenericData_DataField" FromRole="DataField" ToRole="StringGenericData" />
+  </EntityType>
+  <EntityType Name="DateTimeGenericData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDataField" Type="Int32" />
+    <Property Name="data" Type="DateTime" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="DataField" Relationship="MigDbOutputModel.Fk_DateTimeGenericData_DataField" FromRole="DateTimeGenericData" ToRole="DataField" />
+  </EntityType>
+  <EntityType Name="DiagramData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDataField" Type="Int32" />
+    <Property Name="lastPersonIdEdited" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="DataField" Relationship="MigDbOutputModel.Fk_DiagramData_DataField" FromRole="DiagramData" ToRole="DataField" />
+    <NavigationProperty Name="DiagramEntityDatas" Relationship="MigDbOutputModel.Fk_DiagramEntityData_DiagramData" FromRole="DiagramData" ToRole="DiagramEntityData" />
+  </EntityType>
+  <EntityType Name="DiagramEntityData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDiagramData" Type="Int32" />
+    <Property Name="entityID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="primarySystem" Type="Boolean" />
+    <NavigationProperty Name="DiagramData" Relationship="MigDbOutputModel.Fk_DiagramEntityData_DiagramData" FromRole="DiagramEntityData" ToRole="DiagramData" />
+    <NavigationProperty Name="Points" Relationship="MigDbOutputModel.Fk_Point_DiagramEntityData" FromRole="DiagramEntityData" ToRole="Point" />
+  </EntityType>
+  <EntityType Name="DiagramPersonRelationData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="frequencyStyle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="roleStyle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="secondID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="positivityStyle" Type="Int32" />
+  </EntityType>
+  <EntityType Name="EntryTypeVisibility">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__Id_Group" Type="Int32" />
+    <Property Name="C__IdGroup" Type="Int32" />
+    <Property Name="visible" Type="Boolean" />
+    <Property Name="lastChange" Type="DateTime" />
+    <NavigationProperty Name="C_Group" Relationship="MigDbOutputModel.Fk_EntryTypeVisibility__Group" FromRole="EntryTypeVisibility" ToRole="C_Group" />
+  </EntityType>
+  <EntityType Name="FileSyncronizedSetting">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_FileSyncronizedSettings_RemoteDatabase" FromRole="FileSyncronizedSettings" ToRole="RemoteDatabase" />
+    <NavigationProperty Name="ReportSettings" Relationship="MigDbOutputModel.Fk_ReportSettings_FileSyncronizedSettings" FromRole="FileSyncronizedSettings" ToRole="ReportSettings" />
+  </EntityType>
+  <EntityType Name="GenericPerson">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_GenericPerson_RemoteDatabase" FromRole="GenericPerson" ToRole="RemoteDatabase" />
+  </EntityType>
+  <EntityType Name="GroupMembership">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="pastGroupMembership" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="groupID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="validFrom" Type="DateTime" />
+    <Property Name="validUntil" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="JournalEntryData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="entryType" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="entryDate" Type="DateTime" />
+    <Property Name="timeSpent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="importantDevelopment" Type="Boolean" />
+    <Property Name="bodyText" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="title" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="concerningDate" Type="DateTime" />
+    <Property Name="homeGroupID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bodyUnformattedText" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="shouldRebuildMaps" Type="Boolean" />
+    <Property Name="cacheIndex" Type="Int32" />
+    <Property Name="preserveID" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="OfficeDocument">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdClient" Type="Int32" />
+    <Property Name="serverFileName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Client" Relationship="MigDbOutputModel.Fk_OfficeDocument_Client" FromRole="OfficeDocument" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="PersonData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdClient" Type="Int32" />
+    <Property Name="categoryID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="deleted" Type="Boolean" />
+    <Property Name="createDate" Type="DateTime" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <Property Name="C__IdUser" Type="Int32" />
+    <Property Name="C__IdClientUser" Type="Int32" />
+    <Property Name="C__IdGenericPerson" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="MigDbOutputModel.Fk_PersonData_Client" FromRole="PersonData" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="PhaseData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="length" Type="Double" />
+    <Property Name="startDate" Type="DateTime" />
+    <Property Name="color" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="urlHelp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Point">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDiagramEntityData" Type="Int32" />
+    <NavigationProperty Name="DiagramEntityData" Relationship="MigDbOutputModel.Fk_Point_DiagramEntityData" FromRole="Point" ToRole="DiagramEntityData" />
+  </EntityType>
+  <EntityType Name="ProcessData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="label" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="subProcessOnly" Type="Boolean" />
+    <Property Name="addProcessToGroups" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_noTimeRestrictions" Type="Boolean" />
+    <Property Name="visualDepth" Type="Int32" />
+    <Property Name="visited" Type="Boolean" />
+    <Property Name="markForChangeParent" Type="Boolean" />
+    <Property Name="markForAcceptChild" Type="Boolean" />
+    <Property Name="dynamicLabel" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="dynamicLabelExtraction" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="urlHelp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PromovaProfilingData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <Property Name="profilingStartingDate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_PromovaProfilingData_RemoteDatabase" FromRole="PromovaProfilingData" ToRole="RemoteDatabase" />
+    <NavigationProperty Name="ToolProfilingDatas" Relationship="MigDbOutputModel.Fk_ToolProfilingData_PromovaProfilingData" FromRole="PromovaProfilingData" ToRole="ToolProfilingData" />
+  </EntityType>
+  <EntityType Name="RelationInfoData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="firstPersonRole" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="secondPersonRole" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="startDate" Type="DateTime" />
+    <Property Name="endDate" Type="DateTime" />
+    <Property Name="comment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="RemoteDatabase">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="metaInformation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="demoVersion" Type="Boolean" />
+    <Property Name="demoExpired" Type="Boolean" />
+    <Property Name="advancedSearchVersion" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ClientUsers" Relationship="MigDbOutputModel.Fk_ClientUser_RemoteDatabase" FromRole="RemoteDatabase" ToRole="ClientUser" />
+    <NavigationProperty Name="FileSyncronizedSettings" Relationship="MigDbOutputModel.Fk_FileSyncronizedSettings_RemoteDatabase" FromRole="RemoteDatabase" ToRole="FileSyncronizedSettings" />
+    <NavigationProperty Name="GenericPersons" Relationship="MigDbOutputModel.Fk_GenericPerson_RemoteDatabase" FromRole="RemoteDatabase" ToRole="GenericPerson" />
+    <NavigationProperty Name="PromovaProfilingDatas" Relationship="MigDbOutputModel.Fk_PromovaProfilingData_RemoteDatabase" FromRole="RemoteDatabase" ToRole="PromovaProfilingData" />
+    <NavigationProperty Name="SchedulerStorageSerializables" Relationship="MigDbOutputModel.Fk_SchedulerStorageSerializable_RemoteDatabase" FromRole="RemoteDatabase" ToRole="SchedulerStorageSerializable" />
+    <NavigationProperty Name="VersionedICFs" Relationship="MigDbOutputModel.Fk_VersionedICF_RemoteDatabase" FromRole="RemoteDatabase" ToRole="VersionedICF" />
+  </EntityType>
+  <EntityType Name="ReportExportToExcelSetting">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdReportSettings" Type="Int32" />
+    <Property Name="C_printTitleRows" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_pageIndexPos" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ReportSetting" Relationship="MigDbOutputModel.Fk_ReportExportToExcelSettings_ReportSettings" FromRole="ReportExportToExcelSettings" ToRole="ReportSettings" />
+  </EntityType>
+  <EntityType Name="ReportSetting">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdFileSyncronizedSettings" Type="Int32" />
+    <Property Name="C_name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_title" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_copyRightsFrom" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_defaultReport" Type="Boolean" />
+    <Property Name="C_exportFile" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="C_hiddenInList" Type="Boolean" />
+    <Property Name="C_translatedTitle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="FileSyncronizedSetting" Relationship="MigDbOutputModel.Fk_ReportSettings_FileSyncronizedSettings" FromRole="ReportSettings" ToRole="FileSyncronizedSettings" />
+    <NavigationProperty Name="ReportExportToExcelSettings" Relationship="MigDbOutputModel.Fk_ReportExportToExcelSettings_ReportSettings" FromRole="ReportSettings" ToRole="ReportExportToExcelSettings" />
+  </EntityType>
+  <EntityType Name="SchedulerStorageSerializable">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <Property Name="C__IdClient" Type="Int32" />
+    <NavigationProperty Name="AppointmentSerializables" Relationship="MigDbOutputModel.Fk_AppointmentSerializable_SchedulerStorageSerializable" FromRole="SchedulerStorageSerializable" ToRole="AppointmentSerializable" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_SchedulerStorageSerializable_RemoteDatabase" FromRole="SchedulerStorageSerializable" ToRole="RemoteDatabase" />
+  </EntityType>
+  <EntityType Name="ServerMethodCallProfilingData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdToolProfilingData" Type="Int32" />
+    <Property Name="callCounter" Type="Double" />
+    <Property Name="processorTime" Type="Double" />
+    <NavigationProperty Name="ToolProfilingData" Relationship="MigDbOutputModel.Fk_ServerMethodCallProfilingData_ToolProfilingData" FromRole="ServerMethodCallProfilingData" ToRole="ToolProfilingData" />
+  </EntityType>
+  <EntityType Name="StringGenericData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdDataField" Type="Int32" />
+    <Property Name="data" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="preserveID" Type="Boolean" />
+    <Property Name="C__IdAddressInformation" Type="Int32" />
+    <NavigationProperty Name="DataField" Relationship="MigDbOutputModel.Fk_StringGenericData_DataField" FromRole="StringGenericData" ToRole="DataField" />
+  </EntityType>
+  <EntityType Name="ToolProfilingData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdPromovaProfilingData" Type="Int32" />
+    <Property Name="toolName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="seconds" Type="Double" />
+    <Property Name="enterCounter" Type="Int32" />
+    <NavigationProperty Name="PromovaProfilingData" Relationship="MigDbOutputModel.Fk_ToolProfilingData_PromovaProfilingData" FromRole="ToolProfilingData" ToRole="PromovaProfilingData" />
+    <NavigationProperty Name="ServerMethodCallProfilingDatas" Relationship="MigDbOutputModel.Fk_ServerMethodCallProfilingData_ToolProfilingData" FromRole="ToolProfilingData" ToRole="ServerMethodCallProfilingData" />
+  </EntityType>
+  <EntityType Name="UserApplicationData">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__Id_User" Type="Int32" />
+    <Property Name="C__IdUser" Type="Int32" />
+    <Property Name="lastSelectedPersonID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="lastToolName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="lastLogout" Type="DateTime" />
+    <Property Name="lastLogin" Type="DateTime" />
+    <NavigationProperty Name="C_User" Relationship="MigDbOutputModel.Fk_UserApplicationData__User" FromRole="UserApplicationData" ToRole="C_User" />
+    <NavigationProperty Name="ClientToolsSelectionDatas" Relationship="MigDbOutputModel.Fk_ClientToolsSelectionData_UserApplicationData" FromRole="UserApplicationData" ToRole="ClientToolsSelectionData" />
+  </EntityType>
+  <EntityType Name="UserGroupMembership">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="canModify" Type="Boolean" />
+    <Property Name="canLogin" Type="Boolean" />
+    <Property Name="pastGroupMembership" Type="Boolean" />
+    <Property Name="id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="groupID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="validFrom" Type="DateTime" />
+    <Property Name="validUntil" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="ValidationRule">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="fieldName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VersionedICF">
+    <Key>
+      <PropertyRef Name="C__Id" />
+    </Key>
+    <Property Name="C__Id" Type="Int32" Nullable="false" />
+    <Property Name="C__IdRemoteDatabase" Type="Int32" />
+    <Property Name="version" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="RemoteDatabase" Relationship="MigDbOutputModel.Fk_VersionedICF_RemoteDatabase" FromRole="VersionedICF" ToRole="RemoteDatabase" />
+  </EntityType>
+  <Association Name="Fk_EntryTypeVisibility__Group">
+    <End Role="C_Group" Type="MigDbOutputModel.C_Group" Multiplicity="0..1" />
+    <End Role="EntryTypeVisibility" Type="MigDbOutputModel.EntryTypeVisibility" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="C_Group">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="EntryTypeVisibility">
+        <PropertyRef Name="C__Id_Group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk__User_ClientUser">
+    <End Role="ClientUser" Type="MigDbOutputModel.ClientUser" Multiplicity="0..1" />
+    <End Role="C_User" Type="MigDbOutputModel.C_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientUser">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="C_User">
+        <PropertyRef Name="C__IdClientUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_UserApplicationData__User">
+    <End Role="C_User" Type="MigDbOutputModel.C_User" Multiplicity="0..1" />
+    <End Role="UserApplicationData" Type="MigDbOutputModel.UserApplicationData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="C_User">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="UserApplicationData">
+        <PropertyRef Name="C__Id_User" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_AddressInformation_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="0..1" />
+    <End Role="AddressInformation" Type="MigDbOutputModel.AddressInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="AddressInformation">
+        <PropertyRef Name="C__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_AppointmentSerializable_SchedulerStorageSerializable">
+    <End Role="SchedulerStorageSerializable" Type="MigDbOutputModel.SchedulerStorageSerializable" Multiplicity="0..1" />
+    <End Role="AppointmentSerializable" Type="MigDbOutputModel.AppointmentSerializable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchedulerStorageSerializable">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="AppointmentSerializable">
+        <PropertyRef Name="C__IdSchedulerStorageSerializable" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Client_ClientUser">
+    <End Role="ClientUser" Type="MigDbOutputModel.ClientUser" Multiplicity="0..1" />
+    <End Role="Client" Type="MigDbOutputModel.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientUser">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="C__IdClientUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DataField_Client">
+    <End Role="Client" Type="MigDbOutputModel.Client" Multiplicity="0..1" />
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="DataField">
+        <PropertyRef Name="C__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_OfficeDocument_Client">
+    <End Role="Client" Type="MigDbOutputModel.Client" Multiplicity="0..1" />
+    <End Role="OfficeDocument" Type="MigDbOutputModel.OfficeDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="OfficeDocument">
+        <PropertyRef Name="C__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_PersonData_Client">
+    <End Role="Client" Type="MigDbOutputModel.Client" Multiplicity="0..1" />
+    <End Role="PersonData" Type="MigDbOutputModel.PersonData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="PersonData">
+        <PropertyRef Name="C__IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ClientToolsSelectionData_UserApplicationData">
+    <End Role="UserApplicationData" Type="MigDbOutputModel.UserApplicationData" Multiplicity="0..1" />
+    <End Role="ClientToolsSelectionData" Type="MigDbOutputModel.ClientToolsSelectionData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserApplicationData">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ClientToolsSelectionData">
+        <PropertyRef Name="C__IdUserApplicationData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ClientUser_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="ClientUser" Type="MigDbOutputModel.ClientUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ClientUser">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_CompostiteGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="0..1" />
+    <End Role="CompostiteGenericData" Type="MigDbOutputModel.CompostiteGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="CompostiteGenericData">
+        <PropertyRef Name="C__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DateTimeGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="0..1" />
+    <End Role="DateTimeGenericData" Type="MigDbOutputModel.DateTimeGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="DateTimeGenericData">
+        <PropertyRef Name="C__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DiagramData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="0..1" />
+    <End Role="DiagramData" Type="MigDbOutputModel.DiagramData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="DiagramData">
+        <PropertyRef Name="C__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_StringGenericData_DataField">
+    <End Role="DataField" Type="MigDbOutputModel.DataField" Multiplicity="0..1" />
+    <End Role="StringGenericData" Type="MigDbOutputModel.StringGenericData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataField">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="StringGenericData">
+        <PropertyRef Name="C__IdDataField" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_DiagramEntityData_DiagramData">
+    <End Role="DiagramData" Type="MigDbOutputModel.DiagramData" Multiplicity="0..1" />
+    <End Role="DiagramEntityData" Type="MigDbOutputModel.DiagramEntityData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiagramData">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="DiagramEntityData">
+        <PropertyRef Name="C__IdDiagramData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Point_DiagramEntityData">
+    <End Role="DiagramEntityData" Type="MigDbOutputModel.DiagramEntityData" Multiplicity="0..1" />
+    <End Role="Point" Type="MigDbOutputModel.Point" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiagramEntityData">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="Point">
+        <PropertyRef Name="C__IdDiagramEntityData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_FileSyncronizedSettings_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="FileSyncronizedSettings" Type="MigDbOutputModel.FileSyncronizedSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="FileSyncronizedSettings">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ReportSettings_FileSyncronizedSettings">
+    <End Role="FileSyncronizedSettings" Type="MigDbOutputModel.FileSyncronizedSetting" Multiplicity="0..1" />
+    <End Role="ReportSettings" Type="MigDbOutputModel.ReportSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileSyncronizedSettings">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ReportSettings">
+        <PropertyRef Name="C__IdFileSyncronizedSettings" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_GenericPerson_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="GenericPerson" Type="MigDbOutputModel.GenericPerson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="GenericPerson">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_PromovaProfilingData_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="PromovaProfilingData" Type="MigDbOutputModel.PromovaProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="PromovaProfilingData">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ToolProfilingData_PromovaProfilingData">
+    <End Role="PromovaProfilingData" Type="MigDbOutputModel.PromovaProfilingData" Multiplicity="0..1" />
+    <End Role="ToolProfilingData" Type="MigDbOutputModel.ToolProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PromovaProfilingData">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ToolProfilingData">
+        <PropertyRef Name="C__IdPromovaProfilingData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_SchedulerStorageSerializable_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="SchedulerStorageSerializable" Type="MigDbOutputModel.SchedulerStorageSerializable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="SchedulerStorageSerializable">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_VersionedICF_RemoteDatabase">
+    <End Role="RemoteDatabase" Type="MigDbOutputModel.RemoteDatabase" Multiplicity="0..1" />
+    <End Role="VersionedICF" Type="MigDbOutputModel.VersionedICF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteDatabase">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="VersionedICF">
+        <PropertyRef Name="C__IdRemoteDatabase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ReportExportToExcelSettings_ReportSettings">
+    <End Role="ReportSettings" Type="MigDbOutputModel.ReportSetting" Multiplicity="0..1" />
+    <End Role="ReportExportToExcelSettings" Type="MigDbOutputModel.ReportExportToExcelSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReportSettings">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ReportExportToExcelSettings">
+        <PropertyRef Name="C__IdReportSettings" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_ServerMethodCallProfilingData_ToolProfilingData">
+    <End Role="ToolProfilingData" Type="MigDbOutputModel.ToolProfilingData" Multiplicity="0..1" />
+    <End Role="ServerMethodCallProfilingData" Type="MigDbOutputModel.ServerMethodCallProfilingData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ToolProfilingData">
+        <PropertyRef Name="C__Id" />
+      </Principal>
+      <Dependent Role="ServerMethodCallProfilingData">
+        <PropertyRef Name="C__IdToolProfilingData" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

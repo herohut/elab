@@ -1,0 +1,5 @@
+D:\HERO\OPEN-FREE\exportsqlce\bin\Debug\ExportSqlCE40.exe
+D:\HERO\OPEN-FREE\exportsqlce\bin\Debug\ExportSqlCE40.pdb
+D:\HERO\OPEN-FREE\exportsqlce\obj\Debug\ResolveAssemblyReference.cache
+D:\HERO\OPEN-FREE\exportsqlce\obj\Debug\ExportSqlCE40.exe
+D:\HERO\OPEN-FREE\exportsqlce\obj\Debug\ExportSqlCE40.pdb

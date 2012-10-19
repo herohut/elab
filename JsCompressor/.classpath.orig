@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
+	<classpathentry kind="lib" path="D:/OPEN-FREE/yuicompressor-2.4.7/lib/jargs-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/OPEN-FREE/yuicompressor-2.4.7/lib/rhino-1.6R7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

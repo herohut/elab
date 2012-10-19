@@ -1,0 +1,308 @@
+package eking.tools;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import java.awt.GridLayout;
+
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextPane;
+
+import org.mozilla.javascript.ErrorReporter;
+import org.mozilla.javascript.EvaluatorException;
+
+import com.yahoo.platform.yui.compressor.JavaScriptCompressor;
+
+import java.awt.Toolkit;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.FilenameFilter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.Writer;
+
+public class MainWindow {
+
+	private JFrame frmJscompressor;
+	private JTextField txtLocation;
+	private JCheckBox chckbxBackup;
+	private JCheckBox chckbxObfuscation;
+	private JTextPane txtLog;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MainWindow window = new MainWindow();
+					window.frmJscompressor.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public MainWindow() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frmJscompressor = new JFrame();
+		frmJscompressor.setIconImage(Toolkit.getDefaultToolkit().getImage(
+				MainWindow.class.getResource("/eking/Logo-64px.png")));
+		frmJscompressor.setTitle("JsCompressor");
+		frmJscompressor.setResizable(false);
+		frmJscompressor.setBounds(100, 100, 567, 338);
+		frmJscompressor.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmJscompressor.getContentPane().setLayout(null);
+
+		txtLocation = new JTextField();
+		txtLocation.setBounds(10, 11, 420, 20);
+		frmJscompressor.getContentPane().add(txtLocation);
+		txtLocation.setColumns(10);
+
+		JButton btnBrowse = new JButton("Browse");
+		btnBrowse.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				
+				JFileChooser fileChooser = new JFileChooser();
+				fileChooser
+						.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+				fileChooser.showDialog(frmJscompressor, "OK");
+				fileChooser.setMultiSelectionEnabled(false);
+				File file = fileChooser.getSelectedFile();
+				if (file == null)
+					return;
+				txtLocation.setText(file.getAbsolutePath());
+			}
+		});
+		btnBrowse.setBounds(440, 10, 109, 23);
+		frmJscompressor.getContentPane().add(btnBrowse);
+
+		chckbxObfuscation = new JCheckBox("Obfuscation");
+		chckbxObfuscation.setSelected(true);
+		chckbxObfuscation.setBounds(6, 38, 97, 23);
+		frmJscompressor.getContentPane().add(chckbxObfuscation);
+
+		chckbxBackup = new JCheckBox("Backup");
+		chckbxBackup.setSelected(true);
+		chckbxBackup.setBounds(105, 38, 97, 23);
+		frmJscompressor.getContentPane().add(chckbxBackup);
+
+		JButton btnAction = new JButton("ACTION");
+		btnAction.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				try {
+					//CompressFile("C:/Users/HERO/Desktop/JsOps/Meres.Administration.js", "C:/Users/HERO/Desktop/JsOps/Meres.Administration.min.js");
+					
+					Action(txtLocation.getText());
+					JOptionPane.showMessageDialog(frmJscompressor,
+							"Success", "Success", JOptionPane.INFORMATION_MESSAGE);
+				} catch (Exception ex) {
+					JOptionPane.showMessageDialog(frmJscompressor,
+							ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+				}
+			}
+		});
+		btnAction.setBounds(10, 68, 539, 23);
+		frmJscompressor.getContentPane().add(btnAction);
+
+		txtLog = new JTextPane();
+		txtLog.setEditable(false);
+		txtLog.setBounds(10, 102, 539, 198);
+		frmJscompressor.getContentPane().add(txtLog);
+	}
+
+	private void Action(String input) throws Exception {
+		File f = new File(input);
+		if (f.isFile()) {
+			DoFile(f);			
+			return;
+		}
+		File[] files = f.listFiles(new FilenameFilter() {
+			@Override
+			public boolean accept(File arg0, String arg1) {
+				return arg1.endsWith(".js");
+			}
+		});
+		for (File file : files) {
+			DoFile(file);			
+		}
+	}
+
+	public static void copy(String fromFileName, String toFileName)
+			throws IOException {
+		File fromFile = new File(fromFileName);
+		File toFile = new File(toFileName);
+
+		if (!fromFile.exists())
+			throw new IOException("FileCopy: " + "no such source file: "
+					+ fromFileName);
+		if (!fromFile.isFile())
+			throw new IOException("FileCopy: " + "can't copy directory: "
+					+ fromFileName);
+		if (!fromFile.canRead())
+			throw new IOException("FileCopy: " + "source file is unreadable: "
+					+ fromFileName);
+
+		if (toFile.isDirectory())
+			toFile = new File(toFile, fromFile.getName());
+
+		if (toFile.exists()) {
+			if (!toFile.canWrite())
+				throw new IOException("FileCopy: "
+						+ "destination file is unwriteable: " + toFileName);
+			System.out.print("Overwrite existing file " + toFile.getName()
+					+ "? (Y/N): ");
+			System.out.flush();
+			BufferedReader in = new BufferedReader(new InputStreamReader(
+					System.in));
+			String response = in.readLine();
+			if (!response.equals("Y") && !response.equals("y"))
+				throw new IOException("FileCopy: "
+						+ "existing file was not overwritten.");
+		} else {
+			String parent = toFile.getParent();
+			if (parent == null)
+				parent = System.getProperty("user.dir");
+			File dir = new File(parent);
+			if (!dir.exists())
+				throw new IOException("FileCopy: "
+						+ "destination directory doesn't exist: " + parent);
+			if (dir.isFile())
+				throw new IOException("FileCopy: "
+						+ "destination is not a directory: " + parent);
+			if (!dir.canWrite())
+				throw new IOException("FileCopy: "
+						+ "destination directory is unwriteable: " + parent);
+		}
+
+		FileInputStream from = null;
+		FileOutputStream to = null;
+		try {
+			from = new FileInputStream(fromFile);
+			to = new FileOutputStream(toFile);
+			byte[] buffer = new byte[4096];
+			int bytesRead;
+
+			while ((bytesRead = from.read(buffer)) != -1)
+				to.write(buffer, 0, bytesRead); // write
+		} finally {
+			if (from != null)
+				try {
+					from.close();
+				} catch (IOException e) {
+					;
+				}
+			if (to != null)
+				try {
+					to.close();
+				} catch (IOException e) {
+					;
+				}
+		}
+	}
+	
+	public void CompressFile(String input, String output) throws Exception{
+		String charset = "UTF-8";
+		Reader reader = null;
+		Writer writer = null;
+		try {			
+			reader = new InputStreamReader(new FileInputStream(input),
+					charset);		
+			
+			JavaScriptCompressor compressor = new JavaScriptCompressor(reader,
+					new ErrorReporter() {
+
+						@Override
+						public void warning(String arg0, String arg1, int arg2,
+								String arg3, int arg4) {
+						}
+
+						@Override
+						public EvaluatorException runtimeError(String arg0,
+								String arg1, int arg2, String arg3, int arg4) {
+							return null;
+						}
+
+						@Override
+						public void error(String arg0, String arg1, int arg2,
+								String arg3, int arg4) {
+
+						}
+					});
+
+			writer = new OutputStreamWriter(new FileOutputStream(output),
+					charset);
+			
+			compressor.compress(writer, -1, true, true, true,
+					chckbxObfuscation.isSelected());
+
+		} catch (Exception ex) {
+			throw ex;
+
+		} finally {
+			try {
+				reader.close();
+				writer.close();
+			} catch (Exception ex) {				
+
+			}
+			
+		}
+		
+	}
+
+	private void DoFile(File file) throws Exception {
+		txtLog.setText(txtLog.getText()+"\n"+file.getAbsoluteFile());
+		
+		String fName = file.getName();
+		String fDir = file.getParent();
+		boolean backup = chckbxBackup.isSelected();
+		String backupdir = fDir + "\\backup";
+		File f = new File(backupdir);
+		if ((!f.exists() || !f.isDirectory()) && backup)
+			f.mkdir();
+
+		String path = file.getAbsolutePath();
+
+		String fNameWithoutExtension = fName.substring(0,
+				fName.lastIndexOf(".js"));
+		String cloneFile = (backup ? backupdir : fDir) + "\\"
+				+ fNameWithoutExtension + ".bak.js";
+		copy(path, cloneFile);
+		
+		CompressFile(cloneFile, path);
+		
+		if(!chckbxBackup.isSelected())
+			(new File(cloneFile)).delete();
+	}
+}

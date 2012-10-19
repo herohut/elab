@@ -1,0 +1,15 @@
+<OutOfBrowserSettings ShortName="EyeKeeper Application" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>EyeKeeper Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="EyeKeeper Application" Height="450" Width="800" WindowStyle="None" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.SecuritySettings>
+    <SecuritySettings ElevatedPermissions="Required" />
+  </OutOfBrowserSettings.SecuritySettings>
+  <OutOfBrowserSettings.Icons>
+    <Icon Size="16,16">Media/Logo-16px.png</Icon>
+    <Icon Size="32,32">Media/Logo-32px.png</Icon>
+    <Icon Size="48,48">Media/Logo-48px.png</Icon>
+    <Icon Size="128,128">Media/Logo-128px.png</Icon>
+  </OutOfBrowserSettings.Icons>
+</OutOfBrowserSettings>
