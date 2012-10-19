@@ -42,6 +42,7 @@ namespace Eking.News.Controllers
             var model = gr.Entries.Skip((page - 1) * WebConfig.GroupViewItemPerPage).Select(EntryViewModel.FromEntry).Take(
                 WebConfig.GroupViewItemPerPage);
             return !model.Any() ? null : PartialView("EntriesView", model);
+
         }
 
         public string CleanCachedData()
