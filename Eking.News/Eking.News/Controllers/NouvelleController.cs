@@ -43,6 +43,7 @@ namespace Eking.News.Controllers
                 WebConfig.GroupViewItemPerPage);
             return !model.Any() ? null : PartialView("EntriesView", model);
 
+
         }
 
         public string CleanCachedData()
