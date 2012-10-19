@@ -21,17 +21,6 @@ namespace Eking.News.Tests.AdminSoftwareTest
 
         readonly DanTriVoleur _voleur = new DanTriVoleur();
 
-        [TestMethod]
-        public void ExtractEntryFromMasterTextTest()
-        {
-            _voleur.ExtractEntryFromMasterText(RES.dantri_master_text);
-        }
-
-        [TestMethod]
-        public void ExtractEntryContentTest()
-        {
-            _voleur.ExtractEntryContent(new Entry(), RES.dantri_entry_text);
-        }
 
         [TestMethod]
         public void CleanupDuplication()
@@ -61,35 +50,6 @@ namespace Eking.News.Tests.AdminSoftwareTest
             }
 
             db.SaveChanges();
-        }
-
-
-
-        [TestMethod]
-        public void ExtractEntryContentTest2()
-        {
-            var db = _voleur.Db;
-            var s = db.Sources.Single(so => so.Name == "DanTri");
-            var empty = db.Entries.ToList().Where(e => e.EntrySource != null && e.EntrySource.Source == s && string.IsNullOrEmpty(e.Content)).ToList();
-
-            var idx = 0;
-            foreach (var entry in empty)
-            {
-                idx++;
-                if (idx % 100 == 0)
-                    db.SaveChanges();
-
-                _voleur.Handle(entry);
-                if (entry.GetSkipped())
-                    continue;
-
-                if (string.IsNullOrEmpty(entry.Content))
-                    throw new Exception("Cannot be null");
-                Debug.WriteLine(">>" + entry.Title);
-            }
-
-            db.SaveChanges();
-
         }
     }
 }

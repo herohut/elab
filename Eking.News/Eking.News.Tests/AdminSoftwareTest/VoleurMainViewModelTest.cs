@@ -1,4 +1,6 @@
-﻿using Eking.News.AdminSoftware.ViewModel;
+﻿using System.Configuration;
+using Eking.News.AdminSoftware.ViewModel;
+using Eking.News.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Eking.News.Tests.AdminSoftwareTest
@@ -6,7 +8,8 @@ namespace Eking.News.Tests.AdminSoftwareTest
     [TestClass]
     public class VoleurMainViewModelTest
     {
-        readonly VoleurMainViewModel _model = new VoleurMainViewModel();
+        readonly VoleurMainViewModel _model = new VoleurMainViewModel(new NewsObjectContext(ConfigurationManager.ConnectionStrings["EnewsSqlServerLocal"].ConnectionString));
+        //readonly VoleurMainViewModel _model = new VoleurMainViewModel();
         [TestMethod]
         public void DoJobTest()
         {
@@ -16,7 +19,8 @@ namespace Eking.News.Tests.AdminSoftwareTest
         [TestMethod]
         public void CleanUpdataTest()
         {
-            _model.CleanUp();
+            _model.CleanUpData();
         }
+        
     }
 }

@@ -8,7 +8,12 @@ namespace Eking.News.AdminSoftware.ContentProviders
 {
     public class TinhTeVoleur : BaseHtmlParserVoleur
     {
-        public override IEnumerable<string> GetMasterLinks()
+        public TinhTeVoleur(NewsObjectContext db = null)
+            : base(db)
+        {
+        }
+
+        protected override IEnumerable<string> GetMasterLinks()
         {
             var output = new List<string> { "http://www.tinhte.vn/" };
             for (int i = 2; i < 10; i++)
@@ -20,7 +25,8 @@ namespace Eking.News.AdminSoftware.ContentProviders
         }
 
         private Source _source;
-        public override Source GetSource()
+
+        protected override Source GetSource()
         {
             if (_source == null)
             {
@@ -31,12 +37,12 @@ namespace Eking.News.AdminSoftware.ContentProviders
             return _source;
         }
 
-        public override bool CancelJobIfVisitExistLink
+        protected override bool CancelJobIfVisitExistLink
         {
             get { return true; }
         }
 
-        public override void ExtractEntryContent(Entry entry, HtmlDocument document)
+        protected override void ReadEntryInfo(RawEntry entry, HtmlDocument document)
         {
             var node = document.DocumentNode.SelectSingleNode("//div[@class='titleBar']");
 
@@ -51,85 +57,84 @@ namespace Eking.News.AdminSoftware.ContentProviders
             if (string.IsNullOrEmpty(content))
                 throw new Exception("Unexpected text");
 
-            Group group = null;
+            string group = null;
 
             if (groupInfo.ContainsInOrder("Điện thoại", "iOS (iPad, iPhone, iPod Touch)"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Apple");
+                group = "Technology/Mobile, Tablet/Apple";
             else if (groupInfo.ContainsInOrder("Điện thoại", "Android"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Android");
+                group = "Technology/Mobile, Tablet/Android";
             else if (groupInfo.ContainsInOrder("Điện thoại", "BlackBerry"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/BlackBerry");
+                group = "Technology/Mobile, Tablet/BlackBerry";
             else if (groupInfo.ContainsInOrder("Điện thoại", "Windows Phone"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Windows Phone");
+                group = "Technology/Mobile, Tablet/Windows Phone";
             else if (groupInfo.ContainsInOrder("Điện thoại", "Symbian"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Symbian");
+                group = "Technology/Mobile, Tablet/Symbian";
             else if (groupInfo.ContainsInOrder("Điện thoại", "Meego"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Meego");
+                group = "Technology/Mobile, Tablet/Meego";
             else if (groupInfo.ContainsInOrder("Điện thoại", "Palm - HP WebOS"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Misc");
+                group = "Technology/Mobile, Tablet/Misc";
 
             else if (groupInfo.ContainsInOrder("Điện thoại", "Điện thoại phổ thông"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Misc");
+                group = "Technology/Mobile, Tablet/Misc";
 
             else if (groupInfo.ContainsInOrder("Điện thoại", "Lập trình cho Di động"))
-                group = CreateOrGetGroupByHierachyName("Technology/Mobile, Tablet/Misc");
+                group = "Technology/Mobile, Tablet/Misc";
 
             else if (groupInfo.ContainsInOrder("Tin công nghệ", "Tin PR - Khuyến mãi"))
-                group = CreateOrGetGroupByHierachyName("Technology/Misc");
+                group = "Technology/Misc";
 
             else if (groupInfo.ContainsInOrder("Tin công nghệ", "Tin tức - Sự kiện"))
-                group = CreateOrGetGroupByHierachyName("Technology/Misc");
+                group = "Technology/Misc";
             else if (groupInfo.ContainsInOrder("Tin công nghệ", "Thăm dò công nghệ"))
                 return;
 
             else if (groupInfo.ContainsInOrder("Khoa học &amp; Công nghệ", "Dịch vụ trực tuyến"))
-                group = CreateOrGetGroupByHierachyName("Technology/OnlineServices");
+                group = "Technology/OnlineServices";
 
             else if (groupInfo.ContainsInOrder("Khoa học &amp; Công nghệ", "Khoa học &amp; Công nghệ"))
-                group = CreateOrGetGroupByHierachyName("Technology");
+                group = "Technology";
 
             else if (groupInfo.ContainsInOrder("Máy ảnh số - Nhiếp ảnh", "Máy ảnh số"))
-                group = CreateOrGetGroupByHierachyName("Technology/Photograph/Camera");
+                group = "Technology/Photograph/Camera";
 
             else if (groupInfo.ContainsInOrder("Máy ảnh số - Nhiếp ảnh", "Máy quay phim"))
-                group = CreateOrGetGroupByHierachyName("Technology/Photograph/Filming");
+                group = "Technology/Photograph/Filming";
 
             else if (groupInfo.ContainsInOrder("Phương tiện vận chuyển", "Xe ô tô"))
-                group = CreateOrGetGroupByHierachyName("Technology/Transportation/Car");
+                group = "Technology/Transportation/Car";
 
             else if (groupInfo.ContainsInOrder("Phương tiện vận chuyển", "Xe máy"))
-                group = CreateOrGetGroupByHierachyName("Technology/Transportation/Motobike");
+                group = "Technology/Transportation/Motobike";
             else if (groupInfo.ContainsInOrder("Phương tiện vận chuyển"))
-                group = CreateOrGetGroupByHierachyName("Technology/Transportation/Misc");
+                group = "Technology/Transportation/Misc";
 
 
             else if (groupInfo.ContainsInOrder("Máy tính- Laptop", "Máy tính Windows"))
-                group = CreateOrGetGroupByHierachyName("Technology/Computer/Windows");
+                group = "Technology/Computer/Windows";
             else if (groupInfo.ContainsInOrder("Máy tính- Laptop", "Máy tính Apple - Mac OS X"))
-                group = CreateOrGetGroupByHierachyName("Technology/Computer/Apple");
+                group = "Technology/Computer/Apple";
             else if (groupInfo.ContainsInOrder("Máy tính- Laptop", "Máy tính Linux - Chrome OS"))
-                group = CreateOrGetGroupByHierachyName("Technology/Computer/Linux, Chrome OS");
+                group = "Technology/Computer/Linux, Chrome OS";
 
 
             else if (groupInfo.ContainsInOrder("Cuộc thi &amp; Sự kiện công nghệ"))
-                group = CreateOrGetGroupByHierachyName("Technology/Misc");
+                group = "Technology/Misc";
 
             else if (groupInfo.ContainsInOrder("Viễn thông - Internet", "Mạng di động"))
-                group = CreateOrGetGroupByHierachyName("Technology/Telecommunication/MobileNetwork");
+                group = "Technology/Telecommunication/MobileNetwork";
 
             else if (groupInfo.ContainsInOrder("Diễn đàn Tinh tế"))
-                group = CreateOrGetGroupByHierachyName("Economy");
+                group = "Economy";
 
             else
                 throw new Exception("Unknown category");
-            entry.Group = group;
+            entry.GroupHierachyName = group;
             entry.Title = title;
             entry.Content = content;
         }
 
 
-
-        public override IEnumerable<Entry> ExtractEntryFromMasterText(HtmlDocument document, string masterLink = null)
+        protected override IEnumerable<RawEntry> ExtractRawEntriesFromMasterText(HtmlDocument document)
         {
             var res = new Dictionary<DayOfWeek, string>
                 {
@@ -169,7 +174,7 @@ namespace Eking.News.AdminSoftware.ContentProviders
                 dat = dat.AddDays(-1);
             }
 
-            var output = new List<Entry>();
+            var output = new List<RawEntry>();
             var recents = document.DocumentNode.SelectNodes("//div[@class='section sectionMain recentNews']");
             foreach (var recent in recents)
             {
@@ -217,7 +222,14 @@ namespace Eking.News.AdminSoftware.ContentProviders
                 }
 
 
-                var entry = CreateNewEntry(title, url, des, image, date);
+                var entry = new RawEntry
+                {
+                    SourceUrl = url,
+                    Title = title,
+                    Description = des,
+                    ImageUrl = image,
+                    Date = date
+                };
 
                 output.Add(entry);
             }

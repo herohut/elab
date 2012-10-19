@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -11,130 +12,165 @@ namespace Eking.News.AdminSoftware.ContentProviders
 {
     public abstract class BaseVoleur
     {
-        protected BaseVoleur()
+        public virtual void CleanUpEntry(Entry entry)
+        {
+            entry.Title = entry.Title.Replace("&quot;", "\"");
+
+            var content = entry.Content;
+            if (content == null)
+                return;
+            var doc = new HtmlDocument();
+            doc.LoadHtml(content);
+
+            var js = doc.DocumentNode.SelectNodes("//script");
+
+            if (js != null)
+                foreach (var j in js)
+                    j.Remove();
+
+            entry.Content = doc.DocumentNode.InnerHtml;
+        }
+
+        public void CleanUpData()
+        {
+            var counter = 0;
+            var entries = Db.Entries.ToList();
+            foreach (var entry in entries)
+            {
+                counter++;
+                if (counter % 40 == 0)
+                {
+                    Log("Clean" + counter);
+                    Db.SaveChanges();
+                }
+                CleanUpEntry(entry);
+            }
+            Db.SaveChanges();
+        }
+
+        protected abstract IEnumerable<string> GetMasterLinks();
+
+        protected BaseVoleur(NewsObjectContext db = null)
         {
             //_dbVoleur = new VoleurEntities();
             //Db = new NewsObjectContext();
-            Db = new NewsObjectContext(ConfigurationManager.ConnectionStrings["EnewsSqlServer"].ConnectionString);
+            Db = db ?? new NewsObjectContext(ConfigurationManager.ConnectionStrings["EnewsSqlServer"].ConnectionString);
             _wc = new WebClient { Encoding = Encoding.UTF8 };
         }
 
-        //private readonly VoleurEntities _dbVoleur;
         public readonly NewsObjectContext Db;
         private readonly WebClient _wc;
-        public abstract void ExtractEntryContent(Entry entry, string text);
-        public abstract IEnumerable<Entry> ExtractEntryFromMasterText(string text, string link = null);
-        public abstract IEnumerable<string> GetMasterLinks();
-        public abstract Source GetSource();
-
-        protected virtual void CreateGroups() { }
-
-        public void Handle(Entry entry)
-        {           
-            //var chk = _dbVoleur.Logs.SingleOrDefault(l => l.Url == entry.EntrySource.Url);
-            //if (chk != null)
-            //    return;
-
-            var txt = _wc.DownloadString(entry.EntrySource.Url);
-
-            ExtractEntryContent(entry, txt);
-
-            if (entry.GetSkipped())
-            {
-                System.Diagnostics.Debug.WriteLine(">> Skipped by ExtractEntryContent");
-                return;
-            }
-            CleanUpEntry(entry);
-
-            // entry.Raw = txt
-            if (entry.EntityState == System.Data.EntityState.Added)
-            {
-                Db.Entries.AddObject(entry);
-            }
-            //_dbVoleur.Logs.AddObject(new Log { Url = entry.EntrySource.Url, Date = DateTime.Now });
+        protected virtual string GetGroupHierachyByMasterLink(string link)
+        {
+            return null;
         }
+
 
         public void DoJob()
         {
-            if (Db.Entries.Count() != 0)
-                _viewIndex = Db.Entries.Max(d => d.ViewIndex);
-            CreateGroups();
-            var masterLinks = GetMasterLinks();
-
-
+            // Step 1: Init
+            Log("DoJob:" + this.GetType().Name);
             var query = from i in Db.Entries
                         where i.EntrySource != null && i.EntrySource.Url != null
                         select i.EntrySource.Url;
 
             _existingLinks = new HashSet<string>(query);
 
+            // Step2: Extract raw data
+            var masterLinks = GetMasterLinks();
+
+            var entries = new List<RawEntry>();
             foreach (var masterLink in masterLinks)
             {
-                HandleMasterLink(masterLink);
-                Db.SaveChanges();
+                Log("MasterLink:" + masterLink);
 
-                if (_cancelJob)
+                var txt = _wc.DownloadString(masterLink);
+                var tmp = ExtractRawEntriesFromMasterText(txt).ToList();
+                tmp.ForEach(t => t.GroupHierachyName = GetGroupHierachyByMasterLink(masterLink));
+
+                entries.AddRange(tmp.Where(t => !entries.Exists(t1 => t1.SourceUrl == t.SourceUrl)));
+
+                if (!CancelJobIfVisitExistLink)
+                    continue;
+
+                var chk = (from it in tmp
+                           where _existingLinks.Contains(it.SourceUrl)
+                           select it).FirstOrDefault();
+
+                if (chk != null)
                 {
-                    return;
+                    Log("Cancel extract masterlink because CancelJobIfVisitExistLink");
+                    break;
                 }
             }
-        }
 
-        private HashSet<string> _existingLinks;
-        private bool _cancelJob = false;
+            entries = entries.Where(en => !_existingLinks.Contains(en.SourceUrl)).ToList();
 
-        private int _viewIndex;
-        internal Entry CreateNewEntry(string title, string url, string desc = null, string imageurl = null, DateTime? date = null)
-        {
-            _viewIndex++;
-
-            return new Entry
-            {
-                EntrySource = new EntrySource
-                {
-                    Source = GetSource(),
-                    Url = url
-                },
-                Title = title,
-                Description = desc,
-                ImageUrl = imageurl,
-                ViewIndex = _viewIndex,
-                Date = date
-            };
-        }
-
-        public abstract bool CancelJobIfVisitExistLink { get; }
-
-        private readonly HashSet<string> _handledLinks = new HashSet<string>();
-
-        private void HandleMasterLink(string masterLink)
-        {
-            var txt = _wc.DownloadString(masterLink);
-            var entries = ExtractEntryFromMasterText(txt, masterLink);
             foreach (var entry in entries)
             {
-                if (entry.EntrySource != null && _handledLinks.Contains(entry.EntrySource.Url))
-                {
-                    System.Diagnostics.Debug.WriteLine(">> Skip because of HANDLED entry");
-                    continue;
-                }
+                _handledLinks.Add(entry.SourceUrl);
+                var txt = _wc.DownloadString(entry.SourceUrl);
+                ReadEntryInfo(entry, txt);
+                CleanUpEntry(entry);
 
-                if (entry.EntrySource != null && _existingLinks.Contains(entry.EntrySource.Url))
-                {
-                    System.Diagnostics.Debug.WriteLine(">> Skip because of EXISTING Link");
-                    _cancelJob = CancelJobIfVisitExistLink;
-                    return;
-                }
-
-                Handle(entry);
-                if (entry.EntrySource != null)
-                    _handledLinks.Add(entry.EntrySource.Url);
-
-                System.Diagnostics.Debug.WriteLine(entry.Title);
+                Log("Read Entry:" + entry.Title);
             }
+
+
+            // Step3: Insert into database
+            Log("Save db:" + entries.Count);
+            var counter = 0;
+            foreach (var rawEntry in entries)
+            {
+                Log("Save Entry:" + rawEntry.Title);
+
+                counter++;
+                if (counter % 20 == 0)
+                    Db.SaveChanges();
+
+                if (string.IsNullOrEmpty(rawEntry.GroupHierachyName))
+                    throw new Exception("No group");
+
+                var group = CreateOrGetGroupByHierachyName(rawEntry.GroupHierachyName);
+                var entry = new Entry
+                    {
+                        Date = rawEntry.Date,
+                        Content = rawEntry.Content,
+                        Description = rawEntry.Description,
+                        ImageUrl = rawEntry.ImageUrl,
+                        Published = rawEntry.Published,
+                        ViewIndex = rawEntry.ViewIndex,
+                        ViewType = rawEntry.ViewType,
+                        Title = rawEntry.Title,
+                    };
+                entry.EntrySource = new EntrySource
+                    {
+                        Url = rawEntry.SourceUrl,
+                        Source = GetSource()
+                    };
+                group.Entries.Add(entry);
+            }
+
+            Db.SaveChanges();
+
         }
 
-        protected Group GetGroupByHierachyName(string name)
+        protected abstract Source GetSource();
+        private void Log(object txt)
+        {
+            Debug.WriteLine(">>" + txt);
+        }
+
+        protected abstract bool CancelJobIfVisitExistLink { get; }
+
+        protected abstract void ReadEntryInfo(RawEntry entry, string txt);
+
+        protected abstract IEnumerable<RawEntry> ExtractRawEntriesFromMasterText(string text);
+
+        private HashSet<string> _existingLinks;
+        private readonly HashSet<string> _handledLinks = new HashSet<string>();
+
+        private Group GetGroupByHierachyName(string name)
         {
             var group = GetGroupByHierachyNameOrDefault(name);
 
@@ -143,7 +179,7 @@ namespace Eking.News.AdminSoftware.ContentProviders
             return group;
         }
 
-        protected Group GetGroupByHierachyNameOrDefault(string name)
+        private Group GetGroupByHierachyNameOrDefault(string name)
         {
             var tmp = (Db.Groups.ToList().Select(a =>
                               new
@@ -158,7 +194,7 @@ namespace Eking.News.AdminSoftware.ContentProviders
             return query.FirstOrDefault();
         }
 
-        protected Group CreateOrGetGroupByHierachyName(string name)
+        private Group CreateOrGetGroupByHierachyName(string name)
         {
             if (GetGroupByHierachyNameOrDefault(name) == null)
                 CreateGroupByHiearchyName(name);
@@ -166,7 +202,7 @@ namespace Eking.News.AdminSoftware.ContentProviders
             return GetGroupByHierachyName(name);
         }
 
-        protected void CreateGroupByHiearchyName(string hName)
+        private void CreateGroupByHiearchyName(string hName)
         {
             var names = hName.Split('/');
             Group parent = null;
@@ -187,43 +223,39 @@ namespace Eking.News.AdminSoftware.ContentProviders
             Db.SaveChanges();
         }
 
-        public void CleanUpData()
-        {
-            var counter = 0;
-            foreach (var entry in Db.Entries)
-            {
-                counter++;
-                if (counter / 20 == 0)
-                    Db.SaveChanges();
-                CleanUpEntry(entry);
-            }
-            Db.SaveChanges();
-        }
-
-        public virtual void CleanUpEntry(Entry entry)
-        {
-            entry.Title = entry.Title.Replace("&quot;", "\"");
-        }
     }
 
+    public class RawEntry : Entry
+    {
+        public string GroupHierachyName;
+        public string SourceUrl;
+    }
 
     public abstract class BaseHtmlParserVoleur : BaseVoleur
     {
-        public abstract void ExtractEntryContent(Entry entry, HtmlDocument htmlDocument);
-        public abstract IEnumerable<Entry> ExtractEntryFromMasterText(HtmlDocument text, string masterLink = null);
-        public override void ExtractEntryContent(Entry entry, string text)
+        protected BaseHtmlParserVoleur(NewsObjectContext db = null)
+            : base(db)
         {
-            var doc = new HtmlDocument();
-            doc.LoadHtml(text);
-            ExtractEntryContent(entry, doc);
         }
 
-        public override IEnumerable<Entry> ExtractEntryFromMasterText(string text, string masterLink = null)
+        protected abstract void ReadEntryInfo(RawEntry entry, HtmlDocument htmlDocument);
+
+        protected override void ReadEntryInfo(RawEntry entry, string txt)
+        {
+            var doc = new HtmlDocument();
+            doc.LoadHtml(txt);
+            ReadEntryInfo(entry, doc);
+        }
+
+
+        protected override IEnumerable<RawEntry> ExtractRawEntriesFromMasterText(string text)
         {
             var doc = new HtmlDocument();
             doc.LoadHtml(text);
-            return ExtractEntryFromMasterText(doc, masterLink);
+            return ExtractRawEntriesFromMasterText(doc);
         }
+
+        protected abstract IEnumerable<RawEntry> ExtractRawEntriesFromMasterText(HtmlDocument doc);
     }
 
 

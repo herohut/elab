@@ -54,7 +54,6 @@ namespace Eking.News.Controllers
             return "Cleaned";
         }
 
-
         public PartialViewResult GroupView(int id)
         {
             ViewBag.RenderByAction = true;

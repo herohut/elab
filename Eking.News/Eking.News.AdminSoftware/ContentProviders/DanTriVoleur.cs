@@ -10,7 +10,11 @@ namespace Eking.News.AdminSoftware.ContentProviders
 {
     public class DanTriVoleur : BaseHtmlParserVoleur
     {
-        public override IEnumerable<string> GetMasterLinks()
+        public DanTriVoleur(NewsObjectContext db = null) : base(db)
+        {
+        }
+
+        protected override IEnumerable<string> GetMasterLinks()
         {
 
             for (var i = 1; i < 15; i++)
@@ -43,7 +47,8 @@ namespace Eking.News.AdminSoftware.ContentProviders
         readonly Dictionary<string, string> _masterLinkToGroup = new Dictionary<string, string>();
 
         private Source _source;
-        public override Source GetSource()
+
+        protected override Source GetSource()
         {
             if (_source == null)
             {
@@ -54,17 +59,17 @@ namespace Eking.News.AdminSoftware.ContentProviders
             return _source;
         }
 
-        public override bool CancelJobIfVisitExistLink
+        protected override bool CancelJobIfVisitExistLink
         {
             get { return false; }
         }
 
-        public override void ExtractEntryContent(Entry entry, HtmlDocument htmlDocument)
+        protected override void ReadEntryInfo(RawEntry entry, HtmlDocument htmlDocument)
         {
             var node = htmlDocument.DocumentNode.SelectSingleNode("//div[@class='fon34 mt3 mr2 fon43']")
                 // Tuyensinh case
                       ?? htmlDocument.DocumentNode.SelectSingleNode("//div[@class='detail-content']");
-            if (node == null && 
+            if (node == null &&
                 (htmlDocument.DocumentNode.InnerText.Contains("Hệ thống đang nâng cấp")
 
                 || htmlDocument.DocumentNode.InnerText.Contains("Không tìm thấy dữ liệu")))
@@ -91,20 +96,13 @@ namespace Eking.News.AdminSoftware.ContentProviders
         public override void CleanUpEntry(Entry entry)
         {
             base.CleanUpEntry(entry);
-            if(entry.Content == null)
+            if (entry.Content == null)
                 return;
 
-            //var content = "<div>"+ entry.Content+"</div>";
+            
             var content = entry.Content;
             var doc = new HtmlDocument();
             doc.LoadHtml(content);
-
-            var js = doc.DocumentNode.SelectNodes("//script");
-
-            if (js != null)
-                foreach (var j in js)
-                    j.Remove();
-
 
             var removals = new[]
             {
@@ -175,7 +173,12 @@ namespace Eking.News.AdminSoftware.ContentProviders
             entry.Content = doc.DocumentNode.InnerHtml;
         }
 
-        public override IEnumerable<Entry> ExtractEntryFromMasterText(HtmlDocument text, string masterLink = null)
+        protected override string GetGroupHierachyByMasterLink(string link)
+        {
+            return _masterLinkToGroup[link];
+        }
+
+        protected override IEnumerable<RawEntry> ExtractRawEntriesFromMasterText(HtmlDocument text)
         {
             var tmp = new List<HtmlNodeCollection>
                 {
@@ -187,15 +190,17 @@ namespace Eking.News.AdminSoftware.ContentProviders
 
             var items = new List<HtmlNode>();
             tmp.ForEach(t =>
-                {
-                    if (t != null)
-                        items.AddRange(t);
-                });
+            {
+                if (t != null)
+                    items.AddRange(t);
+            });
 
-            var output = new List<Entry>();
+            var output = new List<RawEntry>();
             foreach (var htmlNode in items)
             {
-                var node = htmlNode.SelectSingleNode(".//div/a")
+                var node = htmlNode.SelectSingleNode(".//h1/a")
+                    ??
+                    htmlNode.SelectSingleNode(".//h2/a")
                     // Tuyensinh case    
                     ?? htmlNode.SelectSingleNode(".//a");
 
@@ -215,13 +220,13 @@ namespace Eking.News.AdminSoftware.ContentProviders
                 node = htmlNode.SelectSingleNode(".//a/img");
                 var img = node == null ? null : node.Attributes["src"].Value;
 
-                var entry = CreateNewEntry(title, url, des, img);
-
-                if (masterLink == null)
-                    throw new Exception("MasterLink must not be null");
-                var group = CreateOrGetGroupByHierachyName(_masterLinkToGroup[masterLink]);
-
-                entry.Group = group;
+                var entry = new RawEntry
+                    {
+                        Title = title,
+                        SourceUrl = url,
+                        Description = des,
+                        ImageUrl = img
+                    };
 
                 output.Add(entry);
             }

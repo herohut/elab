@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System.Configuration;
+using System.Web;
 using System.Web.Optimization;
 using BundleTransformer.Core.Orderers;
 using BundleTransformer.Core.Transformers;
@@ -69,7 +70,8 @@ namespace Eking.News
                 "~/Scripts/Application.coffee"
                 );
             bundle.Transforms.Add(jsTransformer);
-            bundle.Transforms.Add(jsMinify);
+            if ("true".Equals(ConfigurationManager.AppSettings["CoffeeMinify"]))
+                bundle.Transforms.Add(jsMinify);
             bundle.Orderer = nullOrderer;
             bundles.Add(bundle);
 
@@ -78,7 +80,8 @@ namespace Eking.News
                 "~/Content/enews.sass"
                 );
             bundle.Transforms.Add(cssTransformer);
-            bundle.Transforms.Add(cssMinify);
+            if ("true".Equals(ConfigurationManager.AppSettings["SassMinify"]))
+                bundle.Transforms.Add(cssMinify);
             bundle.Orderer = nullOrderer;
             bundles.Add(bundle);
         }
