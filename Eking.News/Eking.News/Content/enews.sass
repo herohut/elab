@@ -51,13 +51,13 @@ h2
 .entry
 	width: 200px
 	position: absolute
-	@include transition(all 0.3s)
+	@include transition(position 1s)
 	
 	> div
 		@include absolutePadding(3px)
 		background: whitesmoke
 		border: 1px solid $grayColor1
-		@include transition(all 0.3s)
+		@include transition(position 1s)
 		&:hover
 			border: 2px solid gray
 		> a

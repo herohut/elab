@@ -164,3 +164,5 @@ D:\HERO\elab-git\Eking.News\Eking.News.Tests\obj\Debug\Eking.News.Tests.RES.reso
 D:\HERO\elab-git\Eking.News\Eking.News.Tests\obj\Debug\Eking.News.Tests.csproj.GenerateResource.Cache
 D:\HERO\elab-git\Eking.News\Eking.News.Tests\obj\Debug\Eking.News.Tests.dll
 D:\HERO\elab-git\Eking.News\Eking.News.Tests\obj\Debug\Eking.News.Tests.pdb
+D:\HERO\elab-git\Eking.News\Eking.News.Tests\bin\Debug\WebCrawler.mdf
+D:\HERO\elab-git\Eking.News\Eking.News.Tests\bin\Debug\WebCrawler_log.ldf

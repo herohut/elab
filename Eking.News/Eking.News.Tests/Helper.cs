@@ -44,9 +44,9 @@ namespace Eking.News.Tests
         [TestMethod]
         public void CreateVoleurLogDatabase()
         {
-            var db = new VoleurEntities();
-            db.DeleteDatabase();
-            db.CreateDatabase();
+            //var db = new VoleurEntities();
+            //db.DeleteDatabase();
+            //db.CreateDatabase();
         }
 
         [TestMethod]
@@ -188,7 +188,8 @@ namespace Eking.News.Tests
                 if (entry.Group == null)
                     continue;
                 if (!remoteGroups.ContainsKey(entry.Group.Id))
-                    throw new Exception("Group not exist");
+                    //throw new Exception("Group not exist");
+                    continue;
 
                 if (!entrySource.ContainsKey(entry.EntrySource.Source.Id))
                     throw new Exception("EntrySource not exist");

@@ -128,8 +128,10 @@ namespace Eking.News.AdminSoftware.ContentProviders
                 if (counter % 20 == 0)
                     Db.SaveChanges();
 
+
                 if (string.IsNullOrEmpty(rawEntry.GroupHierachyName))
-                    throw new Exception("No group");
+                    //throw new Exception("No group");
+                    continue;
 
                 var group = CreateOrGetGroupByHierachyName(rawEntry.GroupHierachyName);
                 var entry = new Entry

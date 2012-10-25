@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebCrawlerModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="WebCrawlerModelStoreContainer">
+    <EntitySet Name="RawEntries" EntityType="WebCrawlerModel.Store.RawEntries" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="RawEntryRawEntry" Association="WebCrawlerModel.Store.RawEntryRawEntry">
+      <End Role="RawEntry" EntitySet="RawEntries" />
+      <End Role="RawEntry1" EntitySet="RawEntries" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="RawEntries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Parent_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <Association Name="RawEntryRawEntry">
+    <End Role="RawEntry" Type="WebCrawlerModel.Store.RawEntries" Multiplicity="0..1" />
+    <End Role="RawEntry1" Type="WebCrawlerModel.Store.RawEntries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RawEntry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RawEntry1">
+        <PropertyRef Name="Parent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

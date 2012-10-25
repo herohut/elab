@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebCrawlerModelStoreContainer" CdmEntityContainer="WebCrawlerEntities">
+    <EntitySetMapping Name="RawEntryModels">
+      <EntityTypeMapping TypeName="IsTypeOf(WebCrawlerModel.RawEntryModel)">
+        <MappingFragment StoreEntitySet="RawEntries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="RawEntryRawEntry" TypeName="WebCrawlerModel.RawEntryRawEntry" StoreEntitySet="RawEntries">
+      <EndProperty Name="RawEntry">
+        <ScalarProperty Name="Id" ColumnName="Parent_Id" />
+      </EndProperty>
+      <EndProperty Name="RawEntry1">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Parent_Id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

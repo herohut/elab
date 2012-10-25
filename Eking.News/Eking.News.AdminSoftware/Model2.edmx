@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="WebCrawlerModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="WebCrawlerModelStoreContainer">
+    <EntitySet Name="RawEntries" EntityType="WebCrawlerModel.Store.RawEntries" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="RawEntryRawEntry" Association="WebCrawlerModel.Store.RawEntryRawEntry">
+      <End Role="RawEntry" EntitySet="RawEntries" />
+      <End Role="RawEntry1" EntitySet="RawEntries" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="RawEntries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Parent_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <Association Name="RawEntryRawEntry">
+    <End Role="RawEntry" Type="WebCrawlerModel.Store.RawEntries" Multiplicity="0..1" />
+    <End Role="RawEntry1" Type="WebCrawlerModel.Store.RawEntries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RawEntry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RawEntry1">
+        <PropertyRef Name="Parent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WebCrawlerModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="WebCrawlerEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="RawEntryModels" EntityType="WebCrawlerModel.RawEntryModel" />
+          <AssociationSet Name="RawEntryRawEntry" Association="WebCrawlerModel.RawEntryRawEntry">
+            <End Role="RawEntry" EntitySet="RawEntryModels" />
+            <End Role="RawEntry1" EntitySet="RawEntryModels" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="RawEntryModel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Url" Nullable="false" />
+          <Property Type="String" Name="Content" Nullable="false" MaxLength="Max" />
+          <NavigationProperty Name="Children" Relationship="WebCrawlerModel.RawEntryRawEntry" FromRole="RawEntry" ToRole="RawEntry1" />
+          <NavigationProperty Name="Parent" Relationship="WebCrawlerModel.RawEntryRawEntry" FromRole="RawEntry1" ToRole="RawEntry" />
+          </EntityType>
+        <Association Name="RawEntryRawEntry">
+          <End Type="WebCrawlerModel.RawEntryModel" Role="RawEntry" Multiplicity="0..1" />
+          <End Type="WebCrawlerModel.RawEntryModel" Role="RawEntry1" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebCrawlerModelStoreContainer" CdmEntityContainer="WebCrawlerEntities">
+    <EntitySetMapping Name="RawEntryModels">
+      <EntityTypeMapping TypeName="IsTypeOf(WebCrawlerModel.RawEntryModel)">
+        <MappingFragment StoreEntitySet="RawEntries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="RawEntryRawEntry" TypeName="WebCrawlerModel.RawEntryRawEntry" StoreEntitySet="RawEntries">
+      <EndProperty Name="RawEntry">
+        <ScalarProperty Name="Id" ColumnName="Parent_Id" />
+      </EndProperty>
+      <EndProperty Name="RawEntry1">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Parent_Id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

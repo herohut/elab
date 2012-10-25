@@ -25,7 +25,7 @@ class HomePresenter
 		    			$this.parent().find('.entries').each (index,item) =>
 		    				arrangeEntries item
 		    			$this.attr 'data-nextPage', page+1
-		    			# $this.parent().find('.nailthumb-container').nailthumb()
+		    			$this.parent().find('.nailthumb-container').nailthumb()
 		    		error:(evt)->
 		    			alert "Error:#{evt}"
 		    		fail:(evt)->
