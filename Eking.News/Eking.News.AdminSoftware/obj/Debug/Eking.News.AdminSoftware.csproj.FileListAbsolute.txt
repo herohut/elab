@@ -134,7 +134,5 @@ D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\obj\Debug\Eking.News.AdminS
 D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\obj\Debug\Eking.News.AdminSoftware.csproj.GenerateResource.Cache
 D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\obj\Debug\Eking.News.AdminSoftware.exe
 D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\obj\Debug\Eking.News.AdminSoftware.pdb
-D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\bin\Debug\WebCrawler.mdf
-D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\bin\Debug\WebCrawler_log.ldf
 D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\bin\Debug\EntityFramework.dll
 D:\HERO\elab-git\Eking.News\Eking.News.AdminSoftware\bin\Debug\EntityFramework.xml

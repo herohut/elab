@@ -10,7 +10,5 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model2.edmx.sql")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("voleur.sdf")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webcrawler.mdf")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webcrawler_log.ldf")]
 
 
