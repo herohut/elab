@@ -16,7 +16,7 @@ namespace Eking.News.AdminSoftware.ContentProviders
         protected override IEnumerable<string> GetMasterLinks()
         {
             var output = new List<string> { "http://www.tinhte.vn/" };
-            for (int i = 2; i < 10; i++)
+            for (int i = 2; i < 20; i++)
             {
                 output.Add("http://www.tinhte.vn/?page=" + i);
             }
