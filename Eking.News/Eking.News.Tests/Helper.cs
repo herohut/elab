@@ -182,8 +182,11 @@ namespace Eking.News.Tests
             for (int i = 0; i < query.Count; i++)
             {
                 var entry = query[i];
-                if (i % 20 == 0)
+                if (i % 40 == 0)
+                {
                     remote.SaveChanges();
+                    Debug.WriteLine(string.Format(">> Save {0}/{1}",i,query.Count));
+                }
 
                 if (entry.Group == null)
                     continue;
