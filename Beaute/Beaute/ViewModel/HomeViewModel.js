@@ -20,7 +20,7 @@ HomeViewModel = (function() {
   HomeViewModel.prototype.generateSampe = function() {
     return [
       {
-        "title": "Group1",
+        "GroupName": "Group1",
         "GroupId": "01",
         "Items": [
           {

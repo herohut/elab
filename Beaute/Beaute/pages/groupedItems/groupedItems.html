@@ -35,6 +35,13 @@
 
     <!-- The content that will be loaded and displayed. -->
     <div class="fragment groupeditemspage">
+        <div id="test" style="background-color: red">
+            HERO
+            <span data-win-bind="innerText: Name"></span>
+            <input id="txtValue" type="text" data-win-bind="value: Name Binding.Mode.twoway"  />
+            <span id="btn" style="background-color: blue">Click Me</span>
+        </div>
+
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class="titlearea win-type-ellipsis">

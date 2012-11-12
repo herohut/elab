@@ -67,8 +67,9 @@
                 //listView.groupDataSource = vm.ItemsSource.dataSource; //Data.groups.dataSource;
                 listView.groupDataSource = Data.groups.dataSource;
                 listView.layout = new ui.GridLayout({ groupHeaderPosition: "top" });
-                
             }
+
+            Global.TestSmth();
         },
 
         _itemInvoked: function (args) {
