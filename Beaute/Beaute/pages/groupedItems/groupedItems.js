@@ -62,14 +62,16 @@
                 listView.groupDataSource = null;
                 listView.layout = new ui.ListLayout();
             } else {
-                var vm = new HomeViewModel();
+                //var vm = new HomeViewModel();
                 listView.itemDataSource = Data.items.dataSource;
                 //listView.groupDataSource = vm.ItemsSource.dataSource; //Data.groups.dataSource;
                 listView.groupDataSource = Data.groups.dataSource;
                 listView.layout = new ui.GridLayout({ groupHeaderPosition: "top" });
             }
 
-            Global.TestSmth();
+            var vm = new GroupedItemsViewModel();
+            ko.applyBindings(vm, $('.groupeditemspage')[0]);
+            vm.Examine();
         },
 
         _itemInvoked: function (args) {

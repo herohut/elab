@@ -12,7 +12,9 @@
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/groupedItems/groupedItems.css" rel="stylesheet" />
     <script src="/js/data.js"></script>
+    <script src="/ViewModel/GroupedItemsViewModel.js"></script>
     <script src="/pages/groupedItems/groupedItems.js"></script>
+    
 </head>
 <body>
     <!-- These templates are used to display each item in the ListView declared below. -->
@@ -35,11 +37,12 @@
 
     <!-- The content that will be loaded and displayed. -->
     <div class="fragment groupeditemspage">
-        <div id="test" style="background-color: red">
+        <div id="test" style="background-color: gray">
             HERO
             <span data-win-bind="innerText: Name"></span>
-            <input id="txtValue" type="text" data-win-bind="value: Name Binding.Mode.twoway"  />
-            <span id="btn" style="background-color: blue">Click Me</span>
+            <input id="txtValue" type="text" data-win-bind="value: Name" data-bind="value: FirstName" />
+        	<button type="button" data-bind="click: ChangeSomething">button</button>
+        	<div data-win-control="WinJS.UI.Rating"></div>
         </div>
 
         <header aria-label="Header content" role="banner">
