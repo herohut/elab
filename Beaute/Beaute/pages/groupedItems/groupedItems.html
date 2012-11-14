@@ -41,8 +41,11 @@
             HERO
             <span data-win-bind="innerText: Name"></span>
             <input id="txtValue" type="text" data-win-bind="value: Name" data-bind="value: FirstName" />
-        	<button type="button" data-bind="click: ChangeSomething">button</button>
-        	<div data-win-control="WinJS.UI.Rating"></div>
+        	<button id="btn" type="button" data-bind="click: ChangeSomething">button</button>
+            <div id="rate" data-win-control="WinJS.UI.Rating" 
+                 data-win-options="{maxRating: 10}"
+                 data-win-bind="averageRating: Value"
+                ></div>
         </div>
 
         <header aria-label="Header content" role="banner">

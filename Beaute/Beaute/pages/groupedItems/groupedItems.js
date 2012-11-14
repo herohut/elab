@@ -69,9 +69,24 @@
                 listView.layout = new ui.GridLayout({ groupHeaderPosition: "top" });
             }
 
-            var vm = new GroupedItemsViewModel();
-            ko.applyBindings(vm, $('.groupeditemspage')[0]);
-            vm.Examine();
+            var test = {
+                Value: 5,
+                Total: 10
+            };
+
+            var control = $('#rate')[0];
+            WinJS.Binding.processAll(control, test);
+            $('#btn').click(function (parameters) {
+                var winC = control.winControl;
+                winC.averageRating = winC.averageRating + 1;
+
+            });
+            
+
+
+            //var vm = new GroupedItemsViewModel();
+            //ko.applyBindings(vm, $('.groupeditemspage')[0]);
+            //vm.Examine();
         },
 
         _itemInvoked: function (args) {
