@@ -1,11 +1,11 @@
 ﻿# must have
 class GroupedItemsViewModel
-	constructor: (@opts) ->
-		# ...
+	constructor: (@opts) ->		
 		@FirstName = ko.observable()	
 		@Age = ko.observable()
-		@ChangeSomething = ()->
+		@UserRating = ko.observable 2
+		@ChangeSomething = ->
 			@Age = 27
 			@FirstName (new Date()).toString()
-		@Examine = ()->
-			@FirstName "Dang Thai Hung"
+		@Examine = ->
+			@UserRating @UserRating()+1

@@ -26,7 +26,7 @@
         </button>
     </div>
     <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
-        <div class="item">
+        <div class="item" data-win-bind="style.height: height">
             <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
             <div class="item-overlay">
                 <h4 class="item-title" data-win-bind="textContent: title"></h4>
@@ -39,12 +39,13 @@
     <div class="fragment groupeditemspage">
         <div id="test" style="background-color: gray">
             HERO
-            <span data-win-bind="innerText: Name"></span>
-            <input id="txtValue" type="text" data-win-bind="value: Name" data-bind="value: FirstName" />
-        	<button id="btn" type="button" data-bind="click: ChangeSomething">button</button>
+            <input id="txtValue" type="text" data-win-bind="value: Name" data-bind="value: UserRating" />
+        	<button type="button" data-bind="click: Examine">button</button>
             <div id="rate" data-win-control="WinJS.UI.Rating" 
                  data-win-options="{maxRating: 10}"
                  data-win-bind="averageRating: Value"
+                 data-bind="winJsUserRating: UserRating"
+				 
                 ></div>
         </div>
 
@@ -55,7 +56,12 @@
             </h1>
         </header>
         <section aria-label="Main content" role="main">
-            <div class="groupeditemslist win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+            <div class="groupeditemslist win-selectionstylefilled"
+                 aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' ,
+	                layout: { 
+                            groupInfo: groupInfo, 
+                            type: WinJS.UI.GridLayout 
+                        }  }"></div>
         </section>
     </div>
 </body>

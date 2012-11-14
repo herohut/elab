@@ -53,12 +53,9 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="Common\Global.coffee" />
+    <Content Include="Common\Extensions.js" />
     <Content Include="Common\Global.js" />
     <Content Include="css\default.css" />
-    <Content Include="DrinkCoffee.office.bat" />
-    <Content Include="DrinkCoffee.home.bat" />
-    <Content Include="DrinkCoffee.bat" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
@@ -83,7 +80,6 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
-    <Content Include="ViewModel\GroupedItemsViewModel.coffee" />
     <Content Include="ViewModel\GroupedItemsViewModel.js" />
     <None Include="Beaute_TemporaryKey.pfx" />
   </ItemGroup>

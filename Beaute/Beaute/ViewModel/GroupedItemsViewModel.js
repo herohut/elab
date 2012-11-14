@@ -7,12 +7,13 @@ GroupedItemsViewModel = (function() {
     this.opts = opts;
     this.FirstName = ko.observable();
     this.Age = ko.observable();
+    this.UserRating = ko.observable(2);
     this.ChangeSomething = function() {
       this.Age = 27;
       return this.FirstName((new Date()).toString());
     };
     this.Examine = function() {
-      return this.FirstName("Dang Thai Hung");
+      return this.UserRating(this.UserRating() + 1);
     };
   }
 

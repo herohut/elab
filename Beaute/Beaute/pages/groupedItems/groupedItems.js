@@ -62,31 +62,14 @@
                 listView.groupDataSource = null;
                 listView.layout = new ui.ListLayout();
             } else {
-                //var vm = new HomeViewModel();
                 listView.itemDataSource = Data.items.dataSource;
-                //listView.groupDataSource = vm.ItemsSource.dataSource; //Data.groups.dataSource;
                 listView.groupDataSource = Data.groups.dataSource;
                 listView.layout = new ui.GridLayout({ groupHeaderPosition: "top" });
             }
 
-            var test = {
-                Value: 5,
-                Total: 10
-            };
 
-            var control = $('#rate')[0];
-            WinJS.Binding.processAll(control, test);
-            $('#btn').click(function (parameters) {
-                var winC = control.winControl;
-                winC.averageRating = winC.averageRating + 1;
-
-            });
-            
-
-
-            //var vm = new GroupedItemsViewModel();
-            //ko.applyBindings(vm, $('.groupeditemspage')[0]);
-            //vm.Examine();
+            var vm = new GroupedItemsViewModel();
+            ko.applyBindings(vm, $('.groupeditemspage')[0]);
         },
 
         _itemInvoked: function (args) {
