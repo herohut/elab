@@ -35,7 +35,10 @@ namespace Eking.News.AdminSoftware.ContentProviders
                 _masterLinkToGroup[string.Format("http://dantri.com.vn/c202s202/diendanbandoc/trang-{0}.htm", i)] = "Blog";
                 _masterLinkToGroup[string.Format("http://dantri.com.vn/c673s673/diendan/trang-{0}.htm", i)] = "Forum";
                 _masterLinkToGroup[string.Format("http://dantri.com.vn/c132s132/chuyenla/trang-{0}.htm", i)] = "Mystery";
-                _masterLinkToGroup[string.Format("http://tuyensinh.dantri.com.vn/c704s704/tuyensinh/trang-{0}.htm", i)] = "Recruitement";
+                //_masterLinkToGroup[string.Format("http://tuyensinh.dantri.com.vn/c704s704/tuyensinh/trang-{0}.htm", i)] = "Recruitement";
+                _masterLinkToGroup[string.Format("http://tuyensinh.dantri.com.vn/de-thi-dap-an/trang-{0}.htm", i)] = "Education";
+                _masterLinkToGroup[string.Format("http://tuyensinh.dantri.com.vn/bi-quyet-hoc-va-thi/trang-{0}.htm", i)] = "Education";
+                _masterLinkToGroup[string.Format("http://tuyensinh.dantri.com.vn/gap-go-cac-truong/trang-{0}.htm", i)] = "Education";
                 _masterLinkToGroup[string.Format("http://duhoc.dantri.com.vn/c734s734/duhoc/trang-{0}.htm", i)] = "AbroadStudy";
                 _masterLinkToGroup[string.Format("http://dantri.com.vn/c702s702/blog/trang-{0}.htm", i)] = "Blog";
                 _masterLinkToGroup[string.Format("http://dantri.com.vn/c133s133/nghenghiep/trang-{0}.htm", i)] = "Profession";
